@@ -39,10 +39,3 @@ Godot --headless --path . --script tests/audit_test.gd         # 开车关卡体
 Godot --path . -- --autostart=drive --level=7 --god             # 直接开第 8 关，不掉血
 Godot --path . -- --unlock-all / --reset-save / --rules / --invincible
 ```
-
-## 导出 Steam 版本
-1. Godot 编辑器 → Editor → Manage Export Templates → 下载 4.7.2 模板
-2. `Godot --headless --path . --export-release "Windows Desktop" build/windows/AvoidingEV.exe`
-3. `Godot --headless --path . --export-release "macOS" build/macos/AvoidingEV.zip`
-4. 正式上架 mac 需要 Apple Developer 签名 + 公证（export_presets.cfg 当前为 ad-hoc 签名）
-5. 接入 Steamworks（成就/云存档）可用 GodotSteam 插件
