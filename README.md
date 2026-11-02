@@ -23,7 +23,7 @@ Godot 4 (GL Compatibility) · Windows / macOS · 1280×720
 - 信号灯：主路绿灯不短于红灯；科苑路、深南大道按绿波协调；清场最多 2.5 秒，不会卡在红灯
 - **支持作者**页面（主页按钮，点击地址复制；`main.gd` 里 `SUPPORT_ENABLED` 可关闭）
 - 车辆、电鸡全部用“沿行驶方向不超过前方间距”的规则移动，测试保证互不重叠、路口不会卡死
-- 字体：系统中文字体（Mac 冬青黑体 / 黑体-简，Windows 微软雅黑），不打包字体文件
+- 字体：[得意黑 Smiley Sans](https://github.com/atelier-anchor/smiley-sans)（SIL OFL 1.1，协议见 `fonts/SmileySans-OFL.txt`），缺字时回退到系统中文字体（Mac 冬青黑体 / Windows 微软雅黑）
 - 存档 `user://save.cfg`；首次开始游戏先展示规则页
 
 ## 测试
@@ -32,7 +32,7 @@ Godot --headless --path . --script tests/car_overlap_test.gd   # 步行/骑车�
 Godot --headless --path . --script tests/drive_test.gd         # 开车：自动驾驶跑 12 关，任何参与者互不重叠
 Godot --headless --path . --script tests/jaywalk_test.gd       # 闯红灯扣 25%、恢复前进、被车撞 GAME OVER
 Godot --headless --path . --script tests/jaywalk_keys_test.gd  # 真实按键：按住 W / 空格 都能闯
-Godot --headless --path . --script tests/font_test.gd          # 所有中文字符字体都能显示
+Godot --headless --path . --script tests/font_test.gd          # 所有中文字符都能显示（列出得意黑缺、回退系统字体的字）
 Godot --headless --path . --script tests/invincible_test.gd    # 无敌模式乱冲：玩家不和任何东西穿模
 Godot --headless --path . --script tests/light_test.gd         # 信号灯不会卡在红灯
 Godot --headless --path . --script tests/audit_test.gd         # 开车关卡体检：到达率 / 堵车 / 最长红灯 / 借道 / 重叠
