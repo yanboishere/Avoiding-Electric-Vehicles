@@ -257,7 +257,7 @@ func _update_player(delta: float) -> void:
 	if me.v < 5.0 and not red_ahead and state == "play":
 		jam_t += delta
 		var w: Dictionary = _gap_ahead(me, 0.0)[1]
-		var key := "%s(%s%s)" % [w.get("type", "无"), w.get("kind", ""), "停站" if w.get("stop_t", 0.0) > 0.0 else ""]
+		var key := "%s(%s%s)" % [w.get("type", "none"), w.get("kind", ""), " stop" if w.get("stop_t", 0.0) > 0.0 else ""]
 		jam_why[key] = jam_why.get(key, 0.0) + delta
 
 	# 占用公交专用道
@@ -293,7 +293,7 @@ func _run_red(ix: Dictionary) -> void:
 		return
 	var loss := int(score * 0.25)
 	score -= loss
-	_popup(me.pos + Vector2(0, -70), "闯红灯！-%d 分" % loss, Color("#ff5252"), 30)
+	_popup(me.pos + Vector2(0, -70), tr("闯红灯！-%d 分") % loss, Color("#ff5252"), 30)
 	_popup(Vector2(W / 2.0, 170), "被横街的车撞到直接 GAME OVER！", Color("#ff9800"), 28)
 
 
@@ -1063,7 +1063,7 @@ func _near_miss() -> void:
 			e.awarded = true
 			near_misses += 1
 			score += 50.0
-			_popup(me.pos + Vector2(0, -60), NEAR_LINES.pick_random() + " +50", Color("#ffd23f"), 24)
+			_popup(me.pos + Vector2(0, -60), tr(NEAR_LINES.pick_random()) + " +50", Color("#ffd23f"), 24)
 			_sfx("near")
 
 
@@ -1417,15 +1417,15 @@ func _draw_dwarn() -> void:
 
 func _draw_hud_drive() -> void:
 	draw_rect(Rect2(0, 0, W, 64), Color(0, 0, 0, 0.55))
-	_text_plain(Vector2(20, 30), "%s · %s（开车）" % [level.city, cfg.get("road", "")], 24, Color.WHITE)
-	var tags := "限速 %d" % cfg.get("limit", 50)
+	_text_plain(Vector2(20, 30), tr("%s · %s（开车）") % [tr(level.city), tr(cfg.get("road", ""))], 24, Color.WHITE, 440)
+	var tags := tr("限速 %d") % cfg.get("limit", 50)
 	if rain:
-		tags += " · 暴雨"
+		tags += " · " + tr("暴雨")
 	if night:
-		tags += " · 夜间"
+		tags += " · " + tr("夜间")
 	if invincible:
-		tags += " · 无敌（已创飞 %d）" % launched
-	_text_plain(Vector2(20, 54), tags + "   W 加速  S 刹车  A/D 变道  ESC 暂停", 16, Color("#ffd23f") if invincible else Color("#bbbbbb"))
+		tags += " · " + tr("无敌（已创飞 %d）") % launched
+	_text_plain(Vector2(20, 54), tags + "   " + tr("W 加速  S 刹车  A/D 变道  ESC 暂停"), 16, Color("#ffd23f") if invincible else Color("#bbbbbb"), 440)
 	var tl := maxf(0.0, DRIVE_TIME - elapsed)
 	_text(Vector2(W / 2.0, 38), "00:%02d" % ceili(tl), 34, Color("#ff6b6b") if tl < 10.0 else Color.WHITE)
 	var prog := clampf(scroll / target_px, 0.0, 1.0)
@@ -1433,7 +1433,7 @@ func _draw_hud_drive() -> void:
 	draw_rect(Rect2(W / 2.0 - 150, 48, 300 * prog, 8), Color("#00e5ff"))
 	for i in MAX_LIVES:
 		_heart(Vector2(W - 150 + i * 44, 22), 13, Color("#ff4757") if i < lives else Color(1, 1, 1, 0.25))
-	_text_plain(Vector2(W - 172, 58), "得分 %d" % int(score), 18, Color("#ffd23f"), 150, HORIZONTAL_ALIGNMENT_RIGHT)
+	_text_plain(Vector2(W - 172, 58), tr("得分 %d") % int(score), 18, Color("#ffd23f"), 150, HORIZONTAL_ALIGNMENT_RIGHT)
 
 	# 仪表：车速 + 限速牌 + 剩余距离
 	draw_rect(Rect2(14, H - 96, 300, 84), Color(0, 0, 0, 0.6))
@@ -1460,19 +1460,19 @@ func _draw_hud_drive() -> void:
 			var cols := {"red": Color("#ff3b30"), "clear": Color("#ff3b30"), "yellow": Color("#ffcc00"), "green": Color("#3ddc84")}
 			draw_rect(Rect2(px, 74, 130, 64), Color(0, 0, 0, 0.7))
 			draw_circle(Vector2(px + 32, 106), 22, cols[ix.state])
-			var label: String = {"red": "红灯", "clear": "红灯", "yellow": "黄灯", "green": "绿灯"}[ix.state]
+			var label: String = tr({"red": "红灯", "clear": "红灯", "yellow": "黄灯", "green": "绿灯"}[ix.state])
 			if ix.state != "clear":
 				label += " %d" % ceili(maxf(ix.t, 0.0))
 			_text_plain(Vector2(px + 60, 113), label, 20, cols[ix.state])
-			_text_plain(Vector2(px, 156), "%s %dm" % [ix.name, roundi((front - bottom) / PX_PER_M)], 16, Color("#dddddd"), 130, HORIZONTAL_ALIGNMENT_CENTER)
+			_text_plain(Vector2(px, 156), "%s %dm" % [tr(ix.name), roundi((front - bottom) / PX_PER_M)], 16, Color("#dddddd"), 130, HORIZONTAL_ALIGNMENT_CENTER)
 			break
 
 	if flash > 0.0:
 		draw_rect(Rect2(0, 0, W, H), Color(1, 0, 0, flash * 0.3))
 	if state == "countdown":
 		draw_rect(Rect2(0, H / 2.0 - 140, W, 270), Color(0, 0, 0, 0.55))
-		_text(Vector2(W / 2.0, H / 2.0 - 80), "%s · %s（开车）" % [level.city, cfg.get("road", "")], 40, Color.WHITE)
-		_text(Vector2(W / 2.0, H / 2.0 - 46), "60 秒内开到 %d 米外的目的地 · 限速 %d" % [cfg.get("target_m", 400), cfg.get("limit", 50)], 20, Color("#cccccc"))
+		_text(Vector2(W / 2.0, H / 2.0 - 80), tr("%s · %s（开车）") % [tr(level.city), tr(cfg.get("road", ""))], 40, Color.WHITE)
+		_text(Vector2(W / 2.0, H / 2.0 - 46), tr("60 秒内开到 %d 米外的目的地 · 限速 %d") % [cfg.get("target_m", 400), cfg.get("limit", 50)], 20, Color("#cccccc"))
 		_text(Vector2(W / 2.0, H / 2.0 + 30), str(ceili(countdown)), 72, Color("#ffd23f"))
 		_text(Vector2(W / 2.0, H / 2.0 + 72), cfg.get("desc", ""), 20, Color("#ffd23f"))
 		_text(Vector2(W / 2.0, H / 2.0 + 106), "W 加速  S 刹车  A/D 变道 · 红灯要自己停车", 18, Color.WHITE)

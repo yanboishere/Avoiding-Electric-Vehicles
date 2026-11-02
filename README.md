@@ -1,3 +1,5 @@
+🌐 **简体中文** · [English](README.en.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Français](README.fr.md) · [Español](README.es.md) · [Deutsch](README.de.md) · [العربية](README.ar.md) · [Tiếng Việt](README.vi.md) · [Português](README.pt.md) · [Italiano](README.it.md)
+
 # 躲避电鸡 Avoiding Electric Vehicles
 
 > 广州、深圳很多路段没有非机动车道。你走路、骑车或开车出门，电动车（电鸡）会从四面八方冒出来：逆行、超车、钻缝、横冲、急刹……在一分钟里活下来吧。
@@ -225,6 +227,7 @@ Godot --headless --path . --script tests/car_overlap_test.gd   # 步行/骑车�
 Godot --headless --path . --script tests/drive_test.gd         # 开车：自动驾驶跑 12 关，任何参与者互不重叠
 Godot --headless --path . --script tests/jaywalk_test.gd       # 闯红灯扣 25%、恢复前进、被车撞 GAME OVER
 Godot --headless --path . --script tests/jaywalk_keys_test.gd  # 真实按键：按住 W / 空格 都能闯
+Godot --headless --path . --script tests/i18n_test.gd         # 11 种语言：译文生效、每个字符都有字体能显示
 Godot --headless --path . --script tests/font_test.gd          # 所有中文字符都能显示（列出得意黑缺、回退系统字体的字）
 Godot --headless --path . --script tests/invincible_test.gd    # 无敌模式乱冲：玩家不和任何东西穿模
 Godot --headless --path . --script tests/light_test.gd         # 信号灯不会卡在红灯
@@ -239,5 +242,6 @@ Godot --always-on-top --path . --script tools/screenshot.gd --write-movie /tmp/s
 ## 其他
 - 画面、音效全部程序化生成，没有外部美术素材。
 - 字体：[得意黑 Smiley Sans](https://github.com/atelier-anchor/smiley-sans)（SIL OFL 1.1，协议见 `fonts/SmileySans-OFL.txt`），缺字时回退到系统中文字体。
+- 多语言：游戏支持 11 种语言（简体中文、English、日本語、한국어、Français、Español、Deutsch、العربية、Tiếng Việt、Português、Italiano），主菜单右上角切换，首次启动跟随系统语言。译文在 `locale/<语言>.po`，翻译规则和术语表见 `locale/TRANSLATION_NOTES.md`；新增文字后运行 `python3 tools/extract_strings.py` 更新 `messages.pot`，再用 `python3 tools/check_po.py locale/*.po` 校验。
 - 存档位置：`user://save.cfg`（解锁进度、每关最佳成绩、出行方式、是否看过规则、无敌模式开关）。
 - 主页有“支持作者”页面（点击地址即可复制），`scripts/main.gd` 里把 `SUPPORT_ENABLED` 改成 `false` 可隐藏。

@@ -1,0 +1,1308 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: ja\n"
+
+#: scripts/main.gd:29
+msgid "步行"
+msgstr "徒歩"
+
+#: scripts/main.gd:29
+msgid "骑车"
+msgstr "自転車"
+
+#: scripts/main.gd:29
+msgid "开车"
+msgstr "クルマ"
+
+#: scripts/main.gd:314
+msgid "暴雨"
+msgstr "豪雨"
+
+#: scripts/main.gd:316
+msgid "夜间"
+msgstr "夜間"
+
+#: scripts/main.gd:319
+msgid "%s 限速%d"
+msgstr "%s 制限速度%d"
+
+#: scripts/main.gd:320
+msgid "%d 个路口"
+msgstr "交差点 %d か所"
+
+#: scripts/main.gd:321
+msgid "%s · %s ｜ %s ｜ %s"
+msgstr "%s · %s ｜ %s ｜ %s"
+
+#: scripts/main.gd:343
+msgid "躲避电鸡"
+msgstr "電チャリをよけろ！"
+
+#: scripts/main.gd:344
+msgid "Avoiding Electric Vehicles  ·  没有非机动车道的广深街头"
+msgstr "Avoiding Electric Vehicles  ·  自転車レーンのない広州・深圳の街角"
+
+#: scripts/main.gd:350
+msgid "出行方式："
+msgstr "移動手段："
+
+#: scripts/main.gd:363
+msgid "无敌模式：创飞一切电鸡！"
+msgstr "無敵モード：電チャリを全部ぶっ飛ばせ！"
+
+#: scripts/main.gd:397
+msgid "未通关"
+msgstr "未クリア"
+
+#: scripts/main.gd:399
+msgid "最佳 %s · %d 分"
+msgstr "ベスト %s · %d 点"
+
+#: scripts/main.gd:401
+msgid "无敌畅玩"
+msgstr "無敵プレイ"
+
+#: scripts/main.gd:403
+msgid "第 %d 关 · %s\n%s\n%s"
+msgstr "ステージ %d · %s\n%s\n%s"
+
+#: scripts/main.gd:403
+msgid "未解锁"
+msgstr "ロック中"
+
+#: scripts/main.gd:411
+msgid "通关第 %d 关后解锁"
+msgstr "ステージ %d クリアで解放"
+
+#: scripts/main.gd:420
+msgid "无敌模式：不掉血、无视红灯，撞到的电鸡全部创飞；成绩不计入存档"
+msgstr "無敵モード：ダメージなし、信号無視OK、ぶつかった電チャリは全部ぶっ飛ぶ。記録はセーブされません"
+
+#: scripts/main.gd:425
+msgid "游戏规则"
+msgstr "遊び方"
+
+#: scripts/main.gd:426
+msgid "退出游戏"
+msgstr "ゲーム終了"
+
+#: scripts/main.gd:431
+msgid "支持作者"
+msgstr "作者を応援"
+
+#: scripts/main.gd:436
+msgid "步行 / 骑车：WASD 移动 · 开车：W 加速 S 刹车 A/D 变道 · 空格闯红灯 · ESC 暂停 · F11 全屏"
+msgstr "徒歩 / 自転車：WASD で移動 · クルマ：W 加速 S ブレーキ A/D 車線変更 · スペースで信号無視 · ESC 一時停止 · F11 全画面"
+
+#: scripts/main.gd:451
+msgid "[center][font_size=36][color=#ffd23f]游戏规则[/color][/font_size][/center]\n[color=#7CFC00]目标[/color]　步行 / 骑车：每关 60 秒，沿没有非机动车道的人行道往前走，被撞 3 次失败。\n[color=#7CFC00]开车[/color]　按每关真实路段的车道、限速、公交专用道设计：60 秒内开到目的地，W 加速 S 刹车 A/D 变道。\n[color=#7CFC00]操作[/color]　WASD / 方向键 / 手柄移动，空格闯红灯，ESC 暂停，F11 全屏。\n[color=#ffd23f]电鸡[/color]　迎面逆行、身后超车（[color=#ff5252]红三角 + 嘀嘀声[/color]预警）、蛇形、钻车缝、店门口 / 路边冲出、急刹后变路障。\n[color=#ffd23f]路障[/color]　地铁口、共享单车、停着的电鸡、石墩、摊位、违停车、施工围挡都是实心的，撞上要扣命。\n[color=#ffd23f]红绿灯[/color]　步行红灯时画面停下等绿灯；开车要自己刹停在停止线前。占用公交专用道会持续扣分。\n[color=#ff5252]闯红灯[/color]　步行在路缘前[color=#ffcc80]按住 ↑ 半秒或按空格[/color]硬闯，开车直接冲线：[color=#ff5252]扣当前分数 25%[/color]，在路口里[color=#ff5252]被车撞到直接 GAME OVER[/color]。\n[color=#00b8d4]得分[/color]　坚持越久 / 开得越远分越高，擦身而过 +50，通关每条剩余的命 +300。\n[color=#00b8d4]评级[/color]　S 零失误 · A 被撞 1 次 · B 通关 · C 失败。[color=#7CFC00]通关前一关才能解锁下一关[/color]，广州、深圳共 12 关。\n[color=#ff8a80]无敌模式[/color]　主页打开后不掉血、无视红灯，撞到的电鸡全部[color=#ffd23f]创飞[/color]（每只 +100），成绩不计入存档。"
+msgstr "[center][font_size=36][color=#ffd23f]遊び方[/color][/font_size][/center]\n[color=#7CFC00]目標[/color]　徒歩 / 自転車：各ステージ 60 秒。自転車レーンのない歩道を進み、3 回ぶつかるとアウト。\n[color=#7CFC00]クルマ[/color]　各ステージは実在の道路の車線・制限速度・バス専用レーンを再現。60 秒以内に目的地へ。W 加速 S ブレーキ A/D 車線変更。\n[color=#7CFC00]操作[/color]　WASD / 矢印キー / コントローラーで移動、スペースで信号無視、ESC で一時停止、F11 で全画面。\n[color=#ffd23f]電チャリ[/color]　正面から逆走、背後から追い越し（[color=#ff5252]赤い三角 + ピピッ音[/color]で予告）、蛇行、車の隙間すり抜け、店先や路肩から飛び出し、急停車して障害物に。\n[color=#ffd23f]障害物[/color]　地下鉄の出入口、シェアサイクル、駐輪中の電チャリ、車止め、屋台、違法駐車、工事フェンスはすべて通り抜け不可。ぶつかるとライフが減る。\n[color=#ffd23f]信号[/color]　徒歩では赤信号で画面が止まり青を待つ。クルマは自分で停止線の手前に止まること。バス専用レーンを走ると減点が続く。\n[color=#ff5252]信号無視[/color]　徒歩なら縁石の前で[color=#ffcc80]↑ を半秒長押しかスペース[/color]で強行突破、クルマはそのまま突っ込む：[color=#ff5252]現在のスコアの 25% を没収[/color]、交差点内で[color=#ff5252]車にはねられたら即 GAME OVER[/color]。\n[color=#00b8d4]スコア[/color]　長く粘るほど / 遠くまで走るほど高得点。ニアミス +50、クリア時に残りライフ 1 つにつき +300。\n[color=#00b8d4]ランク[/color]　S ノーミス · A 被弾 1 回 · B クリア · C 失敗。[color=#7CFC00]前のステージをクリアすると次が解放[/color]。広州・深圳あわせて全 12 ステージ。\n[color=#ff8a80]無敵モード[/color]　メニューでオンにするとダメージなし・信号無視OK、ぶつかった電チャリは全部[color=#ffd23f]ぶっ飛ぶ[/color]（1 台 +100）。記録はセーブされません。"
+
+#: scripts/main.gd:468
+msgid "喜欢这个游戏的话，可以请作者喝杯奶茶"
+msgstr "気に入ったら、作者にタピオカミルクティーを一杯おごってください"
+
+#: scripts/main.gd:470
+msgid "点击地址即可复制"
+msgstr "アドレスをクリックでコピー"
+
+#: scripts/main.gd:481
+msgid "已复制 %s：%s"
+msgstr "%sをコピーしました：%s"
+
+#: scripts/main.gd:488
+msgid "返回菜单"
+msgstr "メニューに戻る"
+
+#: scripts/main.gd:508
+msgid "明白了，开始！"
+msgstr "わかった、スタート！"
+
+#: scripts/main.gd:554
+msgid "准时到达！%s"
+msgstr "時間内に到着！%s"
+
+#: scripts/main.gd:554
+msgid "成功穿越 %s！"
+msgstr "%s を突破！"
+
+#: scripts/main.gd:556
+msgid "闯红灯被车撞了，GAME OVER"
+msgstr "信号無視ではねられた、GAME OVER"
+
+#: scripts/main.gd:558
+msgid "迟到了！60 秒没开到目的地"
+msgstr "遅刻！60 秒以内に着けなかった"
+
+#: scripts/main.gd:560
+msgid "撞车太多次，今天别开了……"
+msgstr "ぶつけすぎ。今日はもう運転やめとこう……"
+
+#: scripts/main.gd:560
+msgid "你被电鸡创飞了……"
+msgstr "電チャリにぶっ飛ばされた……"
+
+#: scripts/main.gd:562
+msgid "现实可能比游戏更残酷。"
+msgstr "現実はゲームより厳しいかも。"
+
+#: scripts/main.gd:563
+msgid "评级  %s"
+msgstr "ランク  %s"
+
+#: scripts/main.gd:565
+msgid "行驶  %d / %d 米      用时  %.1f 秒      等红灯  %.1f 秒"
+msgstr "走行  %d / %d m      時間  %.1f 秒      信号待ち  %.1f 秒"
+
+#: scripts/main.gd:566
+msgid "擦身而过  %d 次      撞车  %d 次      闯红灯  %d 次      公交道扣分  %d"
+msgstr "ニアミス  %d 回      衝突  %d 回      信号無視  %d 回      バスレーン減点  %d"
+
+#: scripts/main.gd:568
+msgid "坚持时间  %.1f 秒      等红灯  %.1f 秒"
+msgstr "生存時間  %.1f 秒      信号待ち  %.1f 秒"
+
+#: scripts/main.gd:569
+msgid "擦身而过  %d 次      被撞  %d 次      闯红灯  %d 次"
+msgstr "ニアミス  %d 回      被弾  %d 回      信号無視  %d 回"
+
+#: scripts/main.gd:571
+msgid "创飞电鸡  %d 只！"
+msgstr "電チャリを %d 台ぶっ飛ばした！"
+
+#: scripts/main.gd:572
+msgid "总得分  %d"
+msgstr "合計スコア  %d"
+
+#: scripts/main.gd:574
+msgid "（无敌模式成绩不计入存档）"
+msgstr "（無敵モードの記録はセーブされません）"
+
+#: scripts/main.gd:577
+msgid "解锁新关卡：%s · %s"
+msgstr "新ステージ解放：%s · %s"
+
+#: scripts/main.gd:579
+msgid "再来一次  Retry"
+msgstr "もう一回  Retry"
+
+#: scripts/main.gd:583
+msgid "下一关：%s · %s"
+msgstr "次のステージ：%s · %s"
+
+#: scripts/main.gd:592
+msgid "换成%s"
+msgstr "%sで挑戦"
+
+#: scripts/main.gd:596
+msgid "返回菜单  Menu"
+msgstr "メニューへ  Menu"
+
+#: scripts/game.gd:19
+msgid "哎哟！"
+msgstr "いてっ！"
+
+#: scripts/game.gd:19
+msgid "被电鸡创了！"
+msgstr "電チャリにやられた！"
+
+#: scripts/game.gd:19
+msgid "看路啊靓仔！"
+msgstr "前見ろよ兄ちゃん！"
+
+#: scripts/game.gd:19
+msgid "赶着送外卖啊？"
+msgstr "配達で急いでんの？"
+
+#: scripts/game.gd:19
+msgid "我的腰……"
+msgstr "腰が……"
+
+#: scripts/game.gd:20
+msgid "险！"
+msgstr "危なっ！"
+
+#: scripts/game.gd:20
+msgid "好险！"
+msgstr "セーフ！"
+
+#: scripts/game.gd:20
+msgid "擦身而过！"
+msgstr "ニアミス！"
+
+#: scripts/game.gd:20
+msgid "丝滑！"
+msgstr "スルッと！"
+
+#: scripts/game.gd:21
+msgid "嘀嘀！"
+msgstr "ピピッ！"
+
+#: scripts/game.gd:21
+msgid "让一让！"
+msgstr "どいてどいて！"
+
+#: scripts/game.gd:21
+msgid "借过借过！"
+msgstr "通りまーす！"
+
+#: scripts/game.gd:21
+msgid "嘀——"
+msgstr "ピーーッ"
+
+#: scripts/game.gd:22
+msgid "被绊倒了！"
+msgstr "つまずいた！"
+
+#: scripts/game.gd:22
+msgid "挤不过去了！"
+msgstr "通れない！"
+
+#: scripts/game.gd:22
+msgid "谁乱停的车！"
+msgstr "誰だよ、ここに停めたの！"
+
+#: scripts/game.gd:23
+msgid "闯红灯！"
+msgstr "信号無視！"
+
+#: scripts/game.gd:23
+msgid "红灯也冲！"
+msgstr "赤でも行く！"
+
+#: scripts/game.gd:23
+msgid "赶时间！"
+msgstr "急いでんだ！"
+
+#: scripts/game.gd:24
+msgid "创飞！"
+msgstr "ぶっ飛べ！"
+
+#: scripts/game.gd:24
+msgid "飞咯～"
+msgstr "飛んでけ〜"
+
+#: scripts/game.gd:24
+msgid "再见了您嘞！"
+msgstr "さようなら〜！"
+
+#: scripts/game.gd:24
+msgid "起飞！"
+msgstr "テイクオフ！"
+
+#: scripts/game.gd:24
+msgid "一路走好！"
+msgstr "お達者で！"
+
+#: scripts/game.gd:25
+msgid "急刹！"
+msgstr "急ブレーキ！"
+
+#: scripts/game.gd:25
+msgid "到了到了！"
+msgstr "着いた着いた！"
+
+#: scripts/game.gd:25
+msgid "送个外卖先"
+msgstr "ちょっと配達"
+
+#: scripts/game.gd:38
+msgid "撞到人了！"
+msgstr "人にぶつかった！"
+
+#: scripts/game.gd:38
+msgid "对不起对不起！"
+msgstr "すみませんすみません！"
+
+#: scripts/game.gd:38
+msgid "看路啊！"
+msgstr "前見て！"
+
+#: scripts/game.gd:38
+msgid "哎哟喂！"
+msgstr "あいたたた！"
+
+#: scripts/game.gd:495
+msgid "绿灯！走！"
+msgstr "青だ！行け！"
+
+#: scripts/game.gd:500
+msgid "冲！"
+msgstr "行け！"
+
+#: scripts/game.gd:507
+msgid "横街"
+msgstr "横道"
+
+#: scripts/game.gd:623
+msgid "无敌！红灯算什么"
+msgstr "無敵！赤信号がなんぼのもんじゃ"
+
+#: scripts/game.gd:628
+msgid "闯红灯！-%d 分"
+msgstr "信号無視！-%d 点"
+
+#: scripts/game.gd:629
+msgid "被车撞到直接 GAME OVER！"
+msgstr "車にはねられたら即 GAME OVER！"
+
+#: scripts/game.gd:642
+msgid "（无敌）被车撞了"
+msgstr "（無敵）車にはねられた"
+
+#: scripts/game.gd:649
+msgid "闯红灯被车撞了！"
+msgstr "信号無視ではねられた！"
+
+#: scripts/game.gd:765
+msgid "冲出来了！"
+msgstr "飛び出してきた！"
+
+#: scripts/game.gd:837
+msgid "等灯咯"
+msgstr "信号待ち〜"
+
+#: scripts/game.gd:918
+msgid "低头看手机…"
+msgstr "スマホ見ながら歩き…"
+
+#: scripts/game.gd:1073
+msgid "成功通关！"
+msgstr "クリア！"
+
+#: scripts/game.gd:1102
+msgid "%d 连创飞！+100"
+msgstr "%d 連続ぶっ飛ばし！+100"
+
+#: scripts/game.gd:1206
+msgid "小吃"
+msgstr "屋台"
+
+#: scripts/game.gd:1475
+msgid "便利店"
+msgstr "コンビニ"
+
+#: scripts/game.gd:1723
+msgid "地铁"
+msgstr "地下鉄"
+
+#: scripts/game.gd:1758
+msgid "你"
+msgstr "あなた"
+
+#: scripts/game.gd:1768
+msgid "店门口冲出！"
+msgstr "店先から飛び出し！"
+
+#: scripts/game.gd:1772
+msgid "后方来车！嘀嘀！"
+msgstr "後ろから来るぞ！ピピッ！"
+
+#: scripts/game.gd:1784
+msgid "步行模式"
+msgstr "徒歩モード"
+
+#: scripts/game.gd:1784
+msgid "骑车模式"
+msgstr "自転車モード"
+
+#: scripts/game.gd:1790
+msgid "无敌（已创飞 %d）"
+msgstr "無敵（ぶっ飛ばし %d）"
+
+#: scripts/game.gd:1791
+msgid "ESC 暂停"
+msgstr "ESC 一時停止"
+
+#: scripts/game.gd:1801
+msgid "得分 %d"
+msgstr "スコア %d"
+
+#: scripts/game.gd:1809
+msgid "停"
+msgstr "止"
+
+#: scripts/game.gd:1809
+msgid "行"
+msgstr "進"
+
+#: scripts/game.gd:1810
+msgid "红灯"
+msgstr "赤信号"
+
+#: scripts/game.gd:1810
+msgid "绿灯"
+msgstr "青信号"
+
+#: scripts/game.gd:1812
+msgid "红灯 %d"
+msgstr "赤信号 %d"
+
+#: scripts/game.gd:1817
+msgid "闯红灯中！小心车！"
+msgstr "信号無視中！車に注意！"
+
+#: scripts/game.gd:1820
+msgid "按住 ↑ 或 空格 闯红灯（扣 25% 分）"
+msgstr "↑ 長押しか スペース で信号無視（スコア 25% 減）"
+
+#: scripts/game.gd:1825
+msgid "红灯 · 等一等  %d 秒"
+msgstr "赤信号 · ちょっと待って  %d 秒"
+
+#: scripts/game.gd:1825
+msgid "红灯 · 等一等…"
+msgstr "赤信号 · ちょっと待って…"
+
+#: scripts/game.gd:1837
+msgid "WASD / 方向键 移动，躲开电鸡和路障，遇红灯要停"
+msgstr "WASD / 矢印キーで移動。電チャリと障害物をよけて、赤信号では止まろう"
+
+#: scripts/game.gd:1839
+msgid "出发！"
+msgstr "出発！"
+
+#: scripts/game.gd:1843
+msgid "暂停"
+msgstr "一時停止"
+
+#: scripts/game.gd:1844
+msgid "ESC 继续    Q 返回菜单"
+msgstr "ESC 再開    Q メニューへ"
+
+#: scripts/drive.gd:29
+msgid "撞到电鸡了！"
+msgstr "電チャリにぶつけた！"
+
+#: scripts/drive.gd:29
+msgid "电鸡倒地了…"
+msgstr "電チャリが転んだ…"
+
+#: scripts/drive.gd:29
+msgid "全责警告！"
+msgstr "過失100%の予感！"
+
+#: scripts/drive.gd:29
+msgid "下车看看人没事吧"
+msgstr "降りて無事か確かめよう"
+
+#: scripts/drive.gd:30
+msgid "追尾了！"
+msgstr "追突した！"
+
+#: scripts/drive.gd:30
+msgid "刮到车了！"
+msgstr "車をこすった！"
+
+#: scripts/drive.gd:30
+msgid "保险要涨了…"
+msgstr "保険料が上がる…"
+
+#: scripts/drive.gd:31
+msgid "逆行！"
+msgstr "逆走！"
+
+#: scripts/drive.gd:99
+msgid "路口"
+msgstr "交差点"
+
+#: scripts/drive.gd:269
+msgid "借道绕行，不扣分"
+msgstr "迂回のため通行、減点なし"
+
+#: scripts/drive.gd:273
+msgid "占用公交专用道 -15"
+msgstr "バス専用レーン走行 -15"
+
+#: scripts/drive.gd:297
+msgid "被横街的车撞到直接 GAME OVER！"
+msgstr "横から来た車にはねられたら即 GAME OVER！"
+
+#: scripts/drive.gd:318
+msgid "撞到行人了！全责！"
+msgstr "歩行者をはねた！過失100%！"
+
+#: scripts/drive.gd:363
+msgid "电鸡扶起车溜了"
+msgstr "電チャリは車を起こして逃げた"
+
+#: scripts/drive.gd:501
+msgid "进站"
+msgstr "停車中"
+
+#: scripts/drive.gd:501
+msgid "上下客"
+msgstr "乗降中"
+
+#: scripts/drive.gd:501
+msgid "急刹！送外卖"
+msgstr "急停車！配達"
+
+#: scripts/drive.gd:914
+msgid "嘀嘀！借过"
+msgstr "ピピッ！通して"
+
+#: scripts/drive.gd:991
+msgid "横穿马路！"
+msgstr "道路横断！"
+
+#: scripts/drive.gd:1122
+msgid "准时到达！"
+msgstr "時間内に到着！"
+
+#: scripts/drive.gd:1126
+msgid "迟到了！"
+msgstr "遅刻！"
+
+#: scripts/drive.gd:1205
+msgid "辅道"
+msgstr "側道"
+
+#: scripts/drive.gd:1212
+msgid "非机动车"
+msgstr "自転車道"
+
+#: scripts/drive.gd:1228
+msgid "公交专用"
+msgstr "バス専用"
+
+#: scripts/drive.gd:1258
+msgid "深南大道主路"
+msgstr "深南大道本線"
+
+#: scripts/drive.gd:1351
+msgid "深圳"
+msgstr "深圳"
+
+#: scripts/drive.gd:1355
+msgid "公交"
+msgstr "バス"
+
+#: scripts/drive.gd:1369
+msgid "前方施工"
+msgstr "工事中"
+
+#: scripts/drive.gd:1376
+msgid "！"
+msgstr "！"
+
+#: scripts/drive.gd:1392
+msgid "机场高速高架"
+msgstr "空港高速の高架"
+
+#: scripts/drive.gd:1415
+msgid "有人横穿马路！"
+msgstr "誰か道路を横断してる！"
+
+#: scripts/drive.gd:1415
+msgid "路边冲出！"
+msgstr "路肩から飛び出し！"
+
+#: scripts/drive.gd:1420
+msgid "%s · %s（开车）"
+msgstr "%s · %s（クルマ）"
+
+#: scripts/drive.gd:1421
+msgid "限速 %d"
+msgstr "制限速度 %d"
+
+#: scripts/drive.gd:1428
+msgid "W 加速  S 刹车  A/D 变道  ESC 暂停"
+msgstr "W 加速  S ブレーキ  A/D 車線変更  ESC 一時停止"
+
+#: scripts/drive.gd:1446
+msgid "剩余"
+msgstr "残り"
+
+#: scripts/drive.gd:1450
+msgid "借道公交专用道绕过路障（不扣分）"
+msgstr "バス専用レーンを通って障害物を回避（減点なし）"
+
+#: scripts/drive.gd:1452
+msgid "正在占用公交专用道！"
+msgstr "バス専用レーンを走行中！"
+
+#: scripts/drive.gd:1463
+msgid "黄灯"
+msgstr "黄信号"
+
+#: scripts/drive.gd:1475
+msgid "60 秒内开到 %d 米外的目的地 · 限速 %d"
+msgstr "60 秒以内に %d m 先の目的地へ · 制限速度 %d"
+
+#: scripts/drive.gd:1478
+msgid "W 加速  S 刹车  A/D 变道 · 红灯要自己停车"
+msgstr "W 加速  S ブレーキ  A/D 車線変更 · 赤信号では自分で止まること"
+
+#: scripts/levels.gd:36
+msgid "体育西路"
+msgstr "体育西路"
+
+#: scripts/levels.gd:36
+msgid "双向6车道、车流极大，天河城门口出租车上下客，外卖电鸡贴边逆行。"
+msgstr "片側3車線の6車線道路で交通量はものすごい。天河城の前ではタクシーが客を乗降させ、配達の電チャリが端を逆走してくる。"
+
+#: scripts/levels.gd:38
+msgid "天河南一路"
+msgstr "天河南一路"
+
+#: scripts/levels.gd:38
+msgid "天河路"
+msgstr "天河路"
+
+#: scripts/levels.gd:46
+msgid "振华路（单行）"
+msgstr "振華路（一方通行）"
+
+#: scripts/levels.gd:46
+msgid "华强北路是步行街开不进去，走振华路：由西向东单行，右边有电动车道，可电鸡偏要跑进机动车道。"
+msgstr "華強北路は歩行者天国で車は入れないので振華路へ。西から東への一方通行で右側に電動車レーンがあるのに、電チャリはわざわざ車道を走ってくる。"
+
+#: scripts/levels.gd:48
+msgid "燕南路"
+msgstr "燕南路"
+
+#: scripts/levels.gd:48
+msgid "华发北路"
+msgstr "華発北路"
+
+#: scripts/levels.gd:56
+msgid "中山五路"
+msgstr "中山五路"
+
+#: scripts/levels.gd:56
+msgid "北京路步行街开不进去，走中山五路：双向4车道（估），晚高峰最右是公交专用道，公交车一辆接一辆进站。"
+msgstr "北京路の歩行者天国は車で入れないので中山五路へ。往復4車線（推定）、夕方のラッシュは一番右がバス専用レーンで、バスが次々と停留所に入ってくる。"
+
+#: scripts/levels.gd:58
+msgid "北京路口"
+msgstr "北京路交差点"
+
+#: scripts/levels.gd:58
+msgid "吉祥路口"
+msgstr "吉祥路交差点"
+
+#: scripts/levels.gd:66
+msgid "科苑路"
+msgstr "科苑路"
+
+#: scripts/levels.gd:66
+msgid "午高峰科苑路排长龙，外卖电鸡在车缝里钻；路口做了绿波，保持约40km/h能一路绿灯。"
+msgstr "昼のピークの科苑路は大渋滞、配達の電チャリが車の隙間をすり抜ける。交差点はグリーンウェーブ化されていて、約40km/hを保てばずっと青信号。"
+
+#: scripts/levels.gd:68
+msgid "高新中一道"
+msgstr "高新中一道"
+
+#: scripts/levels.gd:68
+msgid "高新南一道"
+msgstr "高新南一道"
+
+#: scripts/levels.gd:68
+msgid "高新南四道"
+msgstr "高新南四道"
+
+#: scripts/levels.gd:75
+msgid "新港中路"
+msgstr "新港中路"
+
+#: scripts/levels.gd:75
+msgid "海珠主干道限速60，最右是公交专用道，客村一带公交车密集进站。"
+msgstr "海珠区の幹線道路で制限速度60。一番右はバス専用レーンで、客村あたりはバスがひっきりなしに停留所へ入る。"
+
+#: scripts/levels.gd:77
+msgid "新市头路"
+msgstr "新市頭路"
+
+#: scripts/levels.gd:77
+msgid "艺苑路"
+msgstr "芸苑路"
+
+#: scripts/levels.gd:84
+msgid "东门中路"
+msgstr "東門中路"
+
+#: scripts/levels.gd:84
+msgid "双向7车道，可两边各2条是公交专用道，社会车只能挤在中间；商铺门口电鸡说冲就冲。"
+msgstr "往復7車線なのに両側2本ずつがバス専用レーンで、一般車は真ん中に押し込まれる。店先からは電チャリがいきなり飛び出してくる。"
+
+#: scripts/levels.gd:86
+msgid "解放路"
+msgstr "解放路"
+
+#: scripts/levels.gd:86
+msgid "晒布路"
+msgstr "晒布路"
+
+#: scripts/levels.gd:93
+msgid "花城大道"
+msgstr "花城大道"
+
+#: scripts/levels.gd:93
+msgid "双向10车道又宽又快，暴雨天视线差、路面滑，刹车距离明显变长。"
+msgstr "往復10車線で広くて速い。豪雨で視界が悪く路面も滑りやすく、制動距離がぐっと伸びる。"
+
+#: scripts/levels.gd:95
+msgid "冼村路"
+msgstr "冼村路"
+
+#: scripts/levels.gd:95
+msgid "猎德大道"
+msgstr "猟徳大道"
+
+#: scripts/levels.gd:102
+msgid "深南大道"
+msgstr "深南大道"
+
+#: scripts/levels.gd:102
+msgid "深南大道主路双向8车道、两边辅道，深夜车速快，电鸡从辅道横穿绿化带开口冲进主路。"
+msgstr "深南大道の本線は往復8車線で両側に側道あり。深夜はスピードが出ており、電チャリが側道から植え込みの切れ目を横切って本線に突っ込んでくる。"
+
+#: scripts/levels.gd:104
+msgid "泰然九路"
+msgstr "泰然九路"
+
+#: scripts/levels.gd:104
+msgid "香梅路"
+msgstr "香梅路"
+
+#: scripts/levels.gd:111
+msgid "石牌东路"
+msgstr "石牌東路"
+
+#: scripts/levels.gd:111
+msgid "贴着石牌村，村巷口随时冲出电鸡，路边违停一辆接一辆。"
+msgstr "石牌村に隣接し、村の路地からいつ電チャリが飛び出してくるかわからない。路肩には違法駐車がずらり。"
+
+#: scripts/levels.gd:113
+msgid "新陶北街"
+msgstr "新陶北街"
+
+#: scripts/levels.gd:113
+msgid "新陶南街"
+msgstr "新陶南街"
+
+#: scripts/levels.gd:120
+msgid "深南大道辅道"
+msgstr "深南大道側道"
+
+#: scripts/levels.gd:120
+msgid "深南辅道白石洲段，左边绿化带外是主路；公交站一个接一个，城中村电鸡从沙河街口一窝蜂冲出。"
+msgstr "深南大道の側道・白石洲区間。左の植え込みの向こうが本線。バス停が次々と現れ、城中村の電チャリが沙河街の角から一斉に飛び出してくる。"
+
+#: scripts/levels.gd:122
+msgid "沙河街"
+msgstr "沙河街"
+
+#: scripts/levels.gd:122
+msgid "石洲中路"
+msgstr "石洲中路"
+
+#: scripts/levels.gd:129
+msgid "机场路"
+msgstr "機場路"
+
+#: scripts/levels.gd:129
+msgid "头顶是机场高速高架，桥墩挡住视线，暴雨夜路面反光，看不清贴边逆行的电鸡。"
+msgstr "頭上は空港高速の高架で、橋脚が視界をさえぎる。豪雨の夜は路面が光を反射し、端を逆走してくる電チャリがよく見えない。"
+
+#: scripts/levels.gd:131
+msgid "齐富路"
+msgstr "斉富路"
+
+#: scripts/levels.gd:131
+msgid "汇侨南路"
+msgstr "匯僑南路"
+
+#: scripts/levels.gd:138
+msgid "民治大道"
+msgstr "民治大道"
+
+#: scripts/levels.gd:138
+msgid "双向6车道挤在24米宽的路上，限速40，晚高峰三个红灯，急刹、拉货、钻缝电鸡全都来了。"
+msgstr "幅24メートルの道路に往復6車線がぎっしり、制限速度40。夕方のラッシュに赤信号が3つ、急ブレーキ・荷物運び・すり抜け電チャリが全部やって来る。"
+
+#: scripts/levels.gd:140
+msgid "人民路"
+msgstr "人民路"
+
+#: scripts/levels.gd:140
+msgid "梅龙路"
+msgstr "梅龍路"
+
+#: scripts/levels.gd:140
+msgid "工业路"
+msgstr "工業路"
+
+#: scripts/levels.gd:149
+msgid "广州"
+msgstr "広州"
+
+#: scripts/levels.gd:149
+msgid "天河·体育西路"
+msgstr "天河・体育西路"
+
+#: scripts/levels.gd:150
+msgid "新手关：体育西路地铁站外，迎面逆行的电鸡最多。"
+msgstr "入門ステージ：地下鉄体育西路駅の前。正面から逆走してくる電チャリが一番多い。"
+
+#: scripts/levels.gd:152
+msgid "肠粉"
+msgstr "腸粉"
+
+#: scripts/levels.gd:152
+msgid "云吞面"
+msgstr "ワンタン麺"
+
+#: scripts/levels.gd:152
+msgid "凉茶铺"
+msgstr "涼茶屋"
+
+#: scripts/levels.gd:152
+msgid "糖水"
+msgstr "糖水"
+
+#: scripts/levels.gd:152
+msgid "烧腊饭"
+msgstr "焼味ライス"
+
+#: scripts/levels.gd:152
+msgid "早茶"
+msgstr "飲茶"
+
+#: scripts/levels.gd:152
+msgid "猪脚饭"
+msgstr "豚足ご飯"
+
+#: scripts/levels.gd:152
+msgid "士多"
+msgstr "よろず屋"
+
+#: scripts/levels.gd:153
+msgid "体育西路站"
+msgstr "体育西路駅"
+
+#: scripts/levels.gd:158
+msgid "福田·华强北"
+msgstr "福田・華強北"
+
+#: scripts/levels.gd:159
+msgid "电子市场门口，拉货的电鸡纸箱堆得比人还高。"
+msgstr "電子市場の前。荷物運びの電チャリが段ボールを人の背丈より高く積んでいる。"
+
+#: scripts/levels.gd:161
+msgid "手机配件"
+msgstr "スマホ用品"
+
+#: scripts/levels.gd:161
+msgid "电子市场"
+msgstr "電子市場"
+
+#: scripts/levels.gd:161
+msgid "数码维修"
+msgstr "デジタル修理"
+
+#: scripts/levels.gd:161
+msgid "充电宝"
+msgstr "モバイル電池"
+
+#: scripts/levels.gd:161
+msgid "奶茶"
+msgstr "ミルクティー"
+
+#: scripts/levels.gd:161
+msgid "潮汕牛肉"
+msgstr "潮汕牛肉"
+
+#: scripts/levels.gd:161
+msgid "无人机"
+msgstr "ドローン"
+
+#: scripts/levels.gd:162
+msgid "华强北站"
+msgstr "華強北駅"
+
+#: scripts/levels.gd:163
+msgid "振华路"
+msgstr "振華路"
+
+#: scripts/levels.gd:163
+msgid "红荔路"
+msgstr "紅茘路"
+
+#: scripts/levels.gd:167
+msgid "越秀·北京路"
+msgstr "越秀・北京路"
+
+#: scripts/levels.gd:168
+msgid "骑楼老街人行道窄，糖水档、石墩挡路，要在缝里穿。"
+msgstr "騎楼が並ぶ古い街並みは歩道が狭く、糖水の屋台や車止めがふさぐ。隙間を縫って進もう。"
+
+#: scripts/levels.gd:170
+msgid "双皮奶"
+msgstr "双皮奶"
+
+#: scripts/levels.gd:170
+msgid "牛杂"
+msgstr "牛モツ煮"
+
+#: scripts/levels.gd:170
+msgid "姜撞奶"
+msgstr "生姜プリン"
+
+#: scripts/levels.gd:170
+msgid "老字号"
+msgstr "老舗"
+
+#: scripts/levels.gd:170
+msgid "凉茶"
+msgstr "涼茶"
+
+#: scripts/levels.gd:170
+msgid "鸡仔饼"
+msgstr "鶏仔餅"
+
+#: scripts/levels.gd:170
+msgid "手信"
+msgstr "お土産"
+
+#: scripts/levels.gd:171
+msgid "鸡蛋仔"
+msgstr "鶏蛋仔"
+
+#: scripts/levels.gd:171
+msgid "烤肠"
+msgstr "フランク"
+
+#: scripts/levels.gd:172
+msgid "公园前站"
+msgstr "公園前駅"
+
+#: scripts/levels.gd:173
+msgid "文明路"
+msgstr "文明路"
+
+#: scripts/levels.gd:178
+msgid "南山·科技园"
+msgstr "南山・科技園"
+
+#: scripts/levels.gd:179
+msgid "午饭外卖高峰！身后嘀嘀声不断，红灯时电鸡全挤在你身边。"
+msgstr "ランチの出前ラッシュ！背後でピピッが鳴りやまず、赤信号では電チャリがみんな君のそばに詰め寄ってくる。"
+
+#: scripts/levels.gd:181
+msgid "咖啡"
+msgstr "カフェ"
+
+#: scripts/levels.gd:181
+msgid "轻食沙拉"
+msgstr "サラダ"
+
+#: scripts/levels.gd:181
+msgid "麻辣烫"
+msgstr "麻辣湯"
+
+#: scripts/levels.gd:181
+msgid "快餐"
+msgstr "定食屋"
+
+#: scripts/levels.gd:181
+msgid "煲仔饭"
+msgstr "土鍋ご飯"
+
+#: scripts/levels.gd:181
+msgid "黄焖鸡"
+msgstr "黄焖鶏"
+
+#: scripts/levels.gd:182
+msgid "高新园站"
+msgstr "高新園駅"
+
+#: scripts/levels.gd:188
+msgid "海珠·客村"
+msgstr "海珠・客村"
+
+#: scripts/levels.gd:189
+msgid "换乘站口一个接一个，门口的共享单车堆成山。"
+msgstr "乗換駅の出入口が次々と続き、入口のシェアサイクルが山積み。"
+
+#: scripts/levels.gd:191
+msgid "沙县小吃"
+msgstr "沙県小吃"
+
+#: scripts/levels.gd:191
+msgid "水果店"
+msgstr "果物屋"
+
+#: scripts/levels.gd:191
+msgid "药房"
+msgstr "薬局"
+
+#: scripts/levels.gd:191
+msgid "粉面"
+msgstr "米粉・麺"
+
+#: scripts/levels.gd:191
+msgid "快递点"
+msgstr "宅配窓口"
+
+#: scripts/levels.gd:192
+msgid "客村站"
+msgstr "客村駅"
+
+#: scripts/levels.gd:198
+msgid "罗湖·东门"
+msgstr "羅湖・東門"
+
+#: scripts/levels.gd:199
+msgid "老商圈店铺密，电鸡随时从店门口冲出来。"
+msgstr "古い商店街は店がびっしり。電チャリがいつ店先から飛び出してくるかわからない。"
+
+#: scripts/levels.gd:201
+msgid "服装城"
+msgstr "衣料品市場"
+
+#: scripts/levels.gd:201
+msgid "鞋城"
+msgstr "靴市場"
+
+#: scripts/levels.gd:201
+msgid "烧鹅"
+msgstr "焼きガチョウ"
+
+#: scripts/levels.gd:201
+msgid "茶餐厅"
+msgstr "香港喫茶"
+
+#: scripts/levels.gd:201
+msgid "眼镜"
+msgstr "メガネ"
+
+#: scripts/levels.gd:201
+msgid "金铺"
+msgstr "貴金属店"
+
+#: scripts/levels.gd:202
+msgid "炸串"
+msgstr "串揚げ"
+
+#: scripts/levels.gd:202
+msgid "糖葫芦"
+msgstr "サンザシ飴"
+
+#: scripts/levels.gd:202
+msgid "炒冰"
+msgstr "ロールアイス"
+
+#: scripts/levels.gd:203
+msgid "老街站"
+msgstr "老街駅"
+
+#: scripts/levels.gd:204
+msgid "新园路"
+msgstr "新園路"
+
+#: scripts/levels.gd:210
+msgid "珠江新城·花城大道"
+msgstr "珠江新城・花城大道"
+
+#: scripts/levels.gd:211
+msgid "暴雨天！地面湿滑刹不住脚，穿雨披的电鸡看不清路。"
+msgstr "豪雨！路面が滑って足が止まらない。雨ガッパの電チャリは前が見えていない。"
+
+#: scripts/levels.gd:214
+msgid "写字楼"
+msgstr "オフィス"
+
+#: scripts/levels.gd:214
+msgid "银行"
+msgstr "銀行"
+
+#: scripts/levels.gd:214
+msgid "轻食"
+msgstr "軽食"
+
+#: scripts/levels.gd:214
+msgid "书店"
+msgstr "書店"
+
+#: scripts/levels.gd:214
+msgid "花店"
+msgstr "花屋"
+
+#: scripts/levels.gd:214
+msgid "西饼"
+msgstr "洋菓子"
+
+#: scripts/levels.gd:215
+msgid "珠江新城站"
+msgstr "珠江新城駅"
+
+#: scripts/levels.gd:221
+msgid "福田·车公庙"
+msgstr "福田・車公廟"
+
+#: scripts/levels.gd:222
+msgid "深夜加班回家，路灯昏暗，只能靠车灯判断电鸡在哪。"
+msgstr "残業帰りの深夜。街灯は薄暗く、電チャリの位置はライトだけが頼り。"
+
+#: scripts/levels.gd:224
+msgid "24h便利店"
+msgstr "24hコンビニ"
+
+#: scripts/levels.gd:224
+msgid "烧烤"
+msgstr "BBQ"
+
+#: scripts/levels.gd:224
+msgid "螺蛳粉"
+msgstr "タニシ麺"
+
+#: scripts/levels.gd:224
+msgid "网吧"
+msgstr "ネカフェ"
+
+#: scripts/levels.gd:224
+msgid "牛肉火锅"
+msgstr "牛肉火鍋"
+
+#: scripts/levels.gd:224
+msgid "夜宵"
+msgstr "夜食"
+
+#: scripts/levels.gd:225
+msgid "车公庙站"
+msgstr "車公廟駅"
+
+#: scripts/levels.gd:226
+msgid "天安路"
+msgstr "天安路"
+
+#: scripts/levels.gd:230
+msgid "天河·石牌村"
+msgstr "天河・石牌村"
+
+#: scripts/levels.gd:231
+msgid "城中村握手楼，巷子窄、停满电鸡，蛇形走位的特别多。"
+msgstr "城中村の「握手楼」。路地は狭く電チャリだらけで、蛇行運転がやたら多い。"
+
+#: scripts/levels.gd:234
+msgid "快递驿站"
+msgstr "荷物受取所"
+
+#: scripts/levels.gd:234
+msgid "理发"
+msgstr "理髪店"
+
+#: scripts/levels.gd:234
+msgid "手机维修"
+msgstr "スマホ修理"
+
+#: scripts/levels.gd:234
+msgid "炒粉"
+msgstr "焼きビーフン"
+
+#: scripts/levels.gd:235
+msgid "烤串"
+msgstr "串焼き"
+
+#: scripts/levels.gd:235
+msgid "水果"
+msgstr "果物"
+
+#: scripts/levels.gd:242
+msgid "南山·白石洲"
+msgstr "南山・白石洲"
+
+#: scripts/levels.gd:243
+msgid "城中村夜市开档，摊位占道，电鸡在灯影里乱窜。"
+msgstr "城中村の夜市が開店。屋台が道をふさぎ、電チャリが明かりの間を縦横無尽に走り回る。"
+
+#: scripts/levels.gd:246
+msgid "砂锅粥"
+msgstr "土鍋粥"
+
+#: scripts/levels.gd:246
+msgid "湘菜馆"
+msgstr "湖南料理"
+
+#: scripts/levels.gd:247
+msgid "烤生蚝"
+msgstr "焼き牡蠣"
+
+#: scripts/levels.gd:247
+msgid "臭豆腐"
+msgstr "臭豆腐"
+
+#: scripts/levels.gd:254
+msgid "白云·新市墟"
+msgstr "白雲・新市墟"
+
+#: scripts/levels.gd:255
+msgid "暴雨夜，又滑又黑，地铁口外排满了共享单车。"
+msgstr "豪雨の夜、滑るし暗い。地下鉄の出入口の外はシェアサイクルでぎっしり。"
+
+#: scripts/levels.gd:258
+msgid "烧腊"
+msgstr "焼味"
+
+#: scripts/levels.gd:258
+msgid "粥粉面"
+msgstr "粥・麺"
+
+#: scripts/levels.gd:258
+msgid "五金"
+msgstr "金物屋"
+
+#: scripts/levels.gd:258
+msgid "药店"
+msgstr "薬屋"
+
+#: scripts/levels.gd:258
+msgid "鞋店"
+msgstr "靴屋"
+
+#: scripts/levels.gd:259
+msgid "新市墟站"
+msgstr "新市墟駅"
+
+#: scripts/levels.gd:260
+msgid "新市西街"
+msgstr "新市西街"
+
+#: scripts/levels.gd:265
+msgid "龙华·民治"
+msgstr "龍華・民治"
+
+#: scripts/levels.gd:266
+msgid "终极晚高峰：三个红灯，急刹、拉货、外卖、成排电鸡全都来了。"
+msgstr "究極の夕方ラッシュ：赤信号が3つ、急ブレーキ・荷物運び・出前・連なる電チャリが全部やって来る。"
+
+#: scripts/levels.gd:268
+msgid "手机店"
+msgstr "スマホ店"
+
+#: scripts/levels.gd:268
+msgid "超市"
+msgstr "スーパー"
+
+#: scripts/levels.gd:268
+msgid "饺子馆"
+msgstr "餃子館"
+
+#: scripts/levels.gd:268
+msgid "烤鱼"
+msgstr "焼き魚"
+
+#: scripts/levels.gd:269
+msgid "煎饼"
+msgstr "煎餅果子"
+
+#: scripts/levels.gd:270
+msgid "民治站"
+msgstr "民治駅"
+
+#: scripts/levels.gd:271
+msgid "梅龙大道"
+msgstr "梅龍大道"

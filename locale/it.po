@@ -1,0 +1,1308 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: it\n"
+
+#: scripts/main.gd:29
+msgid "步行"
+msgstr "A piedi"
+
+#: scripts/main.gd:29
+msgid "骑车"
+msgstr "In bici"
+
+#: scripts/main.gd:29
+msgid "开车"
+msgstr "In auto"
+
+#: scripts/main.gd:314
+msgid "暴雨"
+msgstr "Nubifragio"
+
+#: scripts/main.gd:316
+msgid "夜间"
+msgstr "Notte"
+
+#: scripts/main.gd:319
+msgid "%s 限速%d"
+msgstr "%s, limite %d"
+
+#: scripts/main.gd:320
+msgid "%d 个路口"
+msgstr "Incroci: %d"
+
+#: scripts/main.gd:321
+msgid "%s · %s ｜ %s ｜ %s"
+msgstr "%s · %s | %s | %s"
+
+#: scripts/main.gd:343
+msgid "躲避电鸡"
+msgstr "Schiva le e-bike"
+
+#: scripts/main.gd:344
+msgid "Avoiding Electric Vehicles  ·  没有非机动车道的广深街头"
+msgstr "Avoiding Electric Vehicles  ·  Guangzhou e Shenzhen, senza piste ciclabili"
+
+#: scripts/main.gd:350
+msgid "出行方式："
+msgstr "Ti muovi:"
+
+#: scripts/main.gd:363
+msgid "无敌模式：创飞一切电鸡！"
+msgstr "Modalità Invincibile: spazza via ogni e-bike!"
+
+#: scripts/main.gd:397
+msgid "未通关"
+msgstr "Non superato"
+
+#: scripts/main.gd:399
+msgid "最佳 %s · %d 分"
+msgstr "Record %s · %d punti"
+
+#: scripts/main.gd:401
+msgid "无敌畅玩"
+msgstr "Gioco libero (invincibile)"
+
+#: scripts/main.gd:403
+msgid "第 %d 关 · %s\n%s\n%s"
+msgstr "Livello %d · %s\n%s\n%s"
+
+#: scripts/main.gd:403
+msgid "未解锁"
+msgstr "Bloccato"
+
+#: scripts/main.gd:411
+msgid "通关第 %d 关后解锁"
+msgstr "Supera il livello %d per sbloccarlo"
+
+#: scripts/main.gd:420
+msgid "无敌模式：不掉血、无视红灯，撞到的电鸡全部创飞；成绩不计入存档"
+msgstr "Modalità Invincibile: niente danni, semafori ignorati, ogni e-bike urtata vola via; i punteggi non vengono salvati"
+
+#: scripts/main.gd:425
+msgid "游戏规则"
+msgstr "Regole"
+
+#: scripts/main.gd:426
+msgid "退出游戏"
+msgstr "Esci"
+
+#: scripts/main.gd:431
+msgid "支持作者"
+msgstr "Sostieni l'autore"
+
+#: scripts/main.gd:436
+msgid "步行 / 骑车：WASD 移动 · 开车：W 加速 S 刹车 A/D 变道 · 空格闯红灯 · ESC 暂停 · F11 全屏"
+msgstr "A piedi / in bici: WASD per muoverti · In auto: W accelera S frena A/D cambia corsia · Spazio passa col rosso · ESC pausa · F11 schermo intero"
+
+#: scripts/main.gd:451
+msgid "[center][font_size=36][color=#ffd23f]游戏规则[/color][/font_size][/center]\n[color=#7CFC00]目标[/color]　步行 / 骑车：每关 60 秒，沿没有非机动车道的人行道往前走，被撞 3 次失败。\n[color=#7CFC00]开车[/color]　按每关真实路段的车道、限速、公交专用道设计：60 秒内开到目的地，W 加速 S 刹车 A/D 变道。\n[color=#7CFC00]操作[/color]　WASD / 方向键 / 手柄移动，空格闯红灯，ESC 暂停，F11 全屏。\n[color=#ffd23f]电鸡[/color]　迎面逆行、身后超车（[color=#ff5252]红三角 + 嘀嘀声[/color]预警）、蛇形、钻车缝、店门口 / 路边冲出、急刹后变路障。\n[color=#ffd23f]路障[/color]　地铁口、共享单车、停着的电鸡、石墩、摊位、违停车、施工围挡都是实心的，撞上要扣命。\n[color=#ffd23f]红绿灯[/color]　步行红灯时画面停下等绿灯；开车要自己刹停在停止线前。占用公交专用道会持续扣分。\n[color=#ff5252]闯红灯[/color]　步行在路缘前[color=#ffcc80]按住 ↑ 半秒或按空格[/color]硬闯，开车直接冲线：[color=#ff5252]扣当前分数 25%[/color]，在路口里[color=#ff5252]被车撞到直接 GAME OVER[/color]。\n[color=#00b8d4]得分[/color]　坚持越久 / 开得越远分越高，擦身而过 +50，通关每条剩余的命 +300。\n[color=#00b8d4]评级[/color]　S 零失误 · A 被撞 1 次 · B 通关 · C 失败。[color=#7CFC00]通关前一关才能解锁下一关[/color]，广州、深圳共 12 关。\n[color=#ff8a80]无敌模式[/color]　主页打开后不掉血、无视红灯，撞到的电鸡全部[color=#ffd23f]创飞[/color]（每只 +100），成绩不计入存档。"
+msgstr "[center][font_size=36][color=#ffd23f]Regole[/color][/font_size][/center]\n[color=#7CFC00]Obiettivo[/color]  A piedi / in bici: 60 secondi per livello, avanza sul marciapiede (niente piste ciclabili). 3 colpi e hai perso.\n[color=#7CFC00]In auto[/color]  Corsie, limiti e corsie bus ricalcano strade vere: arriva a destinazione in 60 secondi. W accelera, S frena, A/D cambia corsia.\n[color=#7CFC00]Comandi[/color]  WASD / frecce / gamepad per muoverti, Spazio per passare col rosso, ESC pausa, F11 schermo intero.\n[color=#ffd23f]E-bike[/color]  Contromano, sorpassi da dietro (avviso: [color=#ff5252]triangolo rosso + bip bip[/color]), zigzag, infilate tra le auto, sbucano da negozi e bordo strada, inchiodano e diventano ostacoli.\n[color=#ffd23f]Ostacoli[/color]  Ingressi metro, bici condivise, e-bike parcheggiate, paletti, bancarelle, auto in sosta vietata e cantieri sono solidi: urtarli costa una vita.\n[color=#ffd23f]Semafori[/color]  A piedi, col rosso la scena si ferma finché non torna verde; in auto devi fermarti tu prima della linea. Stare nella corsia bus toglie punti di continuo.\n[color=#ff5252]Passare col rosso[/color]  A piedi, sul bordo del marciapiede [color=#ffcc80]tieni premuto ↑ mezzo secondo o premi Spazio[/color]; in auto basta tirare dritto: [color=#ff5252]perdi il 25% dei punti[/color], e se nell'incrocio [color=#ff5252]ti investe un'auto è GAME OVER[/color].\n[color=#00b8d4]Punti[/color]  Più resisti / più strada fai, più punti: mancato incidente +50, ogni vita rimasta a fine livello +300.\n[color=#00b8d4]Valutazione[/color]  S zero errori · A 1 colpo · B superato · C fallito. [color=#7CFC00]Supera un livello per sbloccare il successivo[/color]: 12 livelli tra Guangzhou e Shenzhen.\n[color=#ff8a80]Modalità Invincibile[/color]  Si attiva dal menu: niente danni, semafori ignorati, ogni e-bike urtata [color=#ffd23f]vola via[/color] (+100 l'una). I punteggi non vengono salvati."
+
+#: scripts/main.gd:468
+msgid "喜欢这个游戏的话，可以请作者喝杯奶茶"
+msgstr "Se il gioco ti piace, offri un bubble tea all'autore"
+
+#: scripts/main.gd:470
+msgid "点击地址即可复制"
+msgstr "Clicca su un indirizzo per copiarlo"
+
+#: scripts/main.gd:481
+msgid "已复制 %s：%s"
+msgstr "Copiato %s: %s"
+
+#: scripts/main.gd:488
+msgid "返回菜单"
+msgstr "Torna al menu"
+
+#: scripts/main.gd:508
+msgid "明白了，开始！"
+msgstr "Capito, si parte!"
+
+#: scripts/main.gd:554
+msgid "准时到达！%s"
+msgstr "Arrivato in tempo! %s"
+
+#: scripts/main.gd:554
+msgid "成功穿越 %s！"
+msgstr "Hai attraversato %s!"
+
+#: scripts/main.gd:556
+msgid "闯红灯被车撞了，GAME OVER"
+msgstr "Investito passando col rosso, GAME OVER"
+
+#: scripts/main.gd:558
+msgid "迟到了！60 秒没开到目的地"
+msgstr "In ritardo! Non sei arrivato in 60 secondi"
+
+#: scripts/main.gd:560
+msgid "撞车太多次，今天别开了……"
+msgstr "Troppi incidenti, oggi lascia stare l'auto…"
+
+#: scripts/main.gd:560
+msgid "你被电鸡创飞了……"
+msgstr "Le e-bike ti hanno steso…"
+
+#: scripts/main.gd:562
+msgid "现实可能比游戏更残酷。"
+msgstr "La realtà può essere peggio del gioco."
+
+#: scripts/main.gd:563
+msgid "评级  %s"
+msgstr "Valutazione  %s"
+
+#: scripts/main.gd:565
+msgid "行驶  %d / %d 米      用时  %.1f 秒      等红灯  %.1f 秒"
+msgstr "Percorsi  %d / %d m      Tempo  %.1f s      Al rosso  %.1f s"
+
+#: scripts/main.gd:566
+msgid "擦身而过  %d 次      撞车  %d 次      闯红灯  %d 次      公交道扣分  %d"
+msgstr "Mancati incidenti  %d      Scontri  %d      Rossi bruciati  %d      Penalità corsia bus  %d"
+
+#: scripts/main.gd:568
+msgid "坚持时间  %.1f 秒      等红灯  %.1f 秒"
+msgstr "Resistito  %.1f s      Al rosso  %.1f s"
+
+#: scripts/main.gd:569
+msgid "擦身而过  %d 次      被撞  %d 次      闯红灯  %d 次"
+msgstr "Mancati incidenti  %d      Colpito  %d volte      Rossi bruciati  %d"
+
+#: scripts/main.gd:571
+msgid "创飞电鸡  %d 只！"
+msgstr "E-bike spazzate via: %d!"
+
+#: scripts/main.gd:572
+msgid "总得分  %d"
+msgstr "Punteggio totale  %d"
+
+#: scripts/main.gd:574
+msgid "（无敌模式成绩不计入存档）"
+msgstr "(Modalità Invincibile: punteggio non salvato)"
+
+#: scripts/main.gd:577
+msgid "解锁新关卡：%s · %s"
+msgstr "Nuovo livello sbloccato: %s · %s"
+
+#: scripts/main.gd:579
+msgid "再来一次  Retry"
+msgstr "Riprova  Retry"
+
+#: scripts/main.gd:583
+msgid "下一关：%s · %s"
+msgstr "Prossimo livello: %s · %s"
+
+#: scripts/main.gd:592
+msgid "换成%s"
+msgstr "Cambia: %s"
+
+#: scripts/main.gd:596
+msgid "返回菜单  Menu"
+msgstr "Torna al menu  Menu"
+
+#: scripts/game.gd:19
+msgid "哎哟！"
+msgstr "Ahia!"
+
+#: scripts/game.gd:19
+msgid "被电鸡创了！"
+msgstr "Stirato da un'e-bike!"
+
+#: scripts/game.gd:19
+msgid "看路啊靓仔！"
+msgstr "Guarda dove vai, bello!"
+
+#: scripts/game.gd:19
+msgid "赶着送外卖啊？"
+msgstr "Hai una consegna urgente?"
+
+#: scripts/game.gd:19
+msgid "我的腰……"
+msgstr "La mia schiena…"
+
+#: scripts/game.gd:20
+msgid "险！"
+msgstr "Uff!"
+
+#: scripts/game.gd:20
+msgid "好险！"
+msgstr "Per un pelo!"
+
+#: scripts/game.gd:20
+msgid "擦身而过！"
+msgstr "Mancato!"
+
+#: scripts/game.gd:20
+msgid "丝滑！"
+msgstr "Liscio!"
+
+#: scripts/game.gd:21
+msgid "嘀嘀！"
+msgstr "Bip bip!"
+
+#: scripts/game.gd:21
+msgid "让一让！"
+msgstr "Permesso!"
+
+#: scripts/game.gd:21
+msgid "借过借过！"
+msgstr "Largo, largo!"
+
+#: scripts/game.gd:21
+msgid "嘀——"
+msgstr "Biiip—"
+
+#: scripts/game.gd:22
+msgid "被绊倒了！"
+msgstr "Inciampato!"
+
+#: scripts/game.gd:22
+msgid "挤不过去了！"
+msgstr "Non si passa!"
+
+#: scripts/game.gd:22
+msgid "谁乱停的车！"
+msgstr "Chi ha parcheggiato qui?!"
+
+#: scripts/game.gd:23
+msgid "闯红灯！"
+msgstr "Passa col rosso!"
+
+#: scripts/game.gd:23
+msgid "红灯也冲！"
+msgstr "Rosso? Chissene!"
+
+#: scripts/game.gd:23
+msgid "赶时间！"
+msgstr "Vado di fretta!"
+
+#: scripts/game.gd:24
+msgid "创飞！"
+msgstr "Strike!"
+
+#: scripts/game.gd:24
+msgid "飞咯～"
+msgstr "Si vola~"
+
+#: scripts/game.gd:24
+msgid "再见了您嘞！"
+msgstr "Arrivederci e grazie!"
+
+#: scripts/game.gd:24
+msgid "起飞！"
+msgstr "Decollo!"
+
+#: scripts/game.gd:24
+msgid "一路走好！"
+msgstr "Buon viaggio!"
+
+#: scripts/game.gd:25
+msgid "急刹！"
+msgstr "Inchiodata!"
+
+#: scripts/game.gd:25
+msgid "到了到了！"
+msgstr "Arrivato, arrivato!"
+
+#: scripts/game.gd:25
+msgid "送个外卖先"
+msgstr "Prima la consegna"
+
+#: scripts/game.gd:38
+msgid "撞到人了！"
+msgstr "Hai preso qualcuno!"
+
+#: scripts/game.gd:38
+msgid "对不起对不起！"
+msgstr "Scusa, scusa!"
+
+#: scripts/game.gd:38
+msgid "看路啊！"
+msgstr "Guarda la strada!"
+
+#: scripts/game.gd:38
+msgid "哎哟喂！"
+msgstr "Ahi ahi ahi!"
+
+#: scripts/game.gd:495
+msgid "绿灯！走！"
+msgstr "Verde! Via!"
+
+#: scripts/game.gd:500
+msgid "冲！"
+msgstr "Vai!"
+
+#: scripts/game.gd:507
+msgid "横街"
+msgstr "Traversa"
+
+#: scripts/game.gd:623
+msgid "无敌！红灯算什么"
+msgstr "Invincibile! Altro che rosso"
+
+#: scripts/game.gd:628
+msgid "闯红灯！-%d 分"
+msgstr "Rosso bruciato! -%d punti"
+
+#: scripts/game.gd:629
+msgid "被车撞到直接 GAME OVER！"
+msgstr "Se ti investono è GAME OVER!"
+
+#: scripts/game.gd:642
+msgid "（无敌）被车撞了"
+msgstr "(Invincibile) Investito"
+
+#: scripts/game.gd:649
+msgid "闯红灯被车撞了！"
+msgstr "Investito col rosso!"
+
+#: scripts/game.gd:765
+msgid "冲出来了！"
+msgstr "Sbuca fuori!"
+
+#: scripts/game.gd:837
+msgid "等灯咯"
+msgstr "Si aspetta il verde"
+
+#: scripts/game.gd:918
+msgid "低头看手机…"
+msgstr "Occhi sul telefono…"
+
+#: scripts/game.gd:1073
+msgid "成功通关！"
+msgstr "Livello superato!"
+
+#: scripts/game.gd:1102
+msgid "%d 连创飞！+100"
+msgstr "Combo x%d! +100"
+
+#: scripts/game.gd:1206
+msgid "小吃"
+msgstr "Snack"
+
+#: scripts/game.gd:1475
+msgid "便利店"
+msgstr "Minimarket"
+
+#: scripts/game.gd:1723
+msgid "地铁"
+msgstr "Metro"
+
+#: scripts/game.gd:1758
+msgid "你"
+msgstr "Tu"
+
+#: scripts/game.gd:1768
+msgid "店门口冲出！"
+msgstr "Sbuca dal negozio!"
+
+#: scripts/game.gd:1772
+msgid "后方来车！嘀嘀！"
+msgstr "Da dietro! Bip bip!"
+
+#: scripts/game.gd:1784
+msgid "步行模式"
+msgstr "Modalità a piedi"
+
+#: scripts/game.gd:1784
+msgid "骑车模式"
+msgstr "Modalità bici"
+
+#: scripts/game.gd:1790
+msgid "无敌（已创飞 %d）"
+msgstr "Invincibile (%d spazzate)"
+
+#: scripts/game.gd:1791
+msgid "ESC 暂停"
+msgstr "ESC pausa"
+
+#: scripts/game.gd:1801
+msgid "得分 %d"
+msgstr "Punti %d"
+
+#: scripts/game.gd:1809
+msgid "停"
+msgstr "Alt"
+
+#: scripts/game.gd:1809
+msgid "行"
+msgstr "Vai"
+
+#: scripts/game.gd:1810
+msgid "红灯"
+msgstr "Rosso"
+
+#: scripts/game.gd:1810
+msgid "绿灯"
+msgstr "Verde"
+
+#: scripts/game.gd:1812
+msgid "红灯 %d"
+msgstr "Rosso %d"
+
+#: scripts/game.gd:1817
+msgid "闯红灯中！小心车！"
+msgstr "Col rosso! Occhio alle auto!"
+
+#: scripts/game.gd:1820
+msgid "按住 ↑ 或 空格 闯红灯（扣 25% 分）"
+msgstr "Tieni ↑ o Spazio per passare col rosso (-25% punti)"
+
+#: scripts/game.gd:1825
+msgid "红灯 · 等一等  %d 秒"
+msgstr "Rosso · aspetta  %d s"
+
+#: scripts/game.gd:1825
+msgid "红灯 · 等一等…"
+msgstr "Rosso · aspetta…"
+
+#: scripts/game.gd:1837
+msgid "WASD / 方向键 移动，躲开电鸡和路障，遇红灯要停"
+msgstr "WASD / frecce per muoverti: schiva e-bike e ostacoli, fermati col rosso"
+
+#: scripts/game.gd:1839
+msgid "出发！"
+msgstr "Si parte!"
+
+#: scripts/game.gd:1843
+msgid "暂停"
+msgstr "Pausa"
+
+#: scripts/game.gd:1844
+msgid "ESC 继续    Q 返回菜单"
+msgstr "ESC riprendi    Q torna al menu"
+
+#: scripts/drive.gd:29
+msgid "撞到电鸡了！"
+msgstr "Hai preso un'e-bike!"
+
+#: scripts/drive.gd:29
+msgid "电鸡倒地了…"
+msgstr "E-bike a terra…"
+
+#: scripts/drive.gd:29
+msgid "全责警告！"
+msgstr "Colpa tutta tua!"
+
+#: scripts/drive.gd:29
+msgid "下车看看人没事吧"
+msgstr "Scendi a vedere se sta bene"
+
+#: scripts/drive.gd:30
+msgid "追尾了！"
+msgstr "Tamponamento!"
+
+#: scripts/drive.gd:30
+msgid "刮到车了！"
+msgstr "Strisciata!"
+
+#: scripts/drive.gd:30
+msgid "保险要涨了…"
+msgstr "Addio classe di merito…"
+
+#: scripts/drive.gd:31
+msgid "逆行！"
+msgstr "Contromano!"
+
+#: scripts/drive.gd:99
+msgid "路口"
+msgstr "Incrocio"
+
+#: scripts/drive.gd:269
+msgid "借道绕行，不扣分"
+msgstr "Deviazione: niente penalità"
+
+#: scripts/drive.gd:273
+msgid "占用公交专用道 -15"
+msgstr "Corsia bus -15"
+
+#: scripts/drive.gd:297
+msgid "被横街的车撞到直接 GAME OVER！"
+msgstr "Se ti centra chi incrocia è GAME OVER!"
+
+#: scripts/drive.gd:318
+msgid "撞到行人了！全责！"
+msgstr "Pedone investito! Colpa tua!"
+
+#: scripts/drive.gd:363
+msgid "电鸡扶起车溜了"
+msgstr "L'e-bike si rialza e scappa"
+
+#: scripts/drive.gd:501
+msgid "进站"
+msgstr "In fermata"
+
+#: scripts/drive.gd:501
+msgid "上下客"
+msgstr "Carico passeggeri"
+
+#: scripts/drive.gd:501
+msgid "急刹！送外卖"
+msgstr "Inchiodata! Consegna"
+
+#: scripts/drive.gd:914
+msgid "嘀嘀！借过"
+msgstr "Bip bip! Permesso"
+
+#: scripts/drive.gd:991
+msgid "横穿马路！"
+msgstr "Attraversa fuori strisce!"
+
+#: scripts/drive.gd:1122
+msgid "准时到达！"
+msgstr "In orario!"
+
+#: scripts/drive.gd:1126
+msgid "迟到了！"
+msgstr "In ritardo!"
+
+#: scripts/drive.gd:1205
+msgid "辅道"
+msgstr "Complanare"
+
+#: scripts/drive.gd:1212
+msgid "非机动车"
+msgstr "Ciclabile"
+
+#: scripts/drive.gd:1228
+msgid "公交专用"
+msgstr "Solo bus"
+
+#: scripts/drive.gd:1258
+msgid "深南大道主路"
+msgstr "Viale Shennan"
+
+#: scripts/drive.gd:1351
+msgid "深圳"
+msgstr "Shenzhen"
+
+#: scripts/drive.gd:1355
+msgid "公交"
+msgstr "BUS"
+
+#: scripts/drive.gd:1369
+msgid "前方施工"
+msgstr "Cantiere"
+
+#: scripts/drive.gd:1376
+msgid "！"
+msgstr "!"
+
+#: scripts/drive.gd:1392
+msgid "机场高速高架"
+msgstr "Sopraelevata aeroporto"
+
+#: scripts/drive.gd:1415
+msgid "有人横穿马路！"
+msgstr "Pedone in mezzo!"
+
+#: scripts/drive.gd:1415
+msgid "路边冲出！"
+msgstr "Sbuca dal bordo!"
+
+#: scripts/drive.gd:1420
+msgid "%s · %s（开车）"
+msgstr "%s · %s (in auto)"
+
+#: scripts/drive.gd:1421
+msgid "限速 %d"
+msgstr "Limite %d"
+
+#: scripts/drive.gd:1428
+msgid "W 加速  S 刹车  A/D 变道  ESC 暂停"
+msgstr "W accelera  S frena  A/D corsia  ESC pausa"
+
+#: scripts/drive.gd:1446
+msgid "剩余"
+msgstr "Mancano"
+
+#: scripts/drive.gd:1450
+msgid "借道公交专用道绕过路障（不扣分）"
+msgstr "Corsia bus per evitare l'ostacolo (nessuna penalità)"
+
+#: scripts/drive.gd:1452
+msgid "正在占用公交专用道！"
+msgstr "Sei nella corsia bus!"
+
+#: scripts/drive.gd:1463
+msgid "黄灯"
+msgstr "Giallo"
+
+#: scripts/drive.gd:1475
+msgid "60 秒内开到 %d 米外的目的地 · 限速 %d"
+msgstr "Raggiungi la meta a %d m in 60 secondi · limite %d"
+
+#: scripts/drive.gd:1478
+msgid "W 加速  S 刹车  A/D 变道 · 红灯要自己停车"
+msgstr "W accelera  S frena  A/D corsia · col rosso fermati tu"
+
+#: scripts/levels.gd:36
+msgid "体育西路"
+msgstr "Via Tiyu Ovest"
+
+#: scripts/levels.gd:36
+msgid "双向6车道、车流极大，天河城门口出租车上下客，外卖电鸡贴边逆行。"
+msgstr "6 corsie, traffico enorme, taxi che caricano davanti al Tianhe City e rider in e-bike contromano lungo il bordo."
+
+#: scripts/levels.gd:38
+msgid "天河南一路"
+msgstr "Via Tianhe Sud 1"
+
+#: scripts/levels.gd:38
+msgid "天河路"
+msgstr "Via Tianhe"
+
+#: scripts/levels.gd:46
+msgid "振华路（单行）"
+msgstr "Via Zhenhua (senso unico)"
+
+#: scripts/levels.gd:46
+msgid "华强北路是步行街开不进去，走振华路：由西向东单行，右边有电动车道，可电鸡偏要跑进机动车道。"
+msgstr "Huaqiang Nord è pedonale, quindi si passa da Via Zhenhua: senso unico verso est, con corsia per e-bike a destra. Ma le e-bike vogliono stare tra le auto."
+
+#: scripts/levels.gd:48
+msgid "燕南路"
+msgstr "Via Yannan"
+
+#: scripts/levels.gd:48
+msgid "华发北路"
+msgstr "Via Huafa Nord"
+
+#: scripts/levels.gd:56
+msgid "中山五路"
+msgstr "Via Zhongshan 5"
+
+#: scripts/levels.gd:56
+msgid "北京路步行街开不进去，走中山五路：双向4车道（估），晚高峰最右是公交专用道，公交车一辆接一辆进站。"
+msgstr "Via Beijing è pedonale, quindi si passa da Via Zhongshan 5: 4 corsie (stima), all'ora di punta la corsia di destra è riservata ai bus, che si fermano uno dopo l'altro."
+
+#: scripts/levels.gd:58
+msgid "北京路口"
+msgstr "Inc. Beijing"
+
+#: scripts/levels.gd:58
+msgid "吉祥路口"
+msgstr "Inc. Jixiang"
+
+#: scripts/levels.gd:66
+msgid "科苑路"
+msgstr "Via Keyuan"
+
+#: scripts/levels.gd:66
+msgid "午高峰科苑路排长龙，外卖电鸡在车缝里钻；路口做了绿波，保持约40km/h能一路绿灯。"
+msgstr "A pranzo Via Keyuan è una coda infinita e i rider in e-bike si infilano tra le auto; c'è l'onda verde: a circa 40km/h trovi tutti verdi."
+
+#: scripts/levels.gd:68
+msgid "高新中一道"
+msgstr "Gaoxin Centro 1"
+
+#: scripts/levels.gd:68
+msgid "高新南一道"
+msgstr "Gaoxin Sud 1"
+
+#: scripts/levels.gd:68
+msgid "高新南四道"
+msgstr "Gaoxin Sud 4"
+
+#: scripts/levels.gd:75
+msgid "新港中路"
+msgstr "Via Xingang Centro"
+
+#: scripts/levels.gd:75
+msgid "海珠主干道限速60，最右是公交专用道，客村一带公交车密集进站。"
+msgstr "Arteria di Haizhu con limite 60, corsia bus a destra; intorno a Kecun i bus si fermano a raffica."
+
+#: scripts/levels.gd:77
+msgid "新市头路"
+msgstr "Via Xinshitou"
+
+#: scripts/levels.gd:77
+msgid "艺苑路"
+msgstr "Via Yiyuan"
+
+#: scripts/levels.gd:84
+msgid "东门中路"
+msgstr "Via Dongmen Centro"
+
+#: scripts/levels.gd:84
+msgid "双向7车道，可两边各2条是公交专用道，社会车只能挤在中间；商铺门口电鸡说冲就冲。"
+msgstr "7 corsie, ma 2 per lato sono riservate ai bus e le auto si stringono al centro; dai negozi le e-bike sbucano senza preavviso."
+
+#: scripts/levels.gd:86
+msgid "解放路"
+msgstr "Via Jiefang"
+
+#: scripts/levels.gd:86
+msgid "晒布路"
+msgstr "Via Shaibu"
+
+#: scripts/levels.gd:93
+msgid "花城大道"
+msgstr "Viale Huacheng"
+
+#: scripts/levels.gd:93
+msgid "双向10车道又宽又快，暴雨天视线差、路面滑，刹车距离明显变长。"
+msgstr "10 corsie larghe e veloci; col nubifragio si vede poco, l'asfalto è viscido e lo spazio di frenata si allunga parecchio."
+
+#: scripts/levels.gd:95
+msgid "冼村路"
+msgstr "Via Xiancun"
+
+#: scripts/levels.gd:95
+msgid "猎德大道"
+msgstr "Viale Liede"
+
+#: scripts/levels.gd:102
+msgid "深南大道"
+msgstr "Viale Shennan"
+
+#: scripts/levels.gd:102
+msgid "深南大道主路双向8车道、两边辅道，深夜车速快，电鸡从辅道横穿绿化带开口冲进主路。"
+msgstr "Viale Shennan: 8 corsie più complanari ai lati; di notte si corre e le e-bike sbucano dalle complanari attraverso i varchi nelle aiuole."
+
+#: scripts/levels.gd:104
+msgid "泰然九路"
+msgstr "Via Tairan 9"
+
+#: scripts/levels.gd:104
+msgid "香梅路"
+msgstr "Via Xiangmei"
+
+#: scripts/levels.gd:111
+msgid "石牌东路"
+msgstr "Via Shipai Est"
+
+#: scripts/levels.gd:111
+msgid "贴着石牌村，村巷口随时冲出电鸡，路边违停一辆接一辆。"
+msgstr "Costeggia il villaggio di Shipai: dai vicoli sbucano e-bike in ogni momento e le auto in sosta vietata sono in fila."
+
+#: scripts/levels.gd:113
+msgid "新陶北街"
+msgstr "Via Xintao Nord"
+
+#: scripts/levels.gd:113
+msgid "新陶南街"
+msgstr "Via Xintao Sud"
+
+#: scripts/levels.gd:120
+msgid "深南大道辅道"
+msgstr "Complanare Shennan"
+
+#: scripts/levels.gd:120
+msgid "深南辅道白石洲段，左边绿化带外是主路；公交站一个接一个，城中村电鸡从沙河街口一窝蜂冲出。"
+msgstr "Complanare di Shennan a Baishizhou, con la strada principale oltre l'aiuola a sinistra; fermate bus a raffica e sciami di e-bike dal villaggio urbano che escono da Via Shahe."
+
+#: scripts/levels.gd:122
+msgid "沙河街"
+msgstr "Via Shahe"
+
+#: scripts/levels.gd:122
+msgid "石洲中路"
+msgstr "Via Shizhou Centro"
+
+#: scripts/levels.gd:129
+msgid "机场路"
+msgstr "Via Jichang"
+
+#: scripts/levels.gd:129
+msgid "头顶是机场高速高架，桥墩挡住视线，暴雨夜路面反光，看不清贴边逆行的电鸡。"
+msgstr "Sopra c'è la sopraelevata per l'aeroporto, i piloni coprono la visuale e nella notte di pioggia l'asfalto riflette: le e-bike contromano lungo il bordo non si vedono."
+
+#: scripts/levels.gd:131
+msgid "齐富路"
+msgstr "Via Qifu"
+
+#: scripts/levels.gd:131
+msgid "汇侨南路"
+msgstr "Via Huiqiao Sud"
+
+#: scripts/levels.gd:138
+msgid "民治大道"
+msgstr "Viale Minzhi"
+
+#: scripts/levels.gd:138
+msgid "双向6车道挤在24米宽的路上，限速40，晚高峰三个红灯，急刹、拉货、钻缝电鸡全都来了。"
+msgstr "6 corsie stipate in 24 metri, limite 40, tre semafori all'ora di punta serale: e-bike che inchiodano, trasportano merci o si infilano ovunque."
+
+#: scripts/levels.gd:140
+msgid "人民路"
+msgstr "Via Renmin"
+
+#: scripts/levels.gd:140
+msgid "梅龙路"
+msgstr "Via Meilong"
+
+#: scripts/levels.gd:140
+msgid "工业路"
+msgstr "Via Gongye"
+
+#: scripts/levels.gd:149
+msgid "广州"
+msgstr "Guangzhou"
+
+#: scripts/levels.gd:149
+msgid "天河·体育西路"
+msgstr "Tianhe · Via Tiyu Ovest"
+
+#: scripts/levels.gd:150
+msgid "新手关：体育西路地铁站外，迎面逆行的电鸡最多。"
+msgstr "Livello per principianti: fuori dalla metro di Tiyu Ovest, piena di e-bike contromano."
+
+#: scripts/levels.gd:152
+msgid "肠粉"
+msgstr "Cheung fun"
+
+#: scripts/levels.gd:152
+msgid "云吞面"
+msgstr "Wonton"
+
+#: scripts/levels.gd:152
+msgid "凉茶铺"
+msgstr "Erboristeria"
+
+#: scripts/levels.gd:152
+msgid "糖水"
+msgstr "Zuppe dolci"
+
+#: scripts/levels.gd:152
+msgid "烧腊饭"
+msgstr "Riso arrosto"
+
+#: scripts/levels.gd:152
+msgid "早茶"
+msgstr "Dim sum"
+
+#: scripts/levels.gd:152
+msgid "猪脚饭"
+msgstr "Zampetto"
+
+#: scripts/levels.gd:152
+msgid "士多"
+msgstr "Alimentari"
+
+#: scripts/levels.gd:153
+msgid "体育西路站"
+msgstr "Tiyu Ovest"
+
+#: scripts/levels.gd:158
+msgid "福田·华强北"
+msgstr "Futian · Huaqiang Nord"
+
+#: scripts/levels.gd:159
+msgid "电子市场门口，拉货的电鸡纸箱堆得比人还高。"
+msgstr "Davanti al mercato dell'elettronica, le e-bike da carico hanno pile di scatoloni più alte di una persona."
+
+#: scripts/levels.gd:161
+msgid "手机配件"
+msgstr "Cover e cavi"
+
+#: scripts/levels.gd:161
+msgid "电子市场"
+msgstr "Elettronica"
+
+#: scripts/levels.gd:161
+msgid "数码维修"
+msgstr "Riparazioni"
+
+#: scripts/levels.gd:161
+msgid "充电宝"
+msgstr "Powerbank"
+
+#: scripts/levels.gd:161
+msgid "奶茶"
+msgstr "Bubble tea"
+
+#: scripts/levels.gd:161
+msgid "潮汕牛肉"
+msgstr "Manzo Chaoshan"
+
+#: scripts/levels.gd:161
+msgid "无人机"
+msgstr "Droni"
+
+#: scripts/levels.gd:162
+msgid "华强北站"
+msgstr "Huaqiang Nord"
+
+#: scripts/levels.gd:163
+msgid "振华路"
+msgstr "Via Zhenhua"
+
+#: scripts/levels.gd:163
+msgid "红荔路"
+msgstr "Via Hongli"
+
+#: scripts/levels.gd:167
+msgid "越秀·北京路"
+msgstr "Yuexiu · Via Beijing"
+
+#: scripts/levels.gd:168
+msgid "骑楼老街人行道窄，糖水档、石墩挡路，要在缝里穿。"
+msgstr "Vecchia via porticata (qilou) dal marciapiede stretto: banchi di dolci e paletti ovunque, devi passare negli spiragli."
+
+#: scripts/levels.gd:170
+msgid "双皮奶"
+msgstr "Budino latte"
+
+#: scripts/levels.gd:170
+msgid "牛杂"
+msgstr "Trippa"
+
+#: scripts/levels.gd:170
+msgid "姜撞奶"
+msgstr "Latte zenzero"
+
+#: scripts/levels.gd:170
+msgid "老字号"
+msgstr "Antica ditta"
+
+#: scripts/levels.gd:170
+msgid "凉茶"
+msgstr "Tisane"
+
+#: scripts/levels.gd:170
+msgid "鸡仔饼"
+msgstr "Biscotti"
+
+#: scripts/levels.gd:170
+msgid "手信"
+msgstr "Souvenir"
+
+#: scripts/levels.gd:171
+msgid "鸡蛋仔"
+msgstr "Waffle"
+
+#: scripts/levels.gd:171
+msgid "烤肠"
+msgstr "Salsicce"
+
+#: scripts/levels.gd:172
+msgid "公园前站"
+msgstr "Gongyuanqian"
+
+#: scripts/levels.gd:173
+msgid "文明路"
+msgstr "Via Wenming"
+
+#: scripts/levels.gd:178
+msgid "南山·科技园"
+msgstr "Nanshan · Parco Scientifico"
+
+#: scripts/levels.gd:179
+msgid "午饭外卖高峰！身后嘀嘀声不断，红灯时电鸡全挤在你身边。"
+msgstr "Ora di punta delle consegne a pranzo! Bip bip continui alle spalle e, col rosso, tutte le e-bike ti si stringono addosso."
+
+#: scripts/levels.gd:181
+msgid "咖啡"
+msgstr "Caffè"
+
+#: scripts/levels.gd:181
+msgid "轻食沙拉"
+msgstr "Insalate"
+
+#: scripts/levels.gd:181
+msgid "麻辣烫"
+msgstr "Malatang"
+
+#: scripts/levels.gd:181
+msgid "快餐"
+msgstr "Fast food"
+
+#: scripts/levels.gd:181
+msgid "煲仔饭"
+msgstr "Riso coccio"
+
+#: scripts/levels.gd:181
+msgid "黄焖鸡"
+msgstr "Pollo brasato"
+
+#: scripts/levels.gd:182
+msgid "高新园站"
+msgstr "Gaoxinyuan"
+
+#: scripts/levels.gd:188
+msgid "海珠·客村"
+msgstr "Haizhu · Kecun"
+
+#: scripts/levels.gd:189
+msgid "换乘站口一个接一个，门口的共享单车堆成山。"
+msgstr "Un ingresso della metro dopo l'altro, con montagne di bici condivise davanti."
+
+#: scripts/levels.gd:191
+msgid "沙县小吃"
+msgstr "Shaxian"
+
+#: scripts/levels.gd:191
+msgid "水果店"
+msgstr "Fruttivendolo"
+
+#: scripts/levels.gd:191
+msgid "药房"
+msgstr "Farmacia"
+
+#: scripts/levels.gd:191
+msgid "粉面"
+msgstr "Noodles"
+
+#: scripts/levels.gd:191
+msgid "快递点"
+msgstr "Punto pacchi"
+
+#: scripts/levels.gd:192
+msgid "客村站"
+msgstr "Kecun"
+
+#: scripts/levels.gd:198
+msgid "罗湖·东门"
+msgstr "Luohu · Dongmen"
+
+#: scripts/levels.gd:199
+msgid "老商圈店铺密，电鸡随时从店门口冲出来。"
+msgstr "Vecchio quartiere commerciale fitto di negozi: le e-bike sbucano dalle porte in ogni momento."
+
+#: scripts/levels.gd:201
+msgid "服装城"
+msgstr "Moda"
+
+#: scripts/levels.gd:201
+msgid "鞋城"
+msgstr "Scarpe"
+
+#: scripts/levels.gd:201
+msgid "烧鹅"
+msgstr "Oca arrosto"
+
+#: scripts/levels.gd:201
+msgid "茶餐厅"
+msgstr "Tavola calda"
+
+#: scripts/levels.gd:201
+msgid "眼镜"
+msgstr "Ottica"
+
+#: scripts/levels.gd:201
+msgid "金铺"
+msgstr "Oreficeria"
+
+#: scripts/levels.gd:202
+msgid "炸串"
+msgstr "Fritti"
+
+#: scripts/levels.gd:202
+msgid "糖葫芦"
+msgstr "Tanghulu"
+
+#: scripts/levels.gd:202
+msgid "炒冰"
+msgstr "Granita"
+
+#: scripts/levels.gd:203
+msgid "老街站"
+msgstr "Laojie"
+
+#: scripts/levels.gd:204
+msgid "新园路"
+msgstr "Via Xinyuan"
+
+#: scripts/levels.gd:210
+msgid "珠江新城·花城大道"
+msgstr "Zhujiang · Viale Huacheng"
+
+#: scripts/levels.gd:211
+msgid "暴雨天！地面湿滑刹不住脚，穿雨披的电鸡看不清路。"
+msgstr "Nubifragio! Si scivola e non si frena, e le e-bike con la mantella non vedono la strada."
+
+#: scripts/levels.gd:214
+msgid "写字楼"
+msgstr "Uffici"
+
+#: scripts/levels.gd:214
+msgid "银行"
+msgstr "Banca"
+
+#: scripts/levels.gd:214
+msgid "轻食"
+msgstr "Bistrot"
+
+#: scripts/levels.gd:214
+msgid "书店"
+msgstr "Libreria"
+
+#: scripts/levels.gd:214
+msgid "花店"
+msgstr "Fioraio"
+
+#: scripts/levels.gd:214
+msgid "西饼"
+msgstr "Pasticceria"
+
+#: scripts/levels.gd:215
+msgid "珠江新城站"
+msgstr "Zhujiang"
+
+#: scripts/levels.gd:221
+msgid "福田·车公庙"
+msgstr "Futian · Chegongmiao"
+
+#: scripts/levels.gd:222
+msgid "深夜加班回家，路灯昏暗，只能靠车灯判断电鸡在哪。"
+msgstr "Ritorno a casa a notte fonda dopo gli straordinari: lampioni fiochi, le e-bike le vedi solo dai fari."
+
+#: scripts/levels.gd:224
+msgid "24h便利店"
+msgstr "Market 24h"
+
+#: scripts/levels.gd:224
+msgid "烧烤"
+msgstr "Grigliate"
+
+#: scripts/levels.gd:224
+msgid "螺蛳粉"
+msgstr "Luosifen"
+
+#: scripts/levels.gd:224
+msgid "网吧"
+msgstr "Cyber café"
+
+#: scripts/levels.gd:224
+msgid "牛肉火锅"
+msgstr "Hotpot manzo"
+
+#: scripts/levels.gd:224
+msgid "夜宵"
+msgstr "Fuori orario"
+
+#: scripts/levels.gd:225
+msgid "车公庙站"
+msgstr "Chegongmiao"
+
+#: scripts/levels.gd:226
+msgid "天安路"
+msgstr "Via Tian'an"
+
+#: scripts/levels.gd:230
+msgid "天河·石牌村"
+msgstr "Tianhe · Villaggio Shipai"
+
+#: scripts/levels.gd:231
+msgid "城中村握手楼，巷子窄、停满电鸡，蛇形走位的特别多。"
+msgstr "Villaggio urbano di palazzi attaccati: vicoli stretti, pieni di e-bike parcheggiate e di altre che zigzagano."
+
+#: scripts/levels.gd:234
+msgid "快递驿站"
+msgstr "Punto ritiro"
+
+#: scripts/levels.gd:234
+msgid "理发"
+msgstr "Barbiere"
+
+#: scripts/levels.gd:234
+msgid "手机维修"
+msgstr "Ripara cell"
+
+#: scripts/levels.gd:234
+msgid "炒粉"
+msgstr "Noodle wok"
+
+#: scripts/levels.gd:235
+msgid "烤串"
+msgstr "Spiedini"
+
+#: scripts/levels.gd:235
+msgid "水果"
+msgstr "Frutta"
+
+#: scripts/levels.gd:242
+msgid "南山·白石洲"
+msgstr "Nanshan · Baishizhou"
+
+#: scripts/levels.gd:243
+msgid "城中村夜市开档，摊位占道，电鸡在灯影里乱窜。"
+msgstr "Apre il mercato notturno del villaggio urbano: bancarelle sul marciapiede ed e-bike che sfrecciano tra luci e ombre."
+
+#: scripts/levels.gd:246
+msgid "砂锅粥"
+msgstr "Zuppa di riso"
+
+#: scripts/levels.gd:246
+msgid "湘菜馆"
+msgstr "Cucina Hunan"
+
+#: scripts/levels.gd:247
+msgid "烤生蚝"
+msgstr "Ostriche"
+
+#: scripts/levels.gd:247
+msgid "臭豆腐"
+msgstr "Tofu puzzone"
+
+#: scripts/levels.gd:254
+msgid "白云·新市墟"
+msgstr "Baiyun · Xinshixu"
+
+#: scripts/levels.gd:255
+msgid "暴雨夜，又滑又黑，地铁口外排满了共享单车。"
+msgstr "Notte di nubifragio, buio e scivoloso, con file di bici condivise fuori dalla metro."
+
+#: scripts/levels.gd:258
+msgid "烧腊"
+msgstr "Arrosti"
+
+#: scripts/levels.gd:258
+msgid "粥粉面"
+msgstr "Congee"
+
+#: scripts/levels.gd:258
+msgid "五金"
+msgstr "Ferramenta"
+
+#: scripts/levels.gd:258
+msgid "药店"
+msgstr "Farmacia"
+
+#: scripts/levels.gd:258
+msgid "鞋店"
+msgstr "Calzature"
+
+#: scripts/levels.gd:259
+msgid "新市墟站"
+msgstr "Xinshixu"
+
+#: scripts/levels.gd:260
+msgid "新市西街"
+msgstr "Via Xinshi Ovest"
+
+#: scripts/levels.gd:265
+msgid "龙华·民治"
+msgstr "Longhua · Minzhi"
+
+#: scripts/levels.gd:266
+msgid "终极晚高峰：三个红灯，急刹、拉货、外卖、成排电鸡全都来了。"
+msgstr "L'ora di punta definitiva: tre semafori, frenate, carichi, rider e file di e-bike, tutti insieme."
+
+#: scripts/levels.gd:268
+msgid "手机店"
+msgstr "Telefonia"
+
+#: scripts/levels.gd:268
+msgid "超市"
+msgstr "Supermercato"
+
+#: scripts/levels.gd:268
+msgid "饺子馆"
+msgstr "Ravioli"
+
+#: scripts/levels.gd:268
+msgid "烤鱼"
+msgstr "Pesce grill"
+
+#: scripts/levels.gd:269
+msgid "煎饼"
+msgstr "Jianbing"
+
+#: scripts/levels.gd:270
+msgid "民治站"
+msgstr "Minzhi"
+
+#: scripts/levels.gd:271
+msgid "梅龙大道"
+msgstr "Viale Meilong"

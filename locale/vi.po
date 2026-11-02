@@ -1,0 +1,982 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: vi\n"
+
+msgid "步行"
+msgstr "Đi bộ"
+
+msgid "骑车"
+msgstr "Đạp xe"
+
+msgid "开车"
+msgstr "Lái xe"
+
+msgid "暴雨"
+msgstr "Mưa lớn"
+
+msgid "夜间"
+msgstr "Ban đêm"
+
+msgid "%s 限速%d"
+msgstr "%s, tối đa %d km/h"
+
+msgid "%d 个路口"
+msgstr "%d ngã tư"
+
+msgid "%s · %s ｜ %s ｜ %s"
+msgstr "%s · %s | %s | %s"
+
+msgid "躲避电鸡"
+msgstr "Né Xe Điện"
+
+msgid "Avoiding Electric Vehicles  ·  没有非机动车道的广深街头"
+msgstr "Avoiding Electric Vehicles  ·  Phố Quảng Châu – Thâm Quyến không có làn xe thô sơ"
+
+msgid "出行方式："
+msgstr "Phương tiện:"
+
+msgid "无敌模式：创飞一切电鸡！"
+msgstr "Chế độ Vô địch: hất bay mọi xe điện!"
+
+msgid "未通关"
+msgstr "Chưa qua"
+
+msgid "最佳 %s · %d 分"
+msgstr "Tốt nhất %s · %d điểm"
+
+msgid "无敌畅玩"
+msgstr "Chơi vô địch"
+
+msgid "第 %d 关 · %s\n%s\n%s"
+msgstr "Màn %d · %s\n%s\n%s"
+
+msgid "未解锁"
+msgstr "Chưa mở khóa"
+
+msgid "通关第 %d 关后解锁"
+msgstr "Qua màn %d để mở khóa"
+
+msgid "无敌模式：不掉血、无视红灯，撞到的电鸡全部创飞；成绩不计入存档"
+msgstr "Chế độ Vô địch: không mất máu, phớt lờ đèn đỏ, đụng xe điện nào là hất bay xe đó; kết quả không được lưu"
+
+msgid "游戏规则"
+msgstr "Luật chơi"
+
+msgid "退出游戏"
+msgstr "Thoát game"
+
+msgid "支持作者"
+msgstr "Ủng hộ tác giả"
+
+msgid "步行 / 骑车：WASD 移动 · 开车：W 加速 S 刹车 A/D 变道 · 空格闯红灯 · ESC 暂停 · F11 全屏"
+msgstr "Đi bộ / Đạp xe: WASD di chuyển · Lái xe: W tăng tốc S phanh A/D chuyển làn · Space vượt đèn đỏ · ESC tạm dừng · F11 toàn màn hình"
+
+msgid "[center][font_size=36][color=#ffd23f]游戏规则[/color][/font_size][/center]\n[color=#7CFC00]目标[/color]　步行 / 骑车：每关 60 秒，沿没有非机动车道的人行道往前走，被撞 3 次失败。\n[color=#7CFC00]开车[/color]　按每关真实路段的车道、限速、公交专用道设计：60 秒内开到目的地，W 加速 S 刹车 A/D 变道。\n[color=#7CFC00]操作[/color]　WASD / 方向键 / 手柄移动，空格闯红灯，ESC 暂停，F11 全屏。\n[color=#ffd23f]电鸡[/color]　迎面逆行、身后超车（[color=#ff5252]红三角 + 嘀嘀声[/color]预警）、蛇形、钻车缝、店门口 / 路边冲出、急刹后变路障。\n[color=#ffd23f]路障[/color]　地铁口、共享单车、停着的电鸡、石墩、摊位、违停车、施工围挡都是实心的，撞上要扣命。\n[color=#ffd23f]红绿灯[/color]　步行红灯时画面停下等绿灯；开车要自己刹停在停止线前。占用公交专用道会持续扣分。\n[color=#ff5252]闯红灯[/color]　步行在路缘前[color=#ffcc80]按住 ↑ 半秒或按空格[/color]硬闯，开车直接冲线：[color=#ff5252]扣当前分数 25%[/color]，在路口里[color=#ff5252]被车撞到直接 GAME OVER[/color]。\n[color=#00b8d4]得分[/color]　坚持越久 / 开得越远分越高，擦身而过 +50，通关每条剩余的命 +300。\n[color=#00b8d4]评级[/color]　S 零失误 · A 被撞 1 次 · B 通关 · C 失败。[color=#7CFC00]通关前一关才能解锁下一关[/color]，广州、深圳共 12 关。\n[color=#ff8a80]无敌模式[/color]　主页打开后不掉血、无视红灯，撞到的电鸡全部[color=#ffd23f]创飞[/color]（每只 +100），成绩不计入存档。"
+msgstr "[center][font_size=36][color=#ffd23f]Luật chơi[/color][/font_size][/center]\n[color=#7CFC00]Mục tiêu[/color]　Đi bộ / đạp xe: mỗi màn 60 giây, đi dọc vỉa hè ở nơi không có làn xe thô sơ, bị tông 3 lần là thua.\n[color=#7CFC00]Lái xe[/color]　Làn đường, tốc độ tối đa, làn xe buýt mô phỏng theo đoạn đường thật của từng màn: lái tới đích trong 60 giây, W tăng tốc, S phanh, A/D chuyển làn.\n[color=#7CFC00]Điều khiển[/color]　WASD / phím mũi tên / tay cầm để di chuyển, Space để vượt đèn đỏ, ESC tạm dừng, F11 toàn màn hình.\n[color=#ffd23f]Xe điện[/color]　Chạy ngược chiều đâm thẳng tới, vượt từ phía sau (cảnh báo bằng [color=#ff5252]tam giác đỏ + tiếng bíp bíp[/color]), lạng lách, luồn giữa các xe, lao ra từ cửa tiệm / lề đường, phanh gấp rồi thành chướng ngại vật.\n[color=#ffd23f]Chướng ngại[/color]　Lối lên metro, xe đạp công cộng, xe điện đang đỗ, cột đá, sạp hàng, xe đậu sai chỗ, rào công trình đều là vật cứng, đâm vào là mất mạng.\n[color=#ffd23f]Đèn giao thông[/color]　Đi bộ gặp đèn đỏ thì màn hình dừng lại chờ đèn xanh; lái xe thì phải tự phanh trước vạch dừng. Chiếm làn xe buýt sẽ bị trừ điểm liên tục.\n[color=#ff5252]Vượt đèn đỏ[/color]　Đi bộ: đứng ở mép vỉa hè [color=#ffcc80]giữ ↑ nửa giây hoặc nhấn Space[/color] để băng qua; lái xe thì cứ lao qua vạch: [color=#ff5252]mất 25% điểm hiện có[/color], bị xe tông giữa giao lộ là [color=#ff5252]GAME OVER ngay[/color].\n[color=#00b8d4]Điểm[/color]　Trụ càng lâu / lái càng xa thì càng nhiều điểm, sượt qua +50, qua màn được +300 cho mỗi mạng còn lại.\n[color=#00b8d4]Xếp hạng[/color]　S không lỗi · A bị tông 1 lần · B qua màn · C thua. [color=#7CFC00]Qua màn trước mới mở khóa màn sau[/color], Quảng Châu và Thâm Quyến có tổng cộng 12 màn.\n[color=#ff8a80]Chế độ Vô địch[/color]　Bật ở màn hình chính: không mất máu, phớt lờ đèn đỏ, xe điện nào đụng phải cũng bị [color=#ffd23f]hất bay[/color] (mỗi xe +100), kết quả không được lưu."
+
+msgid "喜欢这个游戏的话，可以请作者喝杯奶茶"
+msgstr "Nếu bạn thích game này, hãy mời tác giả một ly trà sữa nhé"
+
+msgid "点击地址即可复制"
+msgstr "Bấm vào địa chỉ để sao chép"
+
+msgid "已复制 %s：%s"
+msgstr "Đã sao chép %s: %s"
+
+msgid "返回菜单"
+msgstr "Về menu"
+
+msgid "明白了，开始！"
+msgstr "Hiểu rồi, chơi thôi!"
+
+msgid "准时到达！%s"
+msgstr "Đến đúng giờ! %s"
+
+msgid "成功穿越 %s！"
+msgstr "Đã băng qua %s!"
+
+msgid "闯红灯被车撞了，GAME OVER"
+msgstr "Vượt đèn đỏ bị xe tông, GAME OVER"
+
+msgid "迟到了！60 秒没开到目的地"
+msgstr "Trễ rồi! 60 giây vẫn chưa tới đích"
+
+msgid "撞车太多次，今天别开了……"
+msgstr "Đâm xe nhiều quá, hôm nay đừng lái nữa…"
+
+msgid "你被电鸡创飞了……"
+msgstr "Bạn bị xe điện tông bay rồi…"
+
+msgid "现实可能比游戏更残酷。"
+msgstr "Ngoài đời có khi còn khắc nghiệt hơn trong game."
+
+msgid "评级  %s"
+msgstr "Xếp hạng  %s"
+
+msgid "行驶  %d / %d 米      用时  %.1f 秒      等红灯  %.1f 秒"
+msgstr "Đã đi  %d / %d m      Thời gian  %.1f s      Chờ đèn đỏ  %.1f s"
+
+msgid "擦身而过  %d 次      撞车  %d 次      闯红灯  %d 次      公交道扣分  %d"
+msgstr "Sượt qua  %d lần      Va chạm  %d lần      Vượt đèn đỏ  %d lần      Phạt làn buýt  %d"
+
+msgid "坚持时间  %.1f 秒      等红灯  %.1f 秒"
+msgstr "Trụ được  %.1f s      Chờ đèn đỏ  %.1f s"
+
+msgid "擦身而过  %d 次      被撞  %d 次      闯红灯  %d 次"
+msgstr "Sượt qua  %d lần      Bị tông  %d lần      Vượt đèn đỏ  %d lần"
+
+msgid "创飞电鸡  %d 只！"
+msgstr "Hất bay  %d xe điện!"
+
+msgid "总得分  %d"
+msgstr "Tổng điểm  %d"
+
+msgid "（无敌模式成绩不计入存档）"
+msgstr "(Kết quả chế độ Vô địch không được lưu)"
+
+msgid "解锁新关卡：%s · %s"
+msgstr "Mở khóa màn mới: %s · %s"
+
+msgid "再来一次  Retry"
+msgstr "Chơi lại  Retry"
+
+msgid "下一关：%s · %s"
+msgstr "Màn sau: %s · %s"
+
+msgid "换成%s"
+msgstr "Đổi sang %s"
+
+msgid "返回菜单  Menu"
+msgstr "Về menu  Menu"
+
+msgid "哎哟！"
+msgstr "Ui da!"
+
+msgid "被电鸡创了！"
+msgstr "Bị xe điện tông!"
+
+msgid "看路啊靓仔！"
+msgstr "Nhìn đường đi anh đẹp trai!"
+
+msgid "赶着送外卖啊？"
+msgstr "Vội giao đơn hả?"
+
+msgid "我的腰……"
+msgstr "Ối cái lưng…"
+
+msgid "险！"
+msgstr "Suýt!"
+
+msgid "好险！"
+msgstr "Hú hồn!"
+
+msgid "擦身而过！"
+msgstr "Sượt qua!"
+
+msgid "丝滑！"
+msgstr "Mượt!"
+
+msgid "嘀嘀！"
+msgstr "Bíp bíp!"
+
+msgid "让一让！"
+msgstr "Tránh ra nào!"
+
+msgid "借过借过！"
+msgstr "Cho qua cho qua!"
+
+msgid "嘀——"
+msgstr "Bíp——"
+
+msgid "被绊倒了！"
+msgstr "Vấp té rồi!"
+
+msgid "挤不过去了！"
+msgstr "Chen không lọt!"
+
+msgid "谁乱停的车！"
+msgstr "Xe ai đậu bậy đây!"
+
+msgid "闯红灯！"
+msgstr "Vượt đèn đỏ!"
+
+msgid "红灯也冲！"
+msgstr "Đèn đỏ cũng phóng!"
+
+msgid "赶时间！"
+msgstr "Đang vội!"
+
+msgid "创飞！"
+msgstr "Bay màu!"
+
+msgid "飞咯～"
+msgstr "Bay nè~"
+
+msgid "再见了您嘞！"
+msgstr "Bái bai nha!"
+
+msgid "起飞！"
+msgstr "Cất cánh!"
+
+msgid "一路走好！"
+msgstr "Thượng lộ bình an!"
+
+msgid "急刹！"
+msgstr "Phanh gấp!"
+
+msgid "到了到了！"
+msgstr "Tới rồi tới rồi!"
+
+msgid "送个外卖先"
+msgstr "Giao đơn cái đã"
+
+msgid "撞到人了！"
+msgstr "Tông trúng người rồi!"
+
+msgid "对不起对不起！"
+msgstr "Xin lỗi xin lỗi!"
+
+msgid "看路啊！"
+msgstr "Nhìn đường coi!"
+
+msgid "哎哟喂！"
+msgstr "Ối giời ơi!"
+
+msgid "绿灯！走！"
+msgstr "Đèn xanh! Đi!"
+
+msgid "冲！"
+msgstr "Xông lên!"
+
+msgid "横街"
+msgstr "Phố ngang"
+
+msgid "无敌！红灯算什么"
+msgstr "Vô địch! Đèn đỏ là gì chứ"
+
+msgid "闯红灯！-%d 分"
+msgstr "Vượt đèn đỏ! -%d điểm"
+
+msgid "被车撞到直接 GAME OVER！"
+msgstr "Bị xe tông là GAME OVER luôn!"
+
+msgid "（无敌）被车撞了"
+msgstr "(Vô địch) Bị xe tông"
+
+msgid "闯红灯被车撞了！"
+msgstr "Vượt đèn đỏ bị xe tông!"
+
+msgid "冲出来了！"
+msgstr "Lao ra kìa!"
+
+msgid "等灯咯"
+msgstr "Chờ đèn thôi"
+
+msgid "低头看手机…"
+msgstr "Cắm mặt vào điện thoại…"
+
+msgid "成功通关！"
+msgstr "Qua màn thành công!"
+
+msgid "%d 连创飞！+100"
+msgstr "Combo %d bay màu! +100"
+
+msgid "小吃"
+msgstr "Ăn vặt"
+
+msgid "便利店"
+msgstr "Tiện lợi"
+
+msgid "地铁"
+msgstr "Metro"
+
+msgid "你"
+msgstr "Bạn"
+
+msgid "店门口冲出！"
+msgstr "Lao ra từ tiệm!"
+
+msgid "后方来车！嘀嘀！"
+msgstr "Xe sau tới! Bíp bíp!"
+
+msgid "步行模式"
+msgstr "Chế độ đi bộ"
+
+msgid "骑车模式"
+msgstr "Chế độ đạp xe"
+
+msgid "无敌（已创飞 %d）"
+msgstr "Vô địch (đã hất bay %d)"
+
+msgid "ESC 暂停"
+msgstr "ESC tạm dừng"
+
+msgid "得分 %d"
+msgstr "Điểm %d"
+
+msgid "停"
+msgstr "Dừng"
+
+msgid "行"
+msgstr "Đi"
+
+msgid "红灯"
+msgstr "Đèn đỏ"
+
+msgid "绿灯"
+msgstr "Đèn xanh"
+
+msgid "红灯 %d"
+msgstr "Đèn đỏ %d"
+
+msgid "闯红灯中！小心车！"
+msgstr "Đang vượt đèn đỏ! Coi chừng xe!"
+
+msgid "按住 ↑ 或 空格 闯红灯（扣 25% 分）"
+msgstr "Giữ ↑ hoặc Space để vượt đèn đỏ (mất 25% điểm)"
+
+msgid "红灯 · 等一等  %d 秒"
+msgstr "Đèn đỏ · Chờ chút  %d s"
+
+msgid "红灯 · 等一等…"
+msgstr "Đèn đỏ · Chờ chút…"
+
+msgid "WASD / 方向键 移动，躲开电鸡和路障，遇红灯要停"
+msgstr "WASD / phím mũi tên để di chuyển, né xe điện và chướng ngại, gặp đèn đỏ phải dừng"
+
+msgid "出发！"
+msgstr "Xuất phát!"
+
+msgid "暂停"
+msgstr "Tạm dừng"
+
+msgid "ESC 继续    Q 返回菜单"
+msgstr "ESC tiếp tục    Q về menu"
+
+msgid "撞到电鸡了！"
+msgstr "Đâm trúng xe điện!"
+
+msgid "电鸡倒地了…"
+msgstr "Xe điện ngã rồi…"
+
+msgid "全责警告！"
+msgstr "Cảnh báo: lỗi 100%!"
+
+msgid "下车看看人没事吧"
+msgstr "Xuống xem người ta có sao không"
+
+msgid "追尾了！"
+msgstr "Tông đuôi rồi!"
+
+msgid "刮到车了！"
+msgstr "Quẹt xe rồi!"
+
+msgid "保险要涨了…"
+msgstr "Phí bảo hiểm sắp tăng…"
+
+msgid "逆行！"
+msgstr "Đi ngược chiều!"
+
+msgid "路口"
+msgstr "Ngã tư"
+
+msgid "借道绕行，不扣分"
+msgstr "Mượn làn tránh, không trừ điểm"
+
+msgid "占用公交专用道 -15"
+msgstr "Chiếm làn xe buýt -15"
+
+msgid "被横街的车撞到直接 GAME OVER！"
+msgstr "Bị xe phố ngang tông là GAME OVER luôn!"
+
+msgid "撞到行人了！全责！"
+msgstr "Tông người đi bộ! Lỗi 100%!"
+
+msgid "电鸡扶起车溜了"
+msgstr "Xe điện dựng xe dậy chuồn mất"
+
+msgid "进站"
+msgstr "Vào trạm"
+
+msgid "上下客"
+msgstr "Đón trả khách"
+
+msgid "急刹！送外卖"
+msgstr "Phanh gấp! Giao đơn"
+
+msgid "嘀嘀！借过"
+msgstr "Bíp bíp! Cho qua"
+
+msgid "横穿马路！"
+msgstr "Băng qua đường!"
+
+msgid "准时到达！"
+msgstr "Đến đúng giờ!"
+
+msgid "迟到了！"
+msgstr "Trễ rồi!"
+
+msgid "辅道"
+msgstr "Đường gom"
+
+msgid "非机动车"
+msgstr "Xe thô sơ"
+
+msgid "公交专用"
+msgstr "Làn xe buýt"
+
+msgid "深南大道主路"
+msgstr "Shennan chính"
+
+msgid "深圳"
+msgstr "Thâm Quyến"
+
+msgid "公交"
+msgstr "Buýt"
+
+msgid "前方施工"
+msgstr "Đang thi công"
+
+msgid "！"
+msgstr "!"
+
+msgid "机场高速高架"
+msgstr "Cao tốc s.bay"
+
+msgid "有人横穿马路！"
+msgstr "Có người băng qua đường!"
+
+msgid "路边冲出！"
+msgstr "Lao ra từ lề!"
+
+msgid "%s · %s（开车）"
+msgstr "%s · %s (lái xe)"
+
+msgid "限速 %d"
+msgstr "Tối đa %d"
+
+msgid "W 加速  S 刹车  A/D 变道  ESC 暂停"
+msgstr "W tăng tốc  S phanh  A/D chuyển làn  ESC tạm dừng"
+
+msgid "剩余"
+msgstr "Còn lại"
+
+msgid "借道公交专用道绕过路障（不扣分）"
+msgstr "Mượn làn xe buýt để tránh chướng ngại (không trừ điểm)"
+
+msgid "正在占用公交专用道！"
+msgstr "Đang chiếm làn xe buýt!"
+
+msgid "黄灯"
+msgstr "Đèn vàng"
+
+msgid "60 秒内开到 %d 米外的目的地 · 限速 %d"
+msgstr "Lái tới đích cách %d m trong 60 giây · Tối đa %d km/h"
+
+msgid "W 加速  S 刹车  A/D 变道 · 红灯要自己停车"
+msgstr "W tăng tốc  S phanh  A/D chuyển làn · Đèn đỏ phải tự dừng xe"
+
+msgid "体育西路"
+msgstr "Đường Tiyu Tây"
+
+msgid "双向6车道、车流极大，天河城门口出租车上下客，外卖电鸡贴边逆行。"
+msgstr "6 làn hai chiều, xe cộ đông nghịt, taxi đón trả khách trước Tianhe City, xe điện giao đồ ăn chạy ngược chiều sát lề."
+
+msgid "天河南一路"
+msgstr "Đường Tianhe Nam 1"
+
+msgid "天河路"
+msgstr "Đường Tianhe"
+
+msgid "振华路（单行）"
+msgstr "Đường Zhenhua (một chiều)"
+
+msgid "华强北路是步行街开不进去，走振华路：由西向东单行，右边有电动车道，可电鸡偏要跑进机动车道。"
+msgstr "Đường Huaqiang Bắc là phố đi bộ, ô tô không vào được nên đi đường Zhenhua: một chiều từ tây sang đông, bên phải có làn xe điện, vậy mà xe điện cứ thích chạy vào làn ô tô."
+
+msgid "燕南路"
+msgstr "Đường Yannan"
+
+msgid "华发北路"
+msgstr "Đường Huafa Bắc"
+
+msgid "中山五路"
+msgstr "Đường Zhongshan 5"
+
+msgid "北京路步行街开不进去，走中山五路：双向4车道（估），晚高峰最右是公交专用道，公交车一辆接一辆进站。"
+msgstr "Phố đi bộ Bắc Kinh không cho ô tô vào nên đi đường Zhongshan 5: 4 làn hai chiều (ước tính), giờ cao điểm chiều làn ngoài cùng bên phải dành cho xe buýt, xe buýt nối đuôi nhau vào trạm."
+
+msgid "北京路口"
+msgstr "Ngã tư Bắc Kinh"
+
+msgid "吉祥路口"
+msgstr "Ngã tư Jixiang"
+
+msgid "科苑路"
+msgstr "Đường Keyuan"
+
+msgid "午高峰科苑路排长龙，外卖电鸡在车缝里钻；路口做了绿波，保持约40km/h能一路绿灯。"
+msgstr "Giờ cao điểm trưa đường Keyuan kẹt dài, xe điện giao đồ ăn luồn lách giữa các xe; các ngã tư có làn sóng xanh, giữ khoảng 40km/h là đèn xanh suốt."
+
+msgid "高新中一道"
+msgstr "Gaoxin Trung 1"
+
+msgid "高新南一道"
+msgstr "Gaoxin Nam 1"
+
+msgid "高新南四道"
+msgstr "Gaoxin Nam 4"
+
+msgid "新港中路"
+msgstr "Đường Xingang Trung"
+
+msgid "海珠主干道限速60，最右是公交专用道，客村一带公交车密集进站。"
+msgstr "Trục chính của Haizhu, tối đa 60, làn ngoài cùng bên phải dành cho xe buýt, khu Kecun xe buýt vào trạm dày đặc."
+
+msgid "新市头路"
+msgstr "Đường Xinshitou"
+
+msgid "艺苑路"
+msgstr "Đường Yiyuan"
+
+msgid "东门中路"
+msgstr "Đường Dongmen Trung"
+
+msgid "双向7车道，可两边各2条是公交专用道，社会车只能挤在中间；商铺门口电鸡说冲就冲。"
+msgstr "7 làn hai chiều, nhưng mỗi bên có 2 làn dành cho xe buýt, xe thường chỉ chen được ở giữa; xe điện trước cửa tiệm nói lao là lao."
+
+msgid "解放路"
+msgstr "Đường Jiefang"
+
+msgid "晒布路"
+msgstr "Đường Shaibu"
+
+msgid "花城大道"
+msgstr "Đại lộ Huacheng"
+
+msgid "双向10车道又宽又快，暴雨天视线差、路面滑，刹车距离明显变长。"
+msgstr "10 làn hai chiều vừa rộng vừa nhanh, trời mưa lớn tầm nhìn kém, mặt đường trơn, quãng phanh dài ra thấy rõ."
+
+msgid "冼村路"
+msgstr "Đường Xiancun"
+
+msgid "猎德大道"
+msgstr "Đại lộ Liede"
+
+msgid "深南大道"
+msgstr "Đại lộ Shennan"
+
+msgid "深南大道主路双向8车道、两边辅道，深夜车速快，电鸡从辅道横穿绿化带开口冲进主路。"
+msgstr "Đường chính đại lộ Shennan có 8 làn hai chiều, hai bên là đường gom; đêm khuya xe chạy nhanh, xe điện từ đường gom băng qua khe dải cây xanh lao thẳng vào đường chính."
+
+msgid "泰然九路"
+msgstr "Đường Tairan 9"
+
+msgid "香梅路"
+msgstr "Đường Xiangmei"
+
+msgid "石牌东路"
+msgstr "Đường Shipai Đông"
+
+msgid "贴着石牌村，村巷口随时冲出电鸡，路边违停一辆接一辆。"
+msgstr "Sát làng Shipai, xe điện có thể lao ra từ đầu hẻm bất cứ lúc nào, xe đậu sai chỗ bên đường nối đuôi nhau."
+
+msgid "新陶北街"
+msgstr "Phố Xintao Bắc"
+
+msgid "新陶南街"
+msgstr "Phố Xintao Nam"
+
+msgid "深南大道辅道"
+msgstr "Đường gom Shennan"
+
+msgid "深南辅道白石洲段，左边绿化带外是主路；公交站一个接一个，城中村电鸡从沙河街口一窝蜂冲出。"
+msgstr "Đường gom Shennan đoạn Baishizhou, bên kia dải cây xanh bên trái là đường chính; trạm xe buýt nối tiếp nhau, xe điện từ làng trong phố ùa ra ở đầu phố Shahe."
+
+msgid "沙河街"
+msgstr "Phố Shahe"
+
+msgid "石洲中路"
+msgstr "Đường Shizhou Trung"
+
+msgid "机场路"
+msgstr "Đường Sân Bay"
+
+msgid "头顶是机场高速高架，桥墩挡住视线，暴雨夜路面反光，看不清贴边逆行的电鸡。"
+msgstr "Trên đầu là cầu cạn cao tốc sân bay, trụ cầu che khuất tầm nhìn, đêm mưa lớn mặt đường lóa sáng, khó thấy xe điện chạy ngược chiều sát lề."
+
+msgid "齐富路"
+msgstr "Đường Qifu"
+
+msgid "汇侨南路"
+msgstr "Đường Huiqiao Nam"
+
+msgid "民治大道"
+msgstr "Đại lộ Minzhi"
+
+msgid "双向6车道挤在24米宽的路上，限速40，晚高峰三个红灯，急刹、拉货、钻缝电鸡全都来了。"
+msgstr "6 làn hai chiều chen trên con đường rộng 24 mét, tối đa 40, giờ cao điểm chiều ba đèn đỏ, xe điện phanh gấp, chở hàng, luồn lách kéo đến đủ cả."
+
+msgid "人民路"
+msgstr "Đường Renmin"
+
+msgid "梅龙路"
+msgstr "Đường Meilong"
+
+msgid "工业路"
+msgstr "Đường Gongye"
+
+msgid "广州"
+msgstr "Quảng Châu"
+
+msgid "天河·体育西路"
+msgstr "Tianhe · Đường Tiyu Tây"
+
+msgid "新手关：体育西路地铁站外，迎面逆行的电鸡最多。"
+msgstr "Màn tập sự: ngoài ga metro Tiyu Tây, nhiều xe điện chạy ngược chiều đâm thẳng tới nhất."
+
+msgid "肠粉"
+msgstr "Bánh cuốn"
+
+msgid "云吞面"
+msgstr "Mì vằn thắn"
+
+msgid "凉茶铺"
+msgstr "Quán thảo mộc"
+
+msgid "糖水"
+msgstr "Chè"
+
+msgid "烧腊饭"
+msgstr "Cơm xá xíu"
+
+msgid "早茶"
+msgstr "Dim sum"
+
+msgid "猪脚饭"
+msgstr "Cơm chân giò"
+
+msgid "士多"
+msgstr "Tạp hóa"
+
+msgid "体育西路站"
+msgstr "Ga Tiyu Tây"
+
+msgid "福田·华强北"
+msgstr "Futian · Huaqiang Bắc"
+
+msgid "电子市场门口，拉货的电鸡纸箱堆得比人还高。"
+msgstr "Trước chợ điện tử, xe điện chở hàng chất thùng giấy cao hơn cả người."
+
+msgid "手机配件"
+msgstr "Phụ kiện ĐT"
+
+msgid "电子市场"
+msgstr "Chợ điện tử"
+
+msgid "数码维修"
+msgstr "Sửa máy"
+
+msgid "充电宝"
+msgstr "Sạc dự phòng"
+
+msgid "奶茶"
+msgstr "Trà sữa"
+
+msgid "潮汕牛肉"
+msgstr "Bò Triều Châu"
+
+msgid "无人机"
+msgstr "Flycam"
+
+msgid "华强北站"
+msgstr "Ga Huaqiang Bắc"
+
+msgid "振华路"
+msgstr "Đường Zhenhua"
+
+msgid "红荔路"
+msgstr "Đường Hongli"
+
+msgid "越秀·北京路"
+msgstr "Yuexiu · Đường Bắc Kinh"
+
+msgid "骑楼老街人行道窄，糖水档、石墩挡路，要在缝里穿。"
+msgstr "Phố cổ nhà lầu vòm (qilou) vỉa hè hẹp, quán chè, cột đá chắn lối, phải lách qua khe hở."
+
+msgid "双皮奶"
+msgstr "Sữa hai lớp"
+
+msgid "牛杂"
+msgstr "Lòng bò"
+
+msgid "姜撞奶"
+msgstr "Sữa gừng"
+
+msgid "老字号"
+msgstr "Tiệm lâu đời"
+
+msgid "凉茶"
+msgstr "Trà thảo mộc"
+
+msgid "鸡仔饼"
+msgstr "Bánh gà"
+
+msgid "手信"
+msgstr "Đặc sản"
+
+msgid "鸡蛋仔"
+msgstr "Bánh trứng"
+
+msgid "烤肠"
+msgstr "Xúc xích"
+
+msgid "公园前站"
+msgstr "Ga Gongyuanqian"
+
+msgid "文明路"
+msgstr "Đường Wenming"
+
+msgid "南山·科技园"
+msgstr "Nanshan · Khu Công nghệ"
+
+msgid "午饭外卖高峰！身后嘀嘀声不断，红灯时电鸡全挤在你身边。"
+msgstr "Cao điểm giao cơm trưa! Phía sau bíp bíp liên hồi, đèn đỏ thì xe điện chen chúc quanh bạn."
+
+msgid "咖啡"
+msgstr "Cà phê"
+
+msgid "轻食沙拉"
+msgstr "Salad"
+
+msgid "麻辣烫"
+msgstr "Malatang"
+
+msgid "快餐"
+msgstr "Cơm văn phòng"
+
+msgid "煲仔饭"
+msgstr "Cơm niêu"
+
+msgid "黄焖鸡"
+msgstr "Gà om"
+
+msgid "高新园站"
+msgstr "Ga Gaoxinyuan"
+
+msgid "海珠·客村"
+msgstr "Haizhu · Kecun"
+
+msgid "换乘站口一个接一个，门口的共享单车堆成山。"
+msgstr "Cửa ga trung chuyển nối tiếp nhau, xe đạp công cộng trước cửa chất thành núi."
+
+msgid "沙县小吃"
+msgstr "Quán Sa Huyện"
+
+msgid "水果店"
+msgstr "Tiệm trái cây"
+
+msgid "药房"
+msgstr "Nhà thuốc"
+
+msgid "粉面"
+msgstr "Bún phở"
+
+msgid "快递点"
+msgstr "Chuyển phát"
+
+msgid "客村站"
+msgstr "Ga Kecun"
+
+msgid "罗湖·东门"
+msgstr "Luohu · Dongmen"
+
+msgid "老商圈店铺密，电鸡随时从店门口冲出来。"
+msgstr "Khu buôn bán cũ dày đặc cửa hàng, xe điện có thể lao ra từ cửa tiệm bất cứ lúc nào."
+
+msgid "服装城"
+msgstr "Chợ quần áo"
+
+msgid "鞋城"
+msgstr "Chợ giày"
+
+msgid "烧鹅"
+msgstr "Ngỗng quay"
+
+msgid "茶餐厅"
+msgstr "Quán ăn HK"
+
+msgid "眼镜"
+msgstr "Kính mắt"
+
+msgid "金铺"
+msgstr "Tiệm vàng"
+
+msgid "炸串"
+msgstr "Xiên chiên"
+
+msgid "糖葫芦"
+msgstr "Hồ lô đường"
+
+msgid "炒冰"
+msgstr "Kem cuộn"
+
+msgid "老街站"
+msgstr "Ga Laojie"
+
+msgid "新园路"
+msgstr "Đường Xinyuan"
+
+msgid "珠江新城·花城大道"
+msgstr "Zhujiang · Đại lộ Huacheng"
+
+msgid "暴雨天！地面湿滑刹不住脚，穿雨披的电鸡看不清路。"
+msgstr "Mưa lớn! Mặt đường trơn trượt khó dừng chân, xe điện mặc áo mưa chẳng nhìn rõ đường."
+
+msgid "写字楼"
+msgstr "Văn phòng"
+
+msgid "银行"
+msgstr "Ngân hàng"
+
+msgid "轻食"
+msgstr "Đồ ăn nhẹ"
+
+msgid "书店"
+msgstr "Nhà sách"
+
+msgid "花店"
+msgstr "Tiệm hoa"
+
+msgid "西饼"
+msgstr "Bánh ngọt"
+
+msgid "珠江新城站"
+msgstr "Ga Zhujiang"
+
+msgid "福田·车公庙"
+msgstr "Futian · Chegongmiao"
+
+msgid "深夜加班回家，路灯昏暗，只能靠车灯判断电鸡在哪。"
+msgstr "Tăng ca về khuya, đèn đường lờ mờ, chỉ biết nhìn đèn xe đoán xe điện ở đâu."
+
+msgid "24h便利店"
+msgstr "Tiện lợi 24h"
+
+msgid "烧烤"
+msgstr "Đồ nướng"
+
+msgid "螺蛳粉"
+msgstr "Bún ốc"
+
+msgid "网吧"
+msgstr "Quán net"
+
+msgid "牛肉火锅"
+msgstr "Lẩu bò"
+
+msgid "夜宵"
+msgstr "Ăn đêm"
+
+msgid "车公庙站"
+msgstr "Ga Chegongmiao"
+
+msgid "天安路"
+msgstr "Đường Tian'an"
+
+msgid "天河·石牌村"
+msgstr "Tianhe · Làng Shipai"
+
+msgid "城中村握手楼，巷子窄、停满电鸡，蛇形走位的特别多。"
+msgstr "Làng trong phố nhà san sát, hẻm hẹp, xe điện đỗ kín, lạng lách cực nhiều."
+
+msgid "快递驿站"
+msgstr "Trạm ship"
+
+msgid "理发"
+msgstr "Cắt tóc"
+
+msgid "手机维修"
+msgstr "Sửa ĐT"
+
+msgid "炒粉"
+msgstr "Phở xào"
+
+msgid "烤串"
+msgstr "Xiên nướng"
+
+msgid "水果"
+msgstr "Trái cây"
+
+msgid "南山·白石洲"
+msgstr "Nanshan · Baishizhou"
+
+msgid "城中村夜市开档，摊位占道，电鸡在灯影里乱窜。"
+msgstr "Chợ đêm làng trong phố mở hàng, sạp lấn lối đi, xe điện lao loạn xạ trong ánh đèn."
+
+msgid "砂锅粥"
+msgstr "Cháo niêu"
+
+msgid "湘菜馆"
+msgstr "Quán Hồ Nam"
+
+msgid "烤生蚝"
+msgstr "Hàu nướng"
+
+msgid "臭豆腐"
+msgstr "Đậu hũ thối"
+
+msgid "白云·新市墟"
+msgstr "Baiyun · Xinshixu"
+
+msgid "暴雨夜，又滑又黑，地铁口外排满了共享单车。"
+msgstr "Đêm mưa lớn, vừa trơn vừa tối, ngoài lối lên metro xếp đầy xe đạp công cộng."
+
+msgid "烧腊"
+msgstr "Đồ quay"
+
+msgid "粥粉面"
+msgstr "Cháo bún phở"
+
+msgid "五金"
+msgstr "Ngũ kim"
+
+msgid "药店"
+msgstr "Hiệu thuốc"
+
+msgid "鞋店"
+msgstr "Tiệm giày"
+
+msgid "新市墟站"
+msgstr "Ga Xinshixu"
+
+msgid "新市西街"
+msgstr "Phố Xinshi Tây"
+
+msgid "龙华·民治"
+msgstr "Longhua · Minzhi"
+
+msgid "终极晚高峰：三个红灯，急刹、拉货、外卖、成排电鸡全都来了。"
+msgstr "Giờ cao điểm chiều tối thượng: ba đèn đỏ, xe điện phanh gấp, chở hàng, giao đồ ăn, nối hàng dài kéo đến đủ cả."
+
+msgid "手机店"
+msgstr "Điện thoại"
+
+msgid "超市"
+msgstr "Siêu thị"
+
+msgid "饺子馆"
+msgstr "Sủi cảo"
+
+msgid "烤鱼"
+msgstr "Cá nướng"
+
+msgid "煎饼"
+msgstr "Bánh kếp"
+
+msgid "民治站"
+msgstr "Ga Minzhi"
+
+msgid "梅龙大道"
+msgstr "Đại lộ Meilong"

@@ -1,0 +1,1308 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: ko\n"
+
+#: scripts/main.gd:29
+msgid "步行"
+msgstr "걷기"
+
+#: scripts/main.gd:29
+msgid "骑车"
+msgstr "자전거"
+
+#: scripts/main.gd:29
+msgid "开车"
+msgstr "운전"
+
+#: scripts/main.gd:314
+msgid "暴雨"
+msgstr "폭우"
+
+#: scripts/main.gd:316
+msgid "夜间"
+msgstr "야간"
+
+#: scripts/main.gd:319
+msgid "%s 限速%d"
+msgstr "%s 제한속도 %d"
+
+#: scripts/main.gd:320
+msgid "%d 个路口"
+msgstr "교차로 %d곳"
+
+#: scripts/main.gd:321
+msgid "%s · %s ｜ %s ｜ %s"
+msgstr "%s · %s | %s | %s"
+
+#: scripts/main.gd:343
+msgid "躲避电鸡"
+msgstr "전기바이크를 피해라!"
+
+#: scripts/main.gd:344
+msgid "Avoiding Electric Vehicles  ·  没有非机动车道的广深街头"
+msgstr "Avoiding Electric Vehicles  ·  자전거도로 없는 광저우·선전 거리"
+
+#: scripts/main.gd:350
+msgid "出行方式："
+msgstr "이동 수단:"
+
+#: scripts/main.gd:363
+msgid "无敌模式：创飞一切电鸡！"
+msgstr "무적 모드: 전기바이크 전부 날려 버려!"
+
+#: scripts/main.gd:397
+msgid "未通关"
+msgstr "미클리어"
+
+#: scripts/main.gd:399
+msgid "最佳 %s · %d 分"
+msgstr "최고 %s · %d점"
+
+#: scripts/main.gd:401
+msgid "无敌畅玩"
+msgstr "무적 플레이"
+
+#: scripts/main.gd:403
+msgid "第 %d 关 · %s\n%s\n%s"
+msgstr "스테이지 %d · %s\n%s\n%s"
+
+#: scripts/main.gd:403
+msgid "未解锁"
+msgstr "잠김"
+
+#: scripts/main.gd:411
+msgid "通关第 %d 关后解锁"
+msgstr "스테이지 %d 클리어 후 열림"
+
+#: scripts/main.gd:420
+msgid "无敌模式：不掉血、无视红灯，撞到的电鸡全部创飞；成绩不计入存档"
+msgstr "무적 모드: 체력 안 닳음, 빨간불 무시, 부딪힌 전기바이크는 전부 날아감. 기록은 저장되지 않음"
+
+#: scripts/main.gd:425
+msgid "游戏规则"
+msgstr "게임 규칙"
+
+#: scripts/main.gd:426
+msgid "退出游戏"
+msgstr "게임 종료"
+
+#: scripts/main.gd:431
+msgid "支持作者"
+msgstr "개발자 후원"
+
+#: scripts/main.gd:436
+msgid "步行 / 骑车：WASD 移动 · 开车：W 加速 S 刹车 A/D 变道 · 空格闯红灯 · ESC 暂停 · F11 全屏"
+msgstr "걷기 / 자전거: WASD 이동 · 운전: W 가속 S 브레이크 A/D 차로 변경 · 스페이스 신호 위반 · ESC 일시정지 · F11 전체화면"
+
+#: scripts/main.gd:451
+msgid "[center][font_size=36][color=#ffd23f]游戏规则[/color][/font_size][/center]\n[color=#7CFC00]目标[/color]　步行 / 骑车：每关 60 秒，沿没有非机动车道的人行道往前走，被撞 3 次失败。\n[color=#7CFC00]开车[/color]　按每关真实路段的车道、限速、公交专用道设计：60 秒内开到目的地，W 加速 S 刹车 A/D 变道。\n[color=#7CFC00]操作[/color]　WASD / 方向键 / 手柄移动，空格闯红灯，ESC 暂停，F11 全屏。\n[color=#ffd23f]电鸡[/color]　迎面逆行、身后超车（[color=#ff5252]红三角 + 嘀嘀声[/color]预警）、蛇形、钻车缝、店门口 / 路边冲出、急刹后变路障。\n[color=#ffd23f]路障[/color]　地铁口、共享单车、停着的电鸡、石墩、摊位、违停车、施工围挡都是实心的，撞上要扣命。\n[color=#ffd23f]红绿灯[/color]　步行红灯时画面停下等绿灯；开车要自己刹停在停止线前。占用公交专用道会持续扣分。\n[color=#ff5252]闯红灯[/color]　步行在路缘前[color=#ffcc80]按住 ↑ 半秒或按空格[/color]硬闯，开车直接冲线：[color=#ff5252]扣当前分数 25%[/color]，在路口里[color=#ff5252]被车撞到直接 GAME OVER[/color]。\n[color=#00b8d4]得分[/color]　坚持越久 / 开得越远分越高，擦身而过 +50，通关每条剩余的命 +300。\n[color=#00b8d4]评级[/color]　S 零失误 · A 被撞 1 次 · B 通关 · C 失败。[color=#7CFC00]通关前一关才能解锁下一关[/color]，广州、深圳共 12 关。\n[color=#ff8a80]无敌模式[/color]　主页打开后不掉血、无视红灯，撞到的电鸡全部[color=#ffd23f]创飞[/color]（每只 +100），成绩不计入存档。"
+msgstr "[center][font_size=36][color=#ffd23f]게임 규칙[/color][/font_size][/center]\n[color=#7CFC00]목표[/color]  걷기 / 자전거: 스테이지마다 60초. 자전거도로 없는 인도를 따라 앞으로 나아가세요. 3번 치이면 실패.\n[color=#7CFC00]운전[/color]  스테이지마다 실제 도로의 차로 수, 제한속도, 버스전용차로를 반영했습니다. 60초 안에 목적지에 도착하세요. W 가속, S 브레이크, A/D 차로 변경.\n[color=#7CFC00]조작[/color]  WASD / 방향키 / 게임패드로 이동, 스페이스로 신호 위반, ESC 일시정지, F11 전체화면.\n[color=#ffd23f]전기바이크[/color]  정면 역주행, 뒤에서 추월([color=#ff5252]빨간 삼각형 + 빵빵 소리[/color]로 경고), 지그재그, 차 사이 끼어들기, 가게 앞 / 길가에서 튀어나오기, 급정거 후 장애물로 변신.\n[color=#ffd23f]장애물[/color]  지하철 입구, 공유자전거, 세워 둔 전기바이크, 돌기둥, 노점, 불법주차 차량, 공사 펜스는 모두 통과할 수 없고, 부딪히면 목숨이 깎입니다.\n[color=#ffd23f]신호등[/color]  걷기 중 빨간불이면 화면이 멈추고 초록불을 기다립니다. 운전 중에는 직접 정지선 앞에 세워야 합니다. 버스전용차로를 달리면 점수가 계속 깎입니다.\n[color=#ff5252]신호 위반[/color]  걷기 중엔 연석 앞에서 [color=#ffcc80]↑를 0.5초 누르거나 스페이스[/color]로 강행, 운전 중엔 그냥 정지선을 넘으면 됩니다. [color=#ff5252]현재 점수의 25% 감점[/color], 교차로 안에서 [color=#ff5252]차에 치이면 바로 GAME OVER[/color].\n[color=#00b8d4]점수[/color]  오래 버틸수록 / 멀리 갈수록 고득점. 아슬아슬 회피 +50, 클리어 시 남은 목숨 하나당 +300.\n[color=#00b8d4]등급[/color]  S 노미스 · A 1번 치임 · B 클리어 · C 실패. [color=#7CFC00]이전 스테이지를 클리어해야 다음 스테이지가 열립니다[/color]. 광저우·선전 총 12스테이지.\n[color=#ff8a80]무적 모드[/color]  메인 화면에서 켜면 체력이 닳지 않고 빨간불도 무시, 부딪힌 전기바이크는 전부 [color=#ffd23f]날려 버립니다[/color](한 대당 +100). 기록은 저장되지 않습니다."
+
+#: scripts/main.gd:468
+msgid "喜欢这个游戏的话，可以请作者喝杯奶茶"
+msgstr "게임이 마음에 드셨다면 개발자에게 밀크티 한 잔 사 주세요"
+
+#: scripts/main.gd:470
+msgid "点击地址即可复制"
+msgstr "주소를 클릭하면 복사됩니다"
+
+#: scripts/main.gd:481
+msgid "已复制 %s：%s"
+msgstr "%s 복사됨: %s"
+
+#: scripts/main.gd:488
+msgid "返回菜单"
+msgstr "메뉴로"
+
+#: scripts/main.gd:508
+msgid "明白了，开始！"
+msgstr "알겠어요, 시작!"
+
+#: scripts/main.gd:554
+msgid "准时到达！%s"
+msgstr "제시간 도착! %s"
+
+#: scripts/main.gd:554
+msgid "成功穿越 %s！"
+msgstr "%s 돌파 성공!"
+
+#: scripts/main.gd:556
+msgid "闯红灯被车撞了，GAME OVER"
+msgstr "신호 위반하다 차에 치였다, GAME OVER"
+
+#: scripts/main.gd:558
+msgid "迟到了！60 秒没开到目的地"
+msgstr "지각! 60초 안에 목적지에 못 갔다"
+
+#: scripts/main.gd:560
+msgid "撞车太多次，今天别开了……"
+msgstr "사고가 너무 많아요. 오늘은 운전하지 마세요……"
+
+#: scripts/main.gd:560
+msgid "你被电鸡创飞了……"
+msgstr "전기바이크에 날아가 버렸다……"
+
+#: scripts/main.gd:562
+msgid "现实可能比游戏更残酷。"
+msgstr "현실은 게임보다 더 가혹할지도 모른다."
+
+#: scripts/main.gd:563
+msgid "评级  %s"
+msgstr "등급  %s"
+
+#: scripts/main.gd:565
+msgid "行驶  %d / %d 米      用时  %.1f 秒      等红灯  %.1f 秒"
+msgstr "주행  %d / %d m      소요  %.1f초      신호 대기  %.1f초"
+
+#: scripts/main.gd:566
+msgid "擦身而过  %d 次      撞车  %d 次      闯红灯  %d 次      公交道扣分  %d"
+msgstr "아슬아슬  %d회      충돌  %d회      신호 위반  %d회      버스차로 감점  %d"
+
+#: scripts/main.gd:568
+msgid "坚持时间  %.1f 秒      等红灯  %.1f 秒"
+msgstr "버틴 시간  %.1f초      신호 대기  %.1f초"
+
+#: scripts/main.gd:569
+msgid "擦身而过  %d 次      被撞  %d 次      闯红灯  %d 次"
+msgstr "아슬아슬  %d회      치임  %d회      신호 위반  %d회"
+
+#: scripts/main.gd:571
+msgid "创飞电鸡  %d 只！"
+msgstr "전기바이크  %d대 날려 버림!"
+
+#: scripts/main.gd:572
+msgid "总得分  %d"
+msgstr "총점  %d"
+
+#: scripts/main.gd:574
+msgid "（无敌模式成绩不计入存档）"
+msgstr "(무적 모드 기록은 저장되지 않습니다)"
+
+#: scripts/main.gd:577
+msgid "解锁新关卡：%s · %s"
+msgstr "새 스테이지 열림: %s · %s"
+
+#: scripts/main.gd:579
+msgid "再来一次  Retry"
+msgstr "다시 하기  Retry"
+
+#: scripts/main.gd:583
+msgid "下一关：%s · %s"
+msgstr "다음 스테이지: %s · %s"
+
+#: scripts/main.gd:592
+msgid "换成%s"
+msgstr "%s 모드로"
+
+#: scripts/main.gd:596
+msgid "返回菜单  Menu"
+msgstr "메뉴로  Menu"
+
+#: scripts/game.gd:19
+msgid "哎哟！"
+msgstr "아야!"
+
+#: scripts/game.gd:19
+msgid "被电鸡创了！"
+msgstr "전기바이크에 치였다!"
+
+#: scripts/game.gd:19
+msgid "看路啊靓仔！"
+msgstr "앞 좀 보고 다녀, 총각!"
+
+#: scripts/game.gd:19
+msgid "赶着送外卖啊？"
+msgstr "배달 늦었냐?"
+
+#: scripts/game.gd:19
+msgid "我的腰……"
+msgstr "내 허리……"
+
+#: scripts/game.gd:20
+msgid "险！"
+msgstr "헉!"
+
+#: scripts/game.gd:20
+msgid "好险！"
+msgstr "휴, 살았다!"
+
+#: scripts/game.gd:20
+msgid "擦身而过！"
+msgstr "아슬아슬!"
+
+#: scripts/game.gd:20
+msgid "丝滑！"
+msgstr "매끈~!"
+
+#: scripts/game.gd:21
+msgid "嘀嘀！"
+msgstr "빵빵!"
+
+#: scripts/game.gd:21
+msgid "让一让！"
+msgstr "비켜요!"
+
+#: scripts/game.gd:21
+msgid "借过借过！"
+msgstr "지나갈게요~!"
+
+#: scripts/game.gd:21
+msgid "嘀——"
+msgstr "빠앙——"
+
+#: scripts/game.gd:22
+msgid "被绊倒了！"
+msgstr "걸려 넘어졌다!"
+
+#: scripts/game.gd:22
+msgid "挤不过去了！"
+msgstr "못 지나가!"
+
+#: scripts/game.gd:22
+msgid "谁乱停的车！"
+msgstr "누가 여기 세웠어!"
+
+#: scripts/game.gd:23
+msgid "闯红灯！"
+msgstr "신호 위반!"
+
+#: scripts/game.gd:23
+msgid "红灯也冲！"
+msgstr "빨간불도 GO!"
+
+#: scripts/game.gd:23
+msgid "赶时间！"
+msgstr "바빠요!"
+
+#: scripts/game.gd:24
+msgid "创飞！"
+msgstr "날려 버려!"
+
+#: scripts/game.gd:24
+msgid "飞咯～"
+msgstr "날아간다~"
+
+#: scripts/game.gd:24
+msgid "再见了您嘞！"
+msgstr "잘 가세요~!"
+
+#: scripts/game.gd:24
+msgid "起飞！"
+msgstr "이륙!"
+
+#: scripts/game.gd:24
+msgid "一路走好！"
+msgstr "편히 가시게!"
+
+#: scripts/game.gd:25
+msgid "急刹！"
+msgstr "급정거!"
+
+#: scripts/game.gd:25
+msgid "到了到了！"
+msgstr "다 왔다 다 왔다!"
+
+#: scripts/game.gd:25
+msgid "送个外卖先"
+msgstr "배달부터 할게요"
+
+#: scripts/game.gd:38
+msgid "撞到人了！"
+msgstr "사람 쳤다!"
+
+#: scripts/game.gd:38
+msgid "对不起对不起！"
+msgstr "죄송죄송!"
+
+#: scripts/game.gd:38
+msgid "看路啊！"
+msgstr "앞 좀 봐!"
+
+#: scripts/game.gd:38
+msgid "哎哟喂！"
+msgstr "아이고!"
+
+#: scripts/game.gd:495
+msgid "绿灯！走！"
+msgstr "초록불! 가자!"
+
+#: scripts/game.gd:500
+msgid "冲！"
+msgstr "돌격!"
+
+#: scripts/game.gd:507
+msgid "横街"
+msgstr "옆길"
+
+#: scripts/game.gd:623
+msgid "无敌！红灯算什么"
+msgstr "무적! 빨간불이 뭔데"
+
+#: scripts/game.gd:628
+msgid "闯红灯！-%d 分"
+msgstr "신호 위반! -%d점"
+
+#: scripts/game.gd:629
+msgid "被车撞到直接 GAME OVER！"
+msgstr "차에 치이면 바로 GAME OVER!"
+
+#: scripts/game.gd:642
+msgid "（无敌）被车撞了"
+msgstr "(무적) 차에 치였다"
+
+#: scripts/game.gd:649
+msgid "闯红灯被车撞了！"
+msgstr "신호 위반하다 차에 치였다!"
+
+#: scripts/game.gd:765
+msgid "冲出来了！"
+msgstr "튀어나왔다!"
+
+#: scripts/game.gd:837
+msgid "等灯咯"
+msgstr "신호 대기~"
+
+#: scripts/game.gd:918
+msgid "低头看手机…"
+msgstr "폰만 보는 중…"
+
+#: scripts/game.gd:1073
+msgid "成功通关！"
+msgstr "클리어!"
+
+#: scripts/game.gd:1102
+msgid "%d 连创飞！+100"
+msgstr "%d연속 날리기! +100"
+
+#: scripts/game.gd:1206
+msgid "小吃"
+msgstr "분식"
+
+#: scripts/game.gd:1475
+msgid "便利店"
+msgstr "편의점"
+
+#: scripts/game.gd:1723
+msgid "地铁"
+msgstr "지하철"
+
+#: scripts/game.gd:1758
+msgid "你"
+msgstr "나"
+
+#: scripts/game.gd:1768
+msgid "店门口冲出！"
+msgstr "가게 앞 돌발!"
+
+#: scripts/game.gd:1772
+msgid "后方来车！嘀嘀！"
+msgstr "뒤에서 온다! 빵빵!"
+
+#: scripts/game.gd:1784
+msgid "步行模式"
+msgstr "걷기 모드"
+
+#: scripts/game.gd:1784
+msgid "骑车模式"
+msgstr "자전거 모드"
+
+#: scripts/game.gd:1790
+msgid "无敌（已创飞 %d）"
+msgstr "무적 (날린 수 %d)"
+
+#: scripts/game.gd:1791
+msgid "ESC 暂停"
+msgstr "ESC 일시정지"
+
+#: scripts/game.gd:1801
+msgid "得分 %d"
+msgstr "점수 %d"
+
+#: scripts/game.gd:1809
+msgid "停"
+msgstr "정지"
+
+#: scripts/game.gd:1809
+msgid "行"
+msgstr "진행"
+
+#: scripts/game.gd:1810
+msgid "红灯"
+msgstr "빨간불"
+
+#: scripts/game.gd:1810
+msgid "绿灯"
+msgstr "초록불"
+
+#: scripts/game.gd:1812
+msgid "红灯 %d"
+msgstr "빨간불 %d"
+
+#: scripts/game.gd:1817
+msgid "闯红灯中！小心车！"
+msgstr "신호 위반 중! 차 조심!"
+
+#: scripts/game.gd:1820
+msgid "按住 ↑ 或 空格 闯红灯（扣 25% 分）"
+msgstr "↑ 길게 또는 스페이스로 신호 위반 (25% 감점)"
+
+#: scripts/game.gd:1825
+msgid "红灯 · 等一等  %d 秒"
+msgstr "빨간불 · 잠깐 대기  %d초"
+
+#: scripts/game.gd:1825
+msgid "红灯 · 等一等…"
+msgstr "빨간불 · 잠깐 대기…"
+
+#: scripts/game.gd:1837
+msgid "WASD / 方向键 移动，躲开电鸡和路障，遇红灯要停"
+msgstr "WASD / 방향키로 이동, 전기바이크와 장애물을 피하고 빨간불엔 멈추세요"
+
+#: scripts/game.gd:1839
+msgid "出发！"
+msgstr "출발!"
+
+#: scripts/game.gd:1843
+msgid "暂停"
+msgstr "일시정지"
+
+#: scripts/game.gd:1844
+msgid "ESC 继续    Q 返回菜单"
+msgstr "ESC 계속    Q 메뉴로"
+
+#: scripts/drive.gd:29
+msgid "撞到电鸡了！"
+msgstr "전기바이크 박았다!"
+
+#: scripts/drive.gd:29
+msgid "电鸡倒地了…"
+msgstr "전기바이크가 넘어졌다…"
+
+#: scripts/drive.gd:29
+msgid "全责警告！"
+msgstr "100% 과실 경고!"
+
+#: scripts/drive.gd:29
+msgid "下车看看人没事吧"
+msgstr "내려서 사람 괜찮은지 봐요"
+
+#: scripts/drive.gd:30
+msgid "追尾了！"
+msgstr "추돌!"
+
+#: scripts/drive.gd:30
+msgid "刮到车了！"
+msgstr "차 긁었다!"
+
+#: scripts/drive.gd:30
+msgid "保险要涨了…"
+msgstr "보험료 오르겠네…"
+
+#: scripts/drive.gd:31
+msgid "逆行！"
+msgstr "역주행!"
+
+#: scripts/drive.gd:99
+msgid "路口"
+msgstr "교차로"
+
+#: scripts/drive.gd:269
+msgid "借道绕行，不扣分"
+msgstr "우회 통행, 감점 없음"
+
+#: scripts/drive.gd:273
+msgid "占用公交专用道 -15"
+msgstr "버스전용차로 주행 -15"
+
+#: scripts/drive.gd:297
+msgid "被横街的车撞到直接 GAME OVER！"
+msgstr "교차 차량에 치이면 바로 GAME OVER!"
+
+#: scripts/drive.gd:318
+msgid "撞到行人了！全责！"
+msgstr "보행자를 쳤다! 100% 과실!"
+
+#: scripts/drive.gd:363
+msgid "电鸡扶起车溜了"
+msgstr "전기바이크, 일어나서 줄행랑"
+
+#: scripts/drive.gd:501
+msgid "进站"
+msgstr "정차"
+
+#: scripts/drive.gd:501
+msgid "上下客"
+msgstr "승하차"
+
+#: scripts/drive.gd:501
+msgid "急刹！送外卖"
+msgstr "급정거! 배달 중"
+
+#: scripts/drive.gd:914
+msgid "嘀嘀！借过"
+msgstr "빵빵! 비켜요"
+
+#: scripts/drive.gd:991
+msgid "横穿马路！"
+msgstr "무단횡단!"
+
+#: scripts/drive.gd:1122
+msgid "准时到达！"
+msgstr "제시간 도착!"
+
+#: scripts/drive.gd:1126
+msgid "迟到了！"
+msgstr "지각!"
+
+#: scripts/drive.gd:1205
+msgid "辅道"
+msgstr "측도"
+
+#: scripts/drive.gd:1212
+msgid "非机动车"
+msgstr "자전거"
+
+#: scripts/drive.gd:1228
+msgid "公交专用"
+msgstr "버스전용"
+
+#: scripts/drive.gd:1258
+msgid "深南大道主路"
+msgstr "선난대로 본선"
+
+#: scripts/drive.gd:1351
+msgid "深圳"
+msgstr "선전"
+
+#: scripts/drive.gd:1355
+msgid "公交"
+msgstr "버스"
+
+#: scripts/drive.gd:1369
+msgid "前方施工"
+msgstr "전방 공사"
+
+#: scripts/drive.gd:1376
+msgid "！"
+msgstr "!"
+
+#: scripts/drive.gd:1392
+msgid "机场高速高架"
+msgstr "공항고속 고가"
+
+#: scripts/drive.gd:1415
+msgid "有人横穿马路！"
+msgstr "무단횡단자 출현!"
+
+#: scripts/drive.gd:1415
+msgid "路边冲出！"
+msgstr "길가에서 돌발!"
+
+#: scripts/drive.gd:1420
+msgid "%s · %s（开车）"
+msgstr "%s · %s (운전)"
+
+#: scripts/drive.gd:1421
+msgid "限速 %d"
+msgstr "제한속도 %d"
+
+#: scripts/drive.gd:1428
+msgid "W 加速  S 刹车  A/D 变道  ESC 暂停"
+msgstr "W 가속  S 브레이크  A/D 차로 변경  ESC 일시정지"
+
+#: scripts/drive.gd:1446
+msgid "剩余"
+msgstr "남은 거리"
+
+#: scripts/drive.gd:1450
+msgid "借道公交专用道绕过路障（不扣分）"
+msgstr "버스전용차로로 장애물 우회 (감점 없음)"
+
+#: scripts/drive.gd:1452
+msgid "正在占用公交专用道！"
+msgstr "버스전용차로 주행 중!"
+
+#: scripts/drive.gd:1463
+msgid "黄灯"
+msgstr "노란불"
+
+#: scripts/drive.gd:1475
+msgid "60 秒内开到 %d 米外的目的地 · 限速 %d"
+msgstr "60초 안에 %dm 앞 목적지까지 · 제한속도 %d"
+
+#: scripts/drive.gd:1478
+msgid "W 加速  S 刹车  A/D 变道 · 红灯要自己停车"
+msgstr "W 가속  S 브레이크  A/D 차로 변경 · 빨간불엔 직접 정차"
+
+#: scripts/levels.gd:36
+msgid "体育西路"
+msgstr "티위시루"
+
+#: scripts/levels.gd:36
+msgid "双向6车道、车流极大，天河城门口出租车上下客，外卖电鸡贴边逆行。"
+msgstr "왕복 6차로에 교통량 폭발. 톈허청 쇼핑몰 앞엔 택시 승하차, 배달 전기바이크는 가장자리로 역주행."
+
+#: scripts/levels.gd:38
+msgid "天河南一路"
+msgstr "톈허난이루"
+
+#: scripts/levels.gd:38
+msgid "天河路"
+msgstr "톈허루"
+
+#: scripts/levels.gd:46
+msgid "振华路（单行）"
+msgstr "전화루(일방통행)"
+
+#: scripts/levels.gd:46
+msgid "华强北路是步行街开不进去，走振华路：由西向东单行，右边有电动车道，可电鸡偏要跑进机动车道。"
+msgstr "화창베이루는 보행자 거리라 차가 못 들어가니 전화루로 간다: 서→동 일방통행. 오른쪽에 전기바이크 차로가 있는데도 전기바이크는 굳이 차도로 들어온다."
+
+#: scripts/levels.gd:48
+msgid "燕南路"
+msgstr "옌난루"
+
+#: scripts/levels.gd:48
+msgid "华发北路"
+msgstr "화파베이루"
+
+#: scripts/levels.gd:56
+msgid "中山五路"
+msgstr "중산우루"
+
+#: scripts/levels.gd:56
+msgid "北京路步行街开不进去，走中山五路：双向4车道（估），晚高峰最右是公交专用道，公交车一辆接一辆进站。"
+msgstr "베이징루 보행자 거리는 차가 못 들어가니 중산우루로 간다: 왕복 4차로(추정). 퇴근 시간엔 맨 오른쪽이 버스전용차로, 버스가 줄줄이 정류장에 들어온다."
+
+#: scripts/levels.gd:58
+msgid "北京路口"
+msgstr "베이징루 사거리"
+
+#: scripts/levels.gd:58
+msgid "吉祥路口"
+msgstr "지샹루 사거리"
+
+#: scripts/levels.gd:66
+msgid "科苑路"
+msgstr "커위안루"
+
+#: scripts/levels.gd:66
+msgid "午高峰科苑路排长龙，外卖电鸡在车缝里钻；路口做了绿波，保持约40km/h能一路绿灯。"
+msgstr "점심 피크의 커위안루는 꽉 막혀 있고, 배달 전기바이크가 차 사이를 비집고 다닌다. 교차로는 그린 웨이브 연동이라 약 40km/h를 유지하면 쭉 초록불."
+
+#: scripts/levels.gd:68
+msgid "高新中一道"
+msgstr "가오신중이다오"
+
+#: scripts/levels.gd:68
+msgid "高新南一道"
+msgstr "가오신난이다오"
+
+#: scripts/levels.gd:68
+msgid "高新南四道"
+msgstr "가오신난쓰다오"
+
+#: scripts/levels.gd:75
+msgid "新港中路"
+msgstr "신강중루"
+
+#: scripts/levels.gd:75
+msgid "海珠主干道限速60，最右是公交专用道，客村一带公交车密集进站。"
+msgstr "하이주의 간선도로, 제한속도 60. 맨 오른쪽은 버스전용차로이고, 커춘 일대는 버스가 빽빽하게 정차한다."
+
+#: scripts/levels.gd:77
+msgid "新市头路"
+msgstr "신스터우루"
+
+#: scripts/levels.gd:77
+msgid "艺苑路"
+msgstr "이위안루"
+
+#: scripts/levels.gd:84
+msgid "东门中路"
+msgstr "둥먼중루"
+
+#: scripts/levels.gd:84
+msgid "双向7车道，可两边各2条是公交专用道，社会车只能挤在中间；商铺门口电鸡说冲就冲。"
+msgstr "왕복 7차로지만 양쪽 2차로씩 버스전용차로라 일반 차량은 가운데로 비집고 가야 한다. 상가 앞에선 전기바이크가 예고 없이 튀어나온다."
+
+#: scripts/levels.gd:86
+msgid "解放路"
+msgstr "제팡루"
+
+#: scripts/levels.gd:86
+msgid "晒布路"
+msgstr "사이부루"
+
+#: scripts/levels.gd:93
+msgid "花城大道"
+msgstr "화청대로"
+
+#: scripts/levels.gd:93
+msgid "双向10车道又宽又快，暴雨天视线差、路面滑，刹车距离明显变长。"
+msgstr "왕복 10차로, 넓고 빠르다. 폭우 속에선 시야가 나쁘고 노면이 미끄러워 제동 거리가 확 늘어난다."
+
+#: scripts/levels.gd:95
+msgid "冼村路"
+msgstr "셴춘루"
+
+#: scripts/levels.gd:95
+msgid "猎德大道"
+msgstr "례더대로"
+
+#: scripts/levels.gd:102
+msgid "深南大道"
+msgstr "선난대로"
+
+#: scripts/levels.gd:102
+msgid "深南大道主路双向8车道、两边辅道，深夜车速快，电鸡从辅道横穿绿化带开口冲进主路。"
+msgstr "선난대로 본선은 왕복 8차로에 양옆으로 측도. 심야엔 차가 빠르고, 전기바이크가 측도에서 녹지대 틈을 가로질러 본선으로 뛰어든다."
+
+#: scripts/levels.gd:104
+msgid "泰然九路"
+msgstr "타이란주루"
+
+#: scripts/levels.gd:104
+msgid "香梅路"
+msgstr "샹메이루"
+
+#: scripts/levels.gd:111
+msgid "石牌东路"
+msgstr "스파이둥루"
+
+#: scripts/levels.gd:111
+msgid "贴着石牌村，村巷口随时冲出电鸡，路边违停一辆接一辆。"
+msgstr "스파이촌 바로 옆. 마을 골목 어귀에서 언제든 전기바이크가 튀어나오고, 길가엔 불법주차가 줄줄이."
+
+#: scripts/levels.gd:113
+msgid "新陶北街"
+msgstr "신타오베이제"
+
+#: scripts/levels.gd:113
+msgid "新陶南街"
+msgstr "신타오난제"
+
+#: scripts/levels.gd:120
+msgid "深南大道辅道"
+msgstr "선난대로 측도"
+
+#: scripts/levels.gd:120
+msgid "深南辅道白石洲段，左边绿化带外是主路；公交站一个接一个，城中村电鸡从沙河街口一窝蜂冲出。"
+msgstr "선난대로 측도 바이스저우 구간, 왼쪽 녹지대 너머가 본선이다. 버스 정류장이 줄줄이 있고, 도시 속 마을의 전기바이크가 사허제 입구에서 떼로 몰려나온다."
+
+#: scripts/levels.gd:122
+msgid "沙河街"
+msgstr "사허제"
+
+#: scripts/levels.gd:122
+msgid "石洲中路"
+msgstr "스저우중루"
+
+#: scripts/levels.gd:129
+msgid "机场路"
+msgstr "지창루"
+
+#: scripts/levels.gd:129
+msgid "头顶是机场高速高架，桥墩挡住视线，暴雨夜路面反光，看不清贴边逆行的电鸡。"
+msgstr "머리 위는 공항고속 고가, 교각이 시야를 가린다. 폭우 내리는 밤 노면이 번들거려 가장자리로 역주행하는 전기바이크가 잘 안 보인다."
+
+#: scripts/levels.gd:131
+msgid "齐富路"
+msgstr "치푸루"
+
+#: scripts/levels.gd:131
+msgid "汇侨南路"
+msgstr "후이차오난루"
+
+#: scripts/levels.gd:138
+msgid "民治大道"
+msgstr "민즈대로"
+
+#: scripts/levels.gd:138
+msgid "双向6车道挤在24米宽的路上，限速40，晚高峰三个红灯，急刹、拉货、钻缝电鸡全都来了。"
+msgstr "폭 24m 도로에 왕복 6차로가 빽빽, 제한속도 40. 퇴근 시간 빨간불 세 번에 급정거·짐 운반·틈새 공략 전기바이크 총출동."
+
+#: scripts/levels.gd:140
+msgid "人民路"
+msgstr "런민루"
+
+#: scripts/levels.gd:140
+msgid "梅龙路"
+msgstr "메이룽루"
+
+#: scripts/levels.gd:140
+msgid "工业路"
+msgstr "궁예루"
+
+#: scripts/levels.gd:149
+msgid "广州"
+msgstr "광저우"
+
+#: scripts/levels.gd:149
+msgid "天河·体育西路"
+msgstr "톈허·티위시루"
+
+#: scripts/levels.gd:150
+msgid "新手关：体育西路地铁站外，迎面逆行的电鸡最多。"
+msgstr "입문 스테이지: 티위시루 지하철역 앞. 정면으로 역주행해 오는 전기바이크가 제일 많다."
+
+#: scripts/levels.gd:152
+msgid "肠粉"
+msgstr "창펀"
+
+#: scripts/levels.gd:152
+msgid "云吞面"
+msgstr "완탕면"
+
+#: scripts/levels.gd:152
+msgid "凉茶铺"
+msgstr "한방찻집"
+
+#: scripts/levels.gd:152
+msgid "糖水"
+msgstr "탕수이"
+
+#: scripts/levels.gd:152
+msgid "烧腊饭"
+msgstr "차샤오덮밥"
+
+#: scripts/levels.gd:152
+msgid "早茶"
+msgstr "딤섬"
+
+#: scripts/levels.gd:152
+msgid "猪脚饭"
+msgstr "족발덮밥"
+
+#: scripts/levels.gd:152
+msgid "士多"
+msgstr "구멍가게"
+
+#: scripts/levels.gd:153
+msgid "体育西路站"
+msgstr "티위시루역"
+
+#: scripts/levels.gd:158
+msgid "福田·华强北"
+msgstr "푸톈·화창베이"
+
+#: scripts/levels.gd:159
+msgid "电子市场门口，拉货的电鸡纸箱堆得比人还高。"
+msgstr "전자상가 앞, 짐 나르는 전기바이크에 박스가 사람 키보다 높이 쌓여 있다."
+
+#: scripts/levels.gd:161
+msgid "手机配件"
+msgstr "폰 액세서리"
+
+#: scripts/levels.gd:161
+msgid "电子市场"
+msgstr "전자상가"
+
+#: scripts/levels.gd:161
+msgid "数码维修"
+msgstr "디지털 수리"
+
+#: scripts/levels.gd:161
+msgid "充电宝"
+msgstr "보조배터리"
+
+#: scripts/levels.gd:161
+msgid "奶茶"
+msgstr "밀크티"
+
+#: scripts/levels.gd:161
+msgid "潮汕牛肉"
+msgstr "차오산 소고기"
+
+#: scripts/levels.gd:161
+msgid "无人机"
+msgstr "드론"
+
+#: scripts/levels.gd:162
+msgid "华强北站"
+msgstr "화창베이역"
+
+#: scripts/levels.gd:163
+msgid "振华路"
+msgstr "전화루"
+
+#: scripts/levels.gd:163
+msgid "红荔路"
+msgstr "훙리루"
+
+#: scripts/levels.gd:167
+msgid "越秀·北京路"
+msgstr "웨슈·베이징루"
+
+#: scripts/levels.gd:168
+msgid "骑楼老街人行道窄，糖水档、石墩挡路，要在缝里穿。"
+msgstr "치러우 옛 거리는 인도가 좁고, 탕수이 노점과 돌기둥이 길을 막아 틈새로 빠져나가야 한다."
+
+#: scripts/levels.gd:170
+msgid "双皮奶"
+msgstr "우유푸딩"
+
+#: scripts/levels.gd:170
+msgid "牛杂"
+msgstr "소내장탕"
+
+#: scripts/levels.gd:170
+msgid "姜撞奶"
+msgstr "생강푸딩"
+
+#: scripts/levels.gd:170
+msgid "老字号"
+msgstr "노포"
+
+#: scripts/levels.gd:170
+msgid "凉茶"
+msgstr "한방차"
+
+#: scripts/levels.gd:170
+msgid "鸡仔饼"
+msgstr "전통과자"
+
+#: scripts/levels.gd:170
+msgid "手信"
+msgstr "기념품"
+
+#: scripts/levels.gd:171
+msgid "鸡蛋仔"
+msgstr "에그와플"
+
+#: scripts/levels.gd:171
+msgid "烤肠"
+msgstr "소시지구이"
+
+#: scripts/levels.gd:172
+msgid "公园前站"
+msgstr "궁위안첸역"
+
+#: scripts/levels.gd:173
+msgid "文明路"
+msgstr "원밍루"
+
+#: scripts/levels.gd:178
+msgid "南山·科技园"
+msgstr "난산·커지위안"
+
+#: scripts/levels.gd:179
+msgid "午饭外卖高峰！身后嘀嘀声不断，红灯时电鸡全挤在你身边。"
+msgstr "점심 배달 피크! 뒤에서 빵빵 소리가 끊이지 않고, 빨간불엔 전기바이크가 전부 내 옆으로 몰려든다."
+
+#: scripts/levels.gd:181
+msgid "咖啡"
+msgstr "커피"
+
+#: scripts/levels.gd:181
+msgid "轻食沙拉"
+msgstr "샐러드"
+
+#: scripts/levels.gd:181
+msgid "麻辣烫"
+msgstr "마라탕"
+
+#: scripts/levels.gd:181
+msgid "快餐"
+msgstr "도시락"
+
+#: scripts/levels.gd:181
+msgid "煲仔饭"
+msgstr "솥밥"
+
+#: scripts/levels.gd:181
+msgid "黄焖鸡"
+msgstr "닭찜"
+
+#: scripts/levels.gd:182
+msgid "高新园站"
+msgstr "가오신위안역"
+
+#: scripts/levels.gd:188
+msgid "海珠·客村"
+msgstr "하이주·커춘"
+
+#: scripts/levels.gd:189
+msgid "换乘站口一个接一个，门口的共享单车堆成山。"
+msgstr "환승역 출입구가 줄줄이, 입구 앞엔 공유자전거가 산더미."
+
+#: scripts/levels.gd:191
+msgid "沙县小吃"
+msgstr "샤셴 분식"
+
+#: scripts/levels.gd:191
+msgid "水果店"
+msgstr "과일가게"
+
+#: scripts/levels.gd:191
+msgid "药房"
+msgstr "약국"
+
+#: scripts/levels.gd:191
+msgid "粉面"
+msgstr "쌀국수"
+
+#: scripts/levels.gd:191
+msgid "快递点"
+msgstr "택배 접수처"
+
+#: scripts/levels.gd:192
+msgid "客村站"
+msgstr "커춘역"
+
+#: scripts/levels.gd:198
+msgid "罗湖·东门"
+msgstr "뤄후·둥먼"
+
+#: scripts/levels.gd:199
+msgid "老商圈店铺密，电鸡随时从店门口冲出来。"
+msgstr "오래된 상권이라 가게가 빽빽하고, 언제든 가게 앞에서 전기바이크가 튀어나온다."
+
+#: scripts/levels.gd:201
+msgid "服装城"
+msgstr "의류상가"
+
+#: scripts/levels.gd:201
+msgid "鞋城"
+msgstr "신발상가"
+
+#: scripts/levels.gd:201
+msgid "烧鹅"
+msgstr "거위구이"
+
+#: scripts/levels.gd:201
+msgid "茶餐厅"
+msgstr "홍콩식 카페"
+
+#: scripts/levels.gd:201
+msgid "眼镜"
+msgstr "안경점"
+
+#: scripts/levels.gd:201
+msgid "金铺"
+msgstr "금은방"
+
+#: scripts/levels.gd:202
+msgid "炸串"
+msgstr "꼬치튀김"
+
+#: scripts/levels.gd:202
+msgid "糖葫芦"
+msgstr "탕후루"
+
+#: scripts/levels.gd:202
+msgid "炒冰"
+msgstr "볶음빙수"
+
+#: scripts/levels.gd:203
+msgid "老街站"
+msgstr "라오제역"
+
+#: scripts/levels.gd:204
+msgid "新园路"
+msgstr "신위안루"
+
+#: scripts/levels.gd:210
+msgid "珠江新城·花城大道"
+msgstr "주장신청·화청대로"
+
+#: scripts/levels.gd:211
+msgid "暴雨天！地面湿滑刹不住脚，穿雨披的电鸡看不清路。"
+msgstr "폭우! 바닥이 미끄러워 발이 안 멈추고, 우비 입은 전기바이크는 앞도 잘 안 보인다."
+
+#: scripts/levels.gd:214
+msgid "写字楼"
+msgstr "오피스"
+
+#: scripts/levels.gd:214
+msgid "银行"
+msgstr "은행"
+
+#: scripts/levels.gd:214
+msgid "轻食"
+msgstr "건강식"
+
+#: scripts/levels.gd:214
+msgid "书店"
+msgstr "서점"
+
+#: scripts/levels.gd:214
+msgid "花店"
+msgstr "꽃집"
+
+#: scripts/levels.gd:214
+msgid "西饼"
+msgstr "베이커리"
+
+#: scripts/levels.gd:215
+msgid "珠江新城站"
+msgstr "주장신청역"
+
+#: scripts/levels.gd:221
+msgid "福田·车公庙"
+msgstr "푸톈·처궁먀오"
+
+#: scripts/levels.gd:222
+msgid "深夜加班回家，路灯昏暗，只能靠车灯判断电鸡在哪。"
+msgstr "야근 끝 심야 귀갓길. 가로등은 어둑하고, 헤드라이트로만 전기바이크 위치를 가늠해야 한다."
+
+#: scripts/levels.gd:224
+msgid "24h便利店"
+msgstr "24시 편의점"
+
+#: scripts/levels.gd:224
+msgid "烧烤"
+msgstr "꼬치구이"
+
+#: scripts/levels.gd:224
+msgid "螺蛳粉"
+msgstr "뤄쓰펀"
+
+#: scripts/levels.gd:224
+msgid "网吧"
+msgstr "PC방"
+
+#: scripts/levels.gd:224
+msgid "牛肉火锅"
+msgstr "소고기 훠궈"
+
+#: scripts/levels.gd:224
+msgid "夜宵"
+msgstr "야식"
+
+#: scripts/levels.gd:225
+msgid "车公庙站"
+msgstr "처궁먀오역"
+
+#: scripts/levels.gd:226
+msgid "天安路"
+msgstr "톈안루"
+
+#: scripts/levels.gd:230
+msgid "天河·石牌村"
+msgstr "톈허·스파이촌"
+
+#: scripts/levels.gd:231
+msgid "城中村握手楼，巷子窄、停满电鸡，蛇形走位的特别多。"
+msgstr "도시 속 마을의 '악수 건물' 골목. 좁은 골목엔 전기바이크가 빼곡하고, 지그재그로 달리는 녀석이 특히 많다."
+
+#: scripts/levels.gd:234
+msgid "快递驿站"
+msgstr "택배 보관소"
+
+#: scripts/levels.gd:234
+msgid "理发"
+msgstr "미용실"
+
+#: scripts/levels.gd:234
+msgid "手机维修"
+msgstr "폰 수리"
+
+#: scripts/levels.gd:234
+msgid "炒粉"
+msgstr "볶음쌀국수"
+
+#: scripts/levels.gd:235
+msgid "烤串"
+msgstr "양꼬치"
+
+#: scripts/levels.gd:235
+msgid "水果"
+msgstr "과일"
+
+#: scripts/levels.gd:242
+msgid "南山·白石洲"
+msgstr "난산·바이스저우"
+
+#: scripts/levels.gd:243
+msgid "城中村夜市开档，摊位占道，电鸡在灯影里乱窜。"
+msgstr "도시 속 마을의 야시장 개장. 노점이 길을 점령하고, 전기바이크가 불빛과 그림자 사이를 마구 누빈다."
+
+#: scripts/levels.gd:246
+msgid "砂锅粥"
+msgstr "뚝배기죽"
+
+#: scripts/levels.gd:246
+msgid "湘菜馆"
+msgstr "후난요리"
+
+#: scripts/levels.gd:247
+msgid "烤生蚝"
+msgstr "굴구이"
+
+#: scripts/levels.gd:247
+msgid "臭豆腐"
+msgstr "취두부"
+
+#: scripts/levels.gd:254
+msgid "白云·新市墟"
+msgstr "바이윈·신스쉬"
+
+#: scripts/levels.gd:255
+msgid "暴雨夜，又滑又黑，地铁口外排满了共享单车。"
+msgstr "폭우 내리는 밤, 미끄럽고 어둡다. 지하철 출구 밖엔 공유자전거가 가득."
+
+#: scripts/levels.gd:258
+msgid "烧腊"
+msgstr "차샤오"
+
+#: scripts/levels.gd:258
+msgid "粥粉面"
+msgstr "죽·국수"
+
+#: scripts/levels.gd:258
+msgid "五金"
+msgstr "철물점"
+
+#: scripts/levels.gd:258
+msgid "药店"
+msgstr "약국"
+
+#: scripts/levels.gd:258
+msgid "鞋店"
+msgstr "신발가게"
+
+#: scripts/levels.gd:259
+msgid "新市墟站"
+msgstr "신스쉬역"
+
+#: scripts/levels.gd:260
+msgid "新市西街"
+msgstr "신스시제"
+
+#: scripts/levels.gd:265
+msgid "龙华·民治"
+msgstr "룽화·민즈"
+
+#: scripts/levels.gd:266
+msgid "终极晚高峰：三个红灯，急刹、拉货、外卖、成排电鸡全都来了。"
+msgstr "최종 퇴근 러시: 빨간불 세 번, 급정거·짐 운반·배달·줄지은 전기바이크 총출동."
+
+#: scripts/levels.gd:268
+msgid "手机店"
+msgstr "폰가게"
+
+#: scripts/levels.gd:268
+msgid "超市"
+msgstr "마트"
+
+#: scripts/levels.gd:268
+msgid "饺子馆"
+msgstr "만둣집"
+
+#: scripts/levels.gd:268
+msgid "烤鱼"
+msgstr "생선구이"
+
+#: scripts/levels.gd:269
+msgid "煎饼"
+msgstr "전병"
+
+#: scripts/levels.gd:270
+msgid "民治站"
+msgstr "민즈역"
+
+#: scripts/levels.gd:271
+msgid "梅龙大道"
+msgstr "메이룽대로"

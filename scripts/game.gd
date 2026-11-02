@@ -625,7 +625,7 @@ func _jaywalk() -> void:
 		return
 	var loss := int(score * 0.25)
 	score -= loss
-	_popup(player_pos + Vector2(0, -60), "闯红灯！-%d 分" % loss, Color("#ff5252"), 30)
+	_popup(player_pos + Vector2(0, -60), tr("闯红灯！-%d 分") % loss, Color("#ff5252"), 30)
 	_popup(Vector2(W / 2.0, 170), "被车撞到直接 GAME OVER！", Color("#ff9800"), 30)
 	_sfx("whistle")
 
@@ -1047,7 +1047,7 @@ func _check_collision(b: Dictionary, old: Vector2) -> void:
 		b.awarded = true
 		near_misses += 1
 		score += 50.0
-		_popup(player_pos + Vector2(0, -40), NEAR_LINES.pick_random() + " +50", Color("#ffd23f"), 26)
+		_popup(player_pos + Vector2(0, -40), tr(NEAR_LINES.pick_random()) + " +50", Color("#ffd23f"), 26)
 		_sfx("near")
 
 
@@ -1097,9 +1097,9 @@ func _launch_flyer(look: Dictionary, pos: Vector2, away: Vector2) -> void:
 	combo_t = 1.6
 	score += 100.0
 	shake = maxf(shake, 0.45)
-	var line: String = LAUNCH_LINES.pick_random() + " +100"
+	var line: String = tr(LAUNCH_LINES.pick_random()) + " +100"
 	if combo >= 2:
-		line = "%d 连创飞！+100" % combo
+		line = tr("%d 连创飞！+100") % combo
 	_popup(pos + Vector2(0, -40), line, Color("#ffd23f"), 28 + mini(combo, 6) * 2)
 	_sfx("boing")
 
@@ -1780,15 +1780,15 @@ func _heart(c: Vector2, s: float, col: Color) -> void:
 
 func _draw_hud() -> void:
 	draw_rect(Rect2(0, 0, W, 64), Color(0, 0, 0, 0.55))
-	_text_plain(Vector2(20, 30), "%s · %s" % [level.get("city", ""), level.get("name", "")], 24, Color.WHITE)
-	var tags := "步行模式" if mode == "walk" else "骑车模式"
+	_text_plain(Vector2(20, 30), "%s · %s" % [tr(level.get("city", "")), tr(level.get("name", ""))], 24, Color.WHITE, 440)
+	var tags := tr("步行模式") if mode == "walk" else tr("骑车模式")
 	if rain:
-		tags += " · 暴雨"
+		tags += " · " + tr("暴雨")
 	if night:
-		tags += " · 夜间"
+		tags += " · " + tr("夜间")
 	if invincible:
-		tags += " · 无敌（已创飞 %d）" % launched
-	_text_plain(Vector2(20, 54), tags + "   ESC 暂停", 16, Color("#ffd23f") if invincible else Color("#bbbbbb"))
+		tags += " · " + tr("无敌（已创飞 %d）") % launched
+	_text_plain(Vector2(20, 54), tags + "   " + tr("ESC 暂停"), 16, Color("#ffd23f") if invincible else Color("#bbbbbb"), 440)
 
 	var tl := maxf(0.0, LEVEL_TIME - elapsed)
 	var tcol := Color("#ff6b6b") if tl < 10.0 else Color.WHITE
@@ -1798,7 +1798,7 @@ func _draw_hud() -> void:
 
 	for i in MAX_LIVES:
 		_heart(Vector2(W - 150 + i * 44, 22), 13, Color("#ff4757") if i < lives else Color(1, 1, 1, 0.25))
-	_text_plain(Vector2(W - 172, 58), "得分 %d" % int(score), 18, Color("#ffd23f"), 150, HORIZONTAL_ALIGNMENT_RIGHT)
+	_text_plain(Vector2(W - 172, 58), tr("得分 %d") % int(score), 18, Color("#ffd23f"), 150, HORIZONTAL_ALIGNMENT_RIGHT)
 
 	# 路口信号灯面板
 	if not ix.is_empty() and ix.wy + scroll < H and ix.wy + scroll + IX_H > -300.0:
@@ -1807,9 +1807,9 @@ func _draw_hud() -> void:
 		draw_rect(Rect2(px, 74, 130, 64), Color(0, 0, 0, 0.7))
 		draw_circle(Vector2(px + 32, 106), 22, Color("#ff3b30") if red else Color("#3ddc84"))
 		_text(Vector2(px + 32, 113), "停" if red else "行", 20, Color.WHITE)
-		var label := "红灯" if red else "绿灯"
+		var label := tr("红灯") if red else tr("绿灯")
 		if ix.state == "red":
-			label = "红灯 %d" % ceili(ix.red_t)
+			label = tr("红灯 %d") % ceili(ix.red_t)
 		_text_plain(Vector2(px + 60, 113), label, 22, Color("#ff6b6b") if red else Color("#7CFC00"))
 	if not ix.is_empty() and ix.get("jaywalk", false) and ix.state != "green" and state == "play":
 		var top: float = ix.wy + scroll
@@ -1822,15 +1822,16 @@ func _draw_hud() -> void:
 		draw_rect(Rect2(hp.x - 60, hp.y + 8, 120 * clampf(push_t / JAYWALK_HOLD, 0.0, 1.0), 8), Color("#ff5252"))
 	if waiting and state == "play":
 		var n := ceili(ix.red_t) if ix.state == "red" else 0
-		_text(Vector2(W / 2.0, 110), "红灯 · 等一等" + ("  %d 秒" % n if n > 0 else "…"), 32, Color("#ff6b6b"))
+		_text(Vector2(W / 2.0, 110), tr("红灯 · 等一等  %d 秒") % n if n > 0 else tr("红灯 · 等一等…"), 32, Color("#ff6b6b"))
 
 	if flash > 0.0:
 		draw_rect(Rect2(0, 0, W, H), Color(1, 0, 0, flash * 0.3))
 
 	if state == "countdown":
 		draw_rect(Rect2(0, H / 2.0 - 140, W, 270), Color(0, 0, 0, 0.5))
-		_text(Vector2(W / 2.0, H / 2.0 - 80), "%s · %s" % [level.get("city", ""), level.get("name", "")], 40, Color.WHITE)
-		_text(Vector2(W / 2.0, H / 2.0 - 46), level.get("en", ""), 20, Color("#cccccc"))
+		_text(Vector2(W / 2.0, H / 2.0 - 80), "%s · %s" % [tr(level.get("city", "")), tr(level.get("name", ""))], 40, Color.WHITE)
+		if TranslationServer.get_locale().begins_with("zh"):  # 其他语言的关卡名本身就是译名
+			_text(Vector2(W / 2.0, H / 2.0 - 46), level.get("en", ""), 20, Color("#cccccc"))
 		_text(Vector2(W / 2.0, H / 2.0 + 30), str(ceili(countdown)), 72, Color("#ffd23f"))
 		_text(Vector2(W / 2.0, H / 2.0 + 72), level.get("desc", ""), 22, Color("#ffd23f"))
 		_text(Vector2(W / 2.0, H / 2.0 + 106), "WASD / 方向键 移动，躲开电鸡和路障，遇红灯要停", 18, Color.WHITE)
@@ -1844,10 +1845,14 @@ func _draw_hud() -> void:
 
 
 func _text(pos: Vector2, txt: String, size: int, col: Color) -> void:
-	_text_plain(pos + Vector2(-400, 0), txt, size, col, 800, HORIZONTAL_ALIGNMENT_CENTER)
+	_text_plain(pos + Vector2(-620, 0), txt, size, col, 1240, HORIZONTAL_ALIGNMENT_CENTER)
 
 
 func _text_plain(pos: Vector2, txt: String, size: int, col: Color, width := -1.0, align := HORIZONTAL_ALIGNMENT_LEFT) -> void:
+	txt = tr(txt)  # 纯文字（店名、路名、对白、提示）在这里统一翻译；带格式的在调用处先翻译模板
+	if width > 0.0:  # 译文太长：缩小字号直到放得下
+		while size > 10 and font.get_string_size(txt, HORIZONTAL_ALIGNMENT_LEFT, -1, size).x > width:
+			size -= 1
 	var outline := Color(0, 0, 0, 0.75 * col.a)
 	draw_string_outline(font, pos, txt, align, width, size, maxi(4, size / 5), outline)
 	draw_string(font, pos, txt, align, width, size, col)

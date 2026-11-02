@@ -1,0 +1,982 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: pt\n"
+
+msgid "步行"
+msgstr "A pé"
+
+msgid "骑车"
+msgstr "De bicicleta"
+
+msgid "开车"
+msgstr "De carro"
+
+msgid "暴雨"
+msgstr "Temporal"
+
+msgid "夜间"
+msgstr "Noite"
+
+msgid "%s 限速%d"
+msgstr "%s, máx. %d"
+
+msgid "%d 个路口"
+msgstr "%d cruzamentos"
+
+msgid "%s · %s ｜ %s ｜ %s"
+msgstr "%s · %s ｜ %s ｜ %s"
+
+msgid "躲避电鸡"
+msgstr "Desvie das Bikes Elétricas"
+
+msgid "Avoiding Electric Vehicles  ·  没有非机动车道的广深街头"
+msgstr "Avoiding Electric Vehicles  ·  Ruas de Guangzhou e Shenzhen sem ciclofaixa"
+
+msgid "出行方式："
+msgstr "Como ir:"
+
+msgid "无敌模式：创飞一切电鸡！"
+msgstr "Modo Invencível: arremesse todas as bikes elétricas!"
+
+msgid "未通关"
+msgstr "Não concluída"
+
+msgid "最佳 %s · %d 分"
+msgstr "Melhor %s · %d pts"
+
+msgid "无敌畅玩"
+msgstr "Jogar invencível"
+
+msgid "第 %d 关 · %s\n%s\n%s"
+msgstr "Fase %d · %s\n%s\n%s"
+
+msgid "未解锁"
+msgstr "Bloqueada"
+
+msgid "通关第 %d 关后解锁"
+msgstr "Conclua a fase %d para desbloquear"
+
+msgid "无敌模式：不掉血、无视红灯，撞到的电鸡全部创飞；成绩不计入存档"
+msgstr "Modo Invencível: sem perder vida, ignora sinal vermelho e arremessa toda bike elétrica que bater; resultados não são salvos"
+
+msgid "游戏规则"
+msgstr "Regras"
+
+msgid "退出游戏"
+msgstr "Sair do jogo"
+
+msgid "支持作者"
+msgstr "Apoie o autor"
+
+msgid "步行 / 骑车：WASD 移动 · 开车：W 加速 S 刹车 A/D 变道 · 空格闯红灯 · ESC 暂停 · F11 全屏"
+msgstr "A pé / bicicleta: WASD move · Carro: W acelera, S freia, A/D muda de faixa · Espaço avança o sinal · ESC pausa · F11 tela cheia"
+
+msgid "[center][font_size=36][color=#ffd23f]游戏规则[/color][/font_size][/center]\n[color=#7CFC00]目标[/color]　步行 / 骑车：每关 60 秒，沿没有非机动车道的人行道往前走，被撞 3 次失败。\n[color=#7CFC00]开车[/color]　按每关真实路段的车道、限速、公交专用道设计：60 秒内开到目的地，W 加速 S 刹车 A/D 变道。\n[color=#7CFC00]操作[/color]　WASD / 方向键 / 手柄移动，空格闯红灯，ESC 暂停，F11 全屏。\n[color=#ffd23f]电鸡[/color]　迎面逆行、身后超车（[color=#ff5252]红三角 + 嘀嘀声[/color]预警）、蛇形、钻车缝、店门口 / 路边冲出、急刹后变路障。\n[color=#ffd23f]路障[/color]　地铁口、共享单车、停着的电鸡、石墩、摊位、违停车、施工围挡都是实心的，撞上要扣命。\n[color=#ffd23f]红绿灯[/color]　步行红灯时画面停下等绿灯；开车要自己刹停在停止线前。占用公交专用道会持续扣分。\n[color=#ff5252]闯红灯[/color]　步行在路缘前[color=#ffcc80]按住 ↑ 半秒或按空格[/color]硬闯，开车直接冲线：[color=#ff5252]扣当前分数 25%[/color]，在路口里[color=#ff5252]被车撞到直接 GAME OVER[/color]。\n[color=#00b8d4]得分[/color]　坚持越久 / 开得越远分越高，擦身而过 +50，通关每条剩余的命 +300。\n[color=#00b8d4]评级[/color]　S 零失误 · A 被撞 1 次 · B 通关 · C 失败。[color=#7CFC00]通关前一关才能解锁下一关[/color]，广州、深圳共 12 关。\n[color=#ff8a80]无敌模式[/color]　主页打开后不掉血、无视红灯，撞到的电鸡全部[color=#ffd23f]创飞[/color]（每只 +100），成绩不计入存档。"
+msgstr "[center][font_size=36][color=#ffd23f]Regras[/color][/font_size][/center]\n[color=#7CFC00]Objetivo[/color]  A pé / bicicleta: cada fase dura 60 s; siga em frente pela calçada (não há ciclofaixa). Levou 3 batidas, perdeu.\n[color=#7CFC00]Carro[/color]  Faixas, limites e corredores de ônibus copiam ruas reais: chegue ao destino em 60 s. W acelera, S freia, A/D muda de faixa.\n[color=#7CFC00]Controles[/color]  WASD / setas / controle para mover, Espaço avança o sinal, ESC pausa, F11 tela cheia.\n[color=#ffd23f]Bikes elétricas[/color]  Na contramão, ultrapassando por trás (aviso com [color=#ff5252]triângulo vermelho + bi-bi[/color]), em zigue-zague, costurando o trânsito, saindo de lojas / da calçada, e freando do nada até virar obstáculo.\n[color=#ffd23f]Obstáculos[/color]  Entradas de metrô, bikes compartilhadas, bikes elétricas paradas, frades de pedra, barracas, carros parados em local proibido e tapumes de obra são sólidos: bateu, perdeu vida.\n[color=#ffd23f]Semáforos[/color]  A pé, no vermelho a tela para até abrir; de carro, você mesmo freia antes da faixa de retenção. Ficar no corredor de ônibus tira pontos sem parar.\n[color=#ff5252]Avançar o sinal[/color]  A pé, no meio-fio, [color=#ffcc80]segure ↑ meio segundo ou aperte Espaço[/color] para atravessar no peito; de carro, é só passar: [color=#ff5252]perde 25% dos pontos atuais[/color], e se [color=#ff5252]um carro te pegar no cruzamento é GAME OVER[/color].\n[color=#00b8d4]Pontos[/color]  Quanto mais tempo / mais longe, mais pontos; quase-acidente +50; ao concluir, cada vida restante +300.\n[color=#00b8d4]Rank[/color]  S sem erros · A 1 batida · B concluída · C derrota. [color=#7CFC00]Conclua uma fase para liberar a próxima[/color]; 12 fases em Guangzhou e Shenzhen.\n[color=#ff8a80]Modo Invencível[/color]  Ative no menu: sem perder vida, ignora o vermelho e toda bike elétrica que bater é [color=#ffd23f]arremessada[/color] (+100 cada); resultados não são salvos."
+
+msgid "喜欢这个游戏的话，可以请作者喝杯奶茶"
+msgstr "Curtiu o jogo? Pague um chá com leite pro autor"
+
+msgid "点击地址即可复制"
+msgstr "Clique no endereço para copiar"
+
+msgid "已复制 %s：%s"
+msgstr "%s copiado: %s"
+
+msgid "返回菜单"
+msgstr "Voltar ao menu"
+
+msgid "明白了，开始！"
+msgstr "Entendi, bora!"
+
+msgid "准时到达！%s"
+msgstr "Chegou na hora! %s"
+
+msgid "成功穿越 %s！"
+msgstr "Atravessou %s!"
+
+msgid "闯红灯被车撞了，GAME OVER"
+msgstr "Avançou o sinal e foi atropelado. GAME OVER"
+
+msgid "迟到了！60 秒没开到目的地"
+msgstr "Atrasado! Não chegou ao destino em 60 s"
+
+msgid "撞车太多次，今天别开了……"
+msgstr "Bateu demais. Hoje é melhor não dirigir…"
+
+msgid "你被电鸡创飞了……"
+msgstr "Você foi arremessado por uma bike elétrica…"
+
+msgid "现实可能比游戏更残酷。"
+msgstr "A realidade pode ser pior que o jogo."
+
+msgid "评级  %s"
+msgstr "Rank  %s"
+
+msgid "行驶  %d / %d 米      用时  %.1f 秒      等红灯  %.1f 秒"
+msgstr "Percurso  %d / %d m      Tempo  %.1f s      No vermelho  %.1f s"
+
+msgid "擦身而过  %d 次      撞车  %d 次      闯红灯  %d 次      公交道扣分  %d"
+msgstr "Quase-acidentes  %d      Batidas  %d      Sinais avançados  %d      Multa ônibus  %d"
+
+msgid "坚持时间  %.1f 秒      等红灯  %.1f 秒"
+msgstr "Tempo  %.1f s      No vermelho  %.1f s"
+
+msgid "擦身而过  %d 次      被撞  %d 次      闯红灯  %d 次"
+msgstr "Quase-acidentes  %d      Atropelado  %d      Sinais avançados  %d"
+
+msgid "创飞电鸡  %d 只！"
+msgstr "%d bikes elétricas arremessadas!"
+
+msgid "总得分  %d"
+msgstr "Pontuação  %d"
+
+msgid "（无敌模式成绩不计入存档）"
+msgstr "(Resultados do Modo Invencível não são salvos)"
+
+msgid "解锁新关卡：%s · %s"
+msgstr "Nova fase liberada: %s · %s"
+
+msgid "再来一次  Retry"
+msgstr "De novo  Retry"
+
+msgid "下一关：%s · %s"
+msgstr "Próxima: %s · %s"
+
+msgid "换成%s"
+msgstr "Modo: %s"
+
+msgid "返回菜单  Menu"
+msgstr "Voltar ao menu  Menu"
+
+msgid "哎哟！"
+msgstr "Ai!"
+
+msgid "被电鸡创了！"
+msgstr "Bike me pegou!"
+
+msgid "看路啊靓仔！"
+msgstr "Olha por onde anda!"
+
+msgid "赶着送外卖啊？"
+msgstr "Tá com pressa pra entregar?"
+
+msgid "我的腰……"
+msgstr "Minhas costas…"
+
+msgid "险！"
+msgstr "Ufa!"
+
+msgid "好险！"
+msgstr "Por pouco!"
+
+msgid "擦身而过！"
+msgstr "Quase!"
+
+msgid "丝滑！"
+msgstr "Liso!"
+
+msgid "嘀嘀！"
+msgstr "Bi-bi!"
+
+msgid "让一让！"
+msgstr "Sai da frente!"
+
+msgid "借过借过！"
+msgstr "Licença, licença!"
+
+msgid "嘀——"
+msgstr "Biiii—"
+
+msgid "被绊倒了！"
+msgstr "Tropecei!"
+
+msgid "挤不过去了！"
+msgstr "Não passa!"
+
+msgid "谁乱停的车！"
+msgstr "Quem estacionou aqui?!"
+
+msgid "闯红灯！"
+msgstr "Furou o sinal!"
+
+msgid "红灯也冲！"
+msgstr "Vermelho? E daí!"
+
+msgid "赶时间！"
+msgstr "Tô com pressa!"
+
+msgid "创飞！"
+msgstr "Voou!"
+
+msgid "飞咯～"
+msgstr "Tchauzinho~"
+
+msgid "再见了您嘞！"
+msgstr "Adeus, meu chapa!"
+
+msgid "起飞！"
+msgstr "Decolou!"
+
+msgid "一路走好！"
+msgstr "Boa viagem!"
+
+msgid "急刹！"
+msgstr "Freada!"
+
+msgid "到了到了！"
+msgstr "Cheguei, cheguei!"
+
+msgid "送个外卖先"
+msgstr "Só uma entreguinha"
+
+msgid "撞到人了！"
+msgstr "Atropelei alguém!"
+
+msgid "对不起对不起！"
+msgstr "Foi mal, foi mal!"
+
+msgid "看路啊！"
+msgstr "Olha a rua!"
+
+msgid "哎哟喂！"
+msgstr "Ai, ai, ai!"
+
+msgid "绿灯！走！"
+msgstr "Verde! Vai!"
+
+msgid "冲！"
+msgstr "Vai!"
+
+msgid "横街"
+msgstr "Transversal"
+
+msgid "无敌！红灯算什么"
+msgstr "Invencível! Que sinal?"
+
+msgid "闯红灯！-%d 分"
+msgstr "Furou o sinal! -%d pts"
+
+msgid "被车撞到直接 GAME OVER！"
+msgstr "Atropelado = GAME OVER!"
+
+msgid "（无敌）被车撞了"
+msgstr "(Invencível) Atropelado"
+
+msgid "闯红灯被车撞了！"
+msgstr "Furou o sinal e foi atropelado!"
+
+msgid "冲出来了！"
+msgstr "Saiu do nada!"
+
+msgid "等灯咯"
+msgstr "Esperando o sinal"
+
+msgid "低头看手机…"
+msgstr "Olhando o celular…"
+
+msgid "成功通关！"
+msgstr "Fase concluída!"
+
+msgid "%d 连创飞！+100"
+msgstr "Combo %d! +100"
+
+msgid "小吃"
+msgstr "Lanches"
+
+msgid "便利店"
+msgstr "Conveniência"
+
+msgid "地铁"
+msgstr "Metrô"
+
+msgid "你"
+msgstr "Você"
+
+msgid "店门口冲出！"
+msgstr "Saiu da loja!"
+
+msgid "后方来车！嘀嘀！"
+msgstr "Vem vindo atrás! Bi-bi!"
+
+msgid "步行模式"
+msgstr "Modo a pé"
+
+msgid "骑车模式"
+msgstr "Modo bicicleta"
+
+msgid "无敌（已创飞 %d）"
+msgstr "Invencível (%d arremessadas)"
+
+msgid "ESC 暂停"
+msgstr "ESC pausa"
+
+msgid "得分 %d"
+msgstr "Pontos %d"
+
+msgid "停"
+msgstr "PARE"
+
+msgid "行"
+msgstr "SIGA"
+
+msgid "红灯"
+msgstr "Vermelho"
+
+msgid "绿灯"
+msgstr "Verde"
+
+msgid "红灯 %d"
+msgstr "Vermelho %d"
+
+msgid "闯红灯中！小心车！"
+msgstr "Furando o sinal! Cuidado!"
+
+msgid "按住 ↑ 或 空格 闯红灯（扣 25% 分）"
+msgstr "Segure ↑ ou Espaço p/ furar o sinal (-25% pts)"
+
+msgid "红灯 · 等一等  %d 秒"
+msgstr "Vermelho · espere  %d s"
+
+msgid "红灯 · 等一等…"
+msgstr "Vermelho · espere…"
+
+msgid "WASD / 方向键 移动，躲开电鸡和路障，遇红灯要停"
+msgstr "WASD / setas para mover; desvie das bikes e obstáculos, pare no vermelho"
+
+msgid "出发！"
+msgstr "Partiu!"
+
+msgid "暂停"
+msgstr "Pausa"
+
+msgid "ESC 继续    Q 返回菜单"
+msgstr "ESC continua    Q volta ao menu"
+
+msgid "撞到电鸡了！"
+msgstr "Bateu numa bike elétrica!"
+
+msgid "电鸡倒地了…"
+msgstr "A bike elétrica caiu…"
+
+msgid "全责警告！"
+msgstr "Culpa toda sua!"
+
+msgid "下车看看人没事吧"
+msgstr "Desça e veja se está tudo bem"
+
+msgid "追尾了！"
+msgstr "Bateu na traseira!"
+
+msgid "刮到车了！"
+msgstr "Raspou o carro!"
+
+msgid "保险要涨了…"
+msgstr "Lá se vai o seguro…"
+
+msgid "逆行！"
+msgstr "Contramão!"
+
+msgid "路口"
+msgstr "Cruzamento"
+
+msgid "借道绕行，不扣分"
+msgstr "Desvio liberado, sem multa"
+
+msgid "占用公交专用道 -15"
+msgstr "Corredor de ônibus -15"
+
+msgid "被横街的车撞到直接 GAME OVER！"
+msgstr "Atropelado pelo trânsito transversal = GAME OVER!"
+
+msgid "撞到行人了！全责！"
+msgstr "Atropelou um pedestre! Culpa sua!"
+
+msgid "电鸡扶起车溜了"
+msgstr "O motoqueiro levantou e meteu o pé"
+
+msgid "进站"
+msgstr "No ponto"
+
+msgid "上下客"
+msgstr "Embarque"
+
+msgid "急刹！送外卖"
+msgstr "Freada! Entrega"
+
+msgid "嘀嘀！借过"
+msgstr "Bi-bi! Licença"
+
+msgid "横穿马路！"
+msgstr "Atravessando a rua!"
+
+msgid "准时到达！"
+msgstr "Chegou na hora!"
+
+msgid "迟到了！"
+msgstr "Atrasado!"
+
+msgid "辅道"
+msgstr "Marginal"
+
+msgid "非机动车"
+msgstr "Ciclofaixa"
+
+msgid "公交专用"
+msgstr "Só ônibus"
+
+msgid "深南大道主路"
+msgstr "Av. Shennan"
+
+msgid "深圳"
+msgstr "Shenzhen"
+
+msgid "公交"
+msgstr "Ônibus"
+
+msgid "前方施工"
+msgstr "Obras"
+
+msgid "！"
+msgstr "!"
+
+msgid "机场高速高架"
+msgstr "Elevado Aerop."
+
+msgid "有人横穿马路！"
+msgstr "Pedestre atravessando!"
+
+msgid "路边冲出！"
+msgstr "Saiu da calçada!"
+
+msgid "%s · %s（开车）"
+msgstr "%s · %s (carro)"
+
+msgid "限速 %d"
+msgstr "Máx. %d"
+
+msgid "W 加速  S 刹车  A/D 变道  ESC 暂停"
+msgstr "W acelera  S freia  A/D muda faixa  ESC pausa"
+
+msgid "剩余"
+msgstr "Faltam"
+
+msgid "借道公交专用道绕过路障（不扣分）"
+msgstr "Use o corredor de ônibus para desviar do obstáculo (sem multa)"
+
+msgid "正在占用公交专用道！"
+msgstr "No corredor de ônibus!"
+
+msgid "黄灯"
+msgstr "Amarelo"
+
+msgid "60 秒内开到 %d 米外的目的地 · 限速 %d"
+msgstr "Chegue ao destino a %d m em 60 s · máx. %d"
+
+msgid "W 加速  S 刹车  A/D 变道 · 红灯要自己停车"
+msgstr "W acelera  S freia  A/D muda faixa · pare no vermelho por conta própria"
+
+msgid "体育西路"
+msgstr "Av. Tiyu Oeste"
+
+msgid "双向6车道、车流极大，天河城门口出租车上下客，外卖电鸡贴边逆行。"
+msgstr "Mão dupla com 6 faixas e trânsito pesadíssimo; táxis param na porta do Teemall e bikes de entrega vêm na contramão pelo canto."
+
+msgid "天河南一路"
+msgstr "Tianhe Sul 1"
+
+msgid "天河路"
+msgstr "Rua Tianhe"
+
+msgid "振华路（单行）"
+msgstr "Rua Zhenhua (mão única)"
+
+msgid "华强北路是步行街开不进去，走振华路：由西向东单行，右边有电动车道，可电鸡偏要跑进机动车道。"
+msgstr "A Huaqiangbei é calçadão, carro não entra; vá pela Rua Zhenhua: mão única de oeste para leste, com faixa para elétricas à direita, mas as bikes elétricas insistem em invadir a pista dos carros."
+
+msgid "燕南路"
+msgstr "Rua Yannan"
+
+msgid "华发北路"
+msgstr "Rua Huafa Norte"
+
+msgid "中山五路"
+msgstr "Rua Zhongshan 5"
+
+msgid "北京路步行街开不进去，走中山五路：双向4车道（估），晚高峰最右是公交专用道，公交车一辆接一辆进站。"
+msgstr "A Rua Beijing é calçadão, carro não entra; vá pela Rua Zhongshan 5: mão dupla com 4 faixas (est.), corredor de ônibus na faixa da direita no pico da tarde e ônibus parando um atrás do outro."
+
+msgid "北京路口"
+msgstr "Cruz. Rua Beijing"
+
+msgid "吉祥路口"
+msgstr "Cruz. Rua Jixiang"
+
+msgid "科苑路"
+msgstr "Rua Keyuan"
+
+msgid "午高峰科苑路排长龙，外卖电鸡在车缝里钻；路口做了绿波，保持约40km/h能一路绿灯。"
+msgstr "No pico do almoço a Rua Keyuan vira fila; bikes de entrega costuram entre os carros. Há onda verde: a cerca de 40 km/h você pega todos os sinais abertos."
+
+msgid "高新中一道"
+msgstr "Gaoxin Centro 1"
+
+msgid "高新南一道"
+msgstr "Gaoxin Sul 1"
+
+msgid "高新南四道"
+msgstr "Gaoxin Sul 4"
+
+msgid "新港中路"
+msgstr "Rua Xingang Centro"
+
+msgid "海珠主干道限速60，最右是公交专用道，客村一带公交车密集进站。"
+msgstr "Via principal de Haizhu, máx. 60, corredor de ônibus na faixa da direita; perto de Kecun os ônibus param o tempo todo."
+
+msgid "新市头路"
+msgstr "Rua Xinshitou"
+
+msgid "艺苑路"
+msgstr "Rua Yiyuan"
+
+msgid "东门中路"
+msgstr "Rua Dongmen Centro"
+
+msgid "双向7车道，可两边各2条是公交专用道，社会车只能挤在中间；商铺门口电鸡说冲就冲。"
+msgstr "Mão dupla com 7 faixas, mas 2 de cada lado são só de ônibus e os carros se espremem no meio; na porta das lojas as bikes elétricas saem do nada."
+
+msgid "解放路"
+msgstr "Rua Jiefang"
+
+msgid "晒布路"
+msgstr "Rua Shaibu"
+
+msgid "花城大道"
+msgstr "Av. Huacheng"
+
+msgid "双向10车道又宽又快，暴雨天视线差、路面滑，刹车距离明显变长。"
+msgstr "Mão dupla com 10 faixas, larga e rápida; no temporal a visibilidade cai, a pista fica lisa e a frenagem fica bem mais longa."
+
+msgid "冼村路"
+msgstr "Rua Xiancun"
+
+msgid "猎德大道"
+msgstr "Av. Liede"
+
+msgid "深南大道"
+msgstr "Av. Shennan"
+
+msgid "深南大道主路双向8车道、两边辅道，深夜车速快，电鸡从辅道横穿绿化带开口冲进主路。"
+msgstr "Pista central da Av. Shennan com 8 faixas e marginais dos dois lados; de madrugada todo mundo corre, e bikes elétricas cortam o canteiro vindo da marginal."
+
+msgid "泰然九路"
+msgstr "Rua Tairan 9"
+
+msgid "香梅路"
+msgstr "Rua Xiangmei"
+
+msgid "石牌东路"
+msgstr "Rua Shipai Leste"
+
+msgid "贴着石牌村，村巷口随时冲出电鸡，路边违停一辆接一辆。"
+msgstr "Colada na vila Shipai: bikes elétricas brotam das vielas a qualquer hora, e há carro parado irregular um atrás do outro."
+
+msgid "新陶北街"
+msgstr "Rua Xintao Norte"
+
+msgid "新陶南街"
+msgstr "Rua Xintao Sul"
+
+msgid "深南大道辅道"
+msgstr "Marginal Av. Shennan"
+
+msgid "深南辅道白石洲段，左边绿化带外是主路；公交站一个接一个，城中村电鸡从沙河街口一窝蜂冲出。"
+msgstr "Marginal da Av. Shennan em Baishizhou, com a pista central depois do canteiro à esquerda; um ponto de ônibus atrás do outro, e as bikes elétricas da vila saem em bando da Rua Shahe."
+
+msgid "沙河街"
+msgstr "Rua Shahe"
+
+msgid "石洲中路"
+msgstr "Rua Shizhou Centro"
+
+msgid "机场路"
+msgstr "Av. do Aeroporto"
+
+msgid "头顶是机场高速高架，桥墩挡住视线，暴雨夜路面反光，看不清贴边逆行的电鸡。"
+msgstr "Por cima passa o elevado da via expressa do aeroporto e os pilares tapam a visão; na noite de temporal a pista reflete tudo e não dá para ver as bikes elétricas na contramão pelo canto."
+
+msgid "齐富路"
+msgstr "Rua Qifu"
+
+msgid "汇侨南路"
+msgstr "Rua Huiqiao Sul"
+
+msgid "民治大道"
+msgstr "Av. Minzhi"
+
+msgid "双向6车道挤在24米宽的路上，限速40，晚高峰三个红灯，急刹、拉货、钻缝电鸡全都来了。"
+msgstr "Mão dupla com 6 faixas espremidas em 24 m, máx. 40, três sinais vermelhos no pico da tarde: freadas, cargueiros e bikes elétricas costurando, vem tudo junto."
+
+msgid "人民路"
+msgstr "Rua Renmin"
+
+msgid "梅龙路"
+msgstr "Rua Meilong"
+
+msgid "工业路"
+msgstr "Rua Gongye"
+
+msgid "广州"
+msgstr "Guangzhou"
+
+msgid "天河·体育西路"
+msgstr "Tianhe · Av. Tiyu Oeste"
+
+msgid "新手关：体育西路地铁站外，迎面逆行的电鸡最多。"
+msgstr "Fase inicial: na saída do metrô Tiyu Oeste, o recorde de bikes elétricas na contramão."
+
+msgid "肠粉"
+msgstr "Cheung fun"
+
+msgid "云吞面"
+msgstr "Wonton"
+
+msgid "凉茶铺"
+msgstr "Chá herbal"
+
+msgid "糖水"
+msgstr "Doces"
+
+msgid "烧腊饭"
+msgstr "Arroz assado"
+
+msgid "早茶"
+msgstr "Dim sum"
+
+msgid "猪脚饭"
+msgstr "Pé de porco"
+
+msgid "士多"
+msgstr "Vendinha"
+
+msgid "体育西路站"
+msgstr "Est. Tiyu Oeste"
+
+msgid "福田·华强北"
+msgstr "Futian · Huaqiangbei"
+
+msgid "电子市场门口，拉货的电鸡纸箱堆得比人还高。"
+msgstr "Na porta do mercado de eletrônicos, bikes elétricas de carga com caixas mais altas que gente."
+
+msgid "手机配件"
+msgstr "Acessórios"
+
+msgid "电子市场"
+msgstr "Eletrônicos"
+
+msgid "数码维修"
+msgstr "Consertos"
+
+msgid "充电宝"
+msgstr "Power bank"
+
+msgid "奶茶"
+msgstr "Bubble tea"
+
+msgid "潮汕牛肉"
+msgstr "Boi Chaoshan"
+
+msgid "无人机"
+msgstr "Drones"
+
+msgid "华强北站"
+msgstr "Est. Huaqiangbei"
+
+msgid "振华路"
+msgstr "Rua Zhenhua"
+
+msgid "红荔路"
+msgstr "Rua Hongli"
+
+msgid "越秀·北京路"
+msgstr "Yuexiu · Rua Beijing"
+
+msgid "骑楼老街人行道窄，糖水档、石墩挡路，要在缝里穿。"
+msgstr "Rua antiga de arcadas (qilou) com calçada estreita; barracas de doce e frades de pedra no caminho, tem que passar pela fresta."
+
+msgid "双皮奶"
+msgstr "Pudim"
+
+msgid "牛杂"
+msgstr "Miúdos"
+
+msgid "姜撞奶"
+msgstr "Doce gengibre"
+
+msgid "老字号"
+msgstr "Tradicional"
+
+msgid "凉茶"
+msgstr "Chá herbal"
+
+msgid "鸡仔饼"
+msgstr "Biscoitos"
+
+msgid "手信"
+msgstr "Souvenirs"
+
+msgid "鸡蛋仔"
+msgstr "Waffle"
+
+msgid "烤肠"
+msgstr "Salsichão"
+
+msgid "公园前站"
+msgstr "Est. Gongyuanqian"
+
+msgid "文明路"
+msgstr "Rua Wenming"
+
+msgid "南山·科技园"
+msgstr "Nanshan · Parque Tec."
+
+msgid "午饭外卖高峰！身后嘀嘀声不断，红灯时电鸡全挤在你身边。"
+msgstr "Pico de entregas no almoço! Bi-bi sem parar atrás de você, e no vermelho as bikes elétricas se amontoam ao seu lado."
+
+msgid "咖啡"
+msgstr "Café"
+
+msgid "轻食沙拉"
+msgstr "Saladas"
+
+msgid "麻辣烫"
+msgstr "Malatang"
+
+msgid "快餐"
+msgstr "Fast food"
+
+msgid "煲仔饭"
+msgstr "Arroz panela"
+
+msgid "黄焖鸡"
+msgstr "Frango"
+
+msgid "高新园站"
+msgstr "Est. Gaoxinyuan"
+
+msgid "海珠·客村"
+msgstr "Haizhu · Kecun"
+
+msgid "换乘站口一个接一个，门口的共享单车堆成山。"
+msgstr "Saídas de estação de baldeação uma atrás da outra, com montanhas de bikes compartilhadas na porta."
+
+msgid "沙县小吃"
+msgstr "Shaxian"
+
+msgid "水果店"
+msgstr "Frutaria"
+
+msgid "药房"
+msgstr "Farmácia"
+
+msgid "粉面"
+msgstr "Macarrão"
+
+msgid "快递点"
+msgstr "Entregas"
+
+msgid "客村站"
+msgstr "Est. Kecun"
+
+msgid "罗湖·东门"
+msgstr "Luohu · Dongmen"
+
+msgid "老商圈店铺密，电鸡随时从店门口冲出来。"
+msgstr "Centro comercial antigo cheio de lojas; bikes elétricas saem das portas a qualquer momento."
+
+msgid "服装城"
+msgstr "Roupas"
+
+msgid "鞋城"
+msgstr "Sapatos"
+
+msgid "烧鹅"
+msgstr "Ganso assado"
+
+msgid "茶餐厅"
+msgstr "Cha chaan"
+
+msgid "眼镜"
+msgstr "Ótica"
+
+msgid "金铺"
+msgstr "Joalheria"
+
+msgid "炸串"
+msgstr "Espetinhos"
+
+msgid "糖葫芦"
+msgstr "Frutas doces"
+
+msgid "炒冰"
+msgstr "Raspadinha"
+
+msgid "老街站"
+msgstr "Est. Laojie"
+
+msgid "新园路"
+msgstr "Rua Xinyuan"
+
+msgid "珠江新城·花城大道"
+msgstr "Zhujiang · Av. Huacheng"
+
+msgid "暴雨天！地面湿滑刹不住脚，穿雨披的电鸡看不清路。"
+msgstr "Temporal! O chão está um sabão e ninguém consegue frear; com capa de chuva, os motoqueiros não enxergam nada."
+
+msgid "写字楼"
+msgstr "Escritórios"
+
+msgid "银行"
+msgstr "Banco"
+
+msgid "轻食"
+msgstr "Natural"
+
+msgid "书店"
+msgstr "Livraria"
+
+msgid "花店"
+msgstr "Floricultura"
+
+msgid "西饼"
+msgstr "Padaria"
+
+msgid "珠江新城站"
+msgstr "Est. Zhujiang"
+
+msgid "福田·车公庙"
+msgstr "Futian · Chegongmiao"
+
+msgid "深夜加班回家，路灯昏暗，只能靠车灯判断电鸡在哪。"
+msgstr "Voltando do serão tarde da noite; postes fracos, só os faróis mostram onde estão as bikes elétricas."
+
+msgid "24h便利店"
+msgstr "Loja 24h"
+
+msgid "烧烤"
+msgstr "Churrasco"
+
+msgid "螺蛳粉"
+msgstr "Luosifen"
+
+msgid "网吧"
+msgstr "Lan house"
+
+msgid "牛肉火锅"
+msgstr "Hot pot"
+
+msgid "夜宵"
+msgstr "Larica"
+
+msgid "车公庙站"
+msgstr "Est. Chegongmiao"
+
+msgid "天安路"
+msgstr "Rua Tian'an"
+
+msgid "天河·石牌村"
+msgstr "Tianhe · Vila Shipai"
+
+msgid "城中村握手楼，巷子窄、停满电鸡，蛇形走位的特别多。"
+msgstr "Vila urbana de prédios colados, vielas estreitas lotadas de bikes elétricas e muito zigue-zague."
+
+msgid "快递驿站"
+msgstr "Encomendas"
+
+msgid "理发"
+msgstr "Barbearia"
+
+msgid "手机维修"
+msgstr "Conserto cel"
+
+msgid "炒粉"
+msgstr "Ho fun"
+
+msgid "烤串"
+msgstr "Espetinho"
+
+msgid "水果"
+msgstr "Frutas"
+
+msgid "南山·白石洲"
+msgstr "Nanshan · Baishizhou"
+
+msgid "城中村夜市开档，摊位占道，电鸡在灯影里乱窜。"
+msgstr "A feira noturna da vila abriu, barracas tomam a calçada e bikes elétricas zanzam entre as sombras."
+
+msgid "砂锅粥"
+msgstr "Canja"
+
+msgid "湘菜馆"
+msgstr "Comida Hunan"
+
+msgid "烤生蚝"
+msgstr "Ostras"
+
+msgid "臭豆腐"
+msgstr "Tofu fedido"
+
+msgid "白云·新市墟"
+msgstr "Baiyun · Xinshixu"
+
+msgid "暴雨夜，又滑又黑，地铁口外排满了共享单车。"
+msgstr "Noite de temporal, escorregadio e escuro; na saída do metrô, fileiras de bikes compartilhadas."
+
+msgid "烧腊"
+msgstr "Assados"
+
+msgid "粥粉面"
+msgstr "Sopas"
+
+msgid "五金"
+msgstr "Ferragens"
+
+msgid "药店"
+msgstr "Drogaria"
+
+msgid "鞋店"
+msgstr "Sapataria"
+
+msgid "新市墟站"
+msgstr "Est. Xinshixu"
+
+msgid "新市西街"
+msgstr "Rua Xinshi Oeste"
+
+msgid "龙华·民治"
+msgstr "Longhua · Minzhi"
+
+msgid "终极晚高峰：三个红灯，急刹、拉货、外卖、成排电鸡全都来了。"
+msgstr "O pico da tarde final: três sinais vermelhos, freadas, cargueiros, entregadores e fileiras de bikes elétricas, vem tudo junto."
+
+msgid "手机店"
+msgstr "Celulares"
+
+msgid "超市"
+msgstr "Mercado"
+
+msgid "饺子馆"
+msgstr "Guiozas"
+
+msgid "烤鱼"
+msgstr "Peixe assado"
+
+msgid "煎饼"
+msgstr "Jianbing"
+
+msgid "民治站"
+msgstr "Est. Minzhi"
+
+msgid "梅龙大道"
+msgstr "Av. Meilong"

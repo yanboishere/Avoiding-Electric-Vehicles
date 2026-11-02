@@ -11,6 +11,21 @@ const SUPPORT_ADDRS := [
 	["ENS", "yanbo.eth"],
 	["SOL", "39RwdwM8dCkVeRqbtxgeMKvv3x1pgQKDavYJ8dFzcnhy"],
 ]
+## 支持的语言（locale, 原生名称）。中文原文即翻译键，其他语言在 locale/<locale>.po
+const LANGUAGES := [
+	["zh_CN", "简体中文"], ["en", "English"], ["ja", "日本語"], ["ko", "한국어"], ["fr", "Français"],
+	["es", "Español"], ["de", "Deutsch"], ["ar", "العربية"], ["vi", "Tiếng Việt"], ["pt", "Português"], ["it", "Italiano"],
+]
+## 得意黑只覆盖中文和拉丁字母；日韩阿越改用系统字体（Mac / Windows / Linux 依次尝试）
+const LOCALE_FONTS := {
+	"ja": ["Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic UI", "Yu Gothic", "Meiryo", "Noto Sans CJK JP", "Noto Sans JP"],
+	"ko": ["Apple SD Gothic Neo", "Malgun Gothic", "Noto Sans CJK KR", "Noto Sans KR"],
+	"ar": ["Geeza Pro", "SF Arabic", "Segoe UI", "Tahoma", "Arial", "Noto Sans Arabic"],
+	"vi": ["Helvetica Neue", "Segoe UI", "Arial", "Noto Sans", "DejaVu Sans"],
+}
+var UI_FONT: FontVariation = preload("res://fonts/ui_font.tres")
+const SMILEY := preload("res://fonts/SmileySans-Oblique.ttf")
+const REPO_URL := "https://github.com/yanboishere/Avoiding-Electric-Vehicles"
 const MODE_NAMES := {"walk": "步行", "bike": "骑车", "drive": "开车"}
 const LEVELS: Array = preload("res://scripts/levels.gd").LIST
 const SAVE_PATH := "user://save.cfg"
@@ -38,6 +53,7 @@ func _ready() -> void:
 	if "--unlock-all" in args:
 		save.set_value("progress", "unlocked", LEVELS.size() - 1)
 	last_mode = save.get_value("progress", "mode", "walk")
+	_apply_locale(save.get_value("progress", "locale", _system_locale()))
 	invincible = save.get_value("flags", "invincible", false) or "--invincible" in args
 	var auto := ""
 	var lv := 0
@@ -55,6 +71,31 @@ func _ready() -> void:
 		_show_support()
 	else:
 		_show_menu()
+
+
+# ------------------------------------------------------------------ 语言
+
+func _system_locale() -> String:
+	var lang := OS.get_locale_language()
+	for l in LANGUAGES:
+		if l[0].begins_with(lang):
+			return l[0]
+	return "en"
+
+
+func _apply_locale(loc: String) -> void:
+	for a in args:
+		if a.begins_with("--lang="):
+			loc = a.get_slice("=", 1)
+	TranslationServer.set_locale(loc)
+	var key := loc.substr(0, 2)
+	if LOCALE_FONTS.has(key):
+		var sf := SystemFont.new()
+		sf.font_names = PackedStringArray(LOCALE_FONTS[key])
+		UI_FONT.base_font = sf
+	else:
+		UI_FONT.base_font = SMILEY
+	ThemeDB.fallback_font = UI_FONT
 
 
 # ------------------------------------------------------------------ 存档
@@ -270,24 +311,24 @@ func _level_desc(i: int) -> String:
 	var lv: Dictionary = LEVELS[i]
 	var tags := []
 	if lv.get("weather", "clear") == "rain":
-		tags.append("暴雨")
+		tags.append(tr("暴雨"))
 	if lv.get("night", false):
-		tags.append("夜间")
+		tags.append(tr("夜间"))
 	if last_mode == "drive":
 		var d: Dictionary = DRIVE.get(lv.id, {})
-		tags.append("%s 限速%d" % [d.get("road", ""), d.get("limit", 50)])
-		tags.append("%d 个路口" % d.get("crossings", []).size())
-		return "%s · %s ｜ %s ｜ %s" % [lv.city, lv.name, " · ".join(tags), d.get("desc", "")]
-	tags.append("%d 个路口" % lv.get("crossings", []).size())
-	return "%s · %s ｜ %s ｜ %s" % [lv.city, lv.name, " · ".join(tags), lv.desc]
+		tags.append(tr("%s 限速%d") % [tr(d.get("road", "")), d.get("limit", 50)])
+		tags.append(tr("%d 个路口") % d.get("crossings", []).size())
+		return "%s · %s ｜ %s ｜ %s" % [tr(lv.city), tr(lv.name), " · ".join(tags), tr(d.get("desc", ""))]
+	tags.append(tr("%d 个路口") % lv.get("crossings", []).size())
+	return "%s · %s ｜ %s ｜ %s" % [tr(lv.city), tr(lv.name), " · ".join(tags), tr(lv.desc)]
 
 
 func _toggle_button(text: String, on: bool, w: float) -> Button:
 	var mb := Button.new()
-	mb.text = ("● " if on else "") + text
+	mb.text = ("● " if on else "") + tr(text)
 	mb.add_theme_color_override("font_pressed_color", Color("#ffd23f"))
 	mb.add_theme_color_override("font_hover_pressed_color", Color("#ffd23f"))
-	mb.toggled.connect(func(v: bool): mb.text = ("● " if v else "") + text)
+	mb.toggled.connect(func(v: bool): mb.text = ("● " if v else "") + tr(text))
 	mb.toggle_mode = true
 	mb.button_pressed = on
 	mb.custom_minimum_size = Vector2(w, 42)
@@ -328,6 +369,19 @@ func _show_menu() -> void:
 		_write_save()
 		_show_menu.call_deferred())
 	mode_row.add_child(inv)
+	var lang := OptionButton.new()
+	lang.custom_minimum_size = Vector2(150, 42)
+	lang.add_theme_font_size_override("font_size", 18)
+	for i in LANGUAGES.size():
+		lang.add_item(LANGUAGES[i][1], i)
+		if TranslationServer.get_locale() == LANGUAGES[i][0]:
+			lang.select(i)
+	lang.item_selected.connect(func(i: int):
+		save.set_value("progress", "locale", LANGUAGES[i][0])
+		_write_save()
+		_apply_locale(LANGUAGES[i][0])
+		_show_menu.call_deferred())
+	mode_row.add_child(lang)
 	box.add_child(mode_row)
 
 	# 选关（无敌模式全部开放）
@@ -340,20 +394,21 @@ func _show_menu() -> void:
 	for i in LEVELS.size():
 		var lv: Dictionary = LEVELS[i]
 		var locked := i > _unlocked() and not invincible
-		var best := "未通关"
+		var best := tr("未通关")
 		if save.get_value("best", lv.id + "_cleared", false):
-			best = "最佳 %s · %d 分" % [save.get_value("best", lv.id + "_rank", "B"), save.get_value("best", lv.id + "_score", 0)]
+			best = tr("最佳 %s · %d 分") % [save.get_value("best", lv.id + "_rank", "B"), save.get_value("best", lv.id + "_score", 0)]
 		if invincible:
-			best = "无敌畅玩"
+			best = tr("无敌畅玩")
 		var b := Button.new()
-		b.text = "第 %d 关 · %s\n%s\n%s" % [i + 1, lv.city, lv.name, "未解锁" if locked else best]
+		b.text = tr("第 %d 关 · %s\n%s\n%s") % [i + 1, tr(lv.city), tr(lv.name), tr("未解锁") if locked else best]
+		b.text_overrun_behavior = TextServer.OVERRUN_TRIM_ELLIPSIS
 		b.disabled = locked
 		b.custom_minimum_size = Vector2(262, 80)
 		b.add_theme_font_size_override("font_size", 17)
 		var idx := i
 		b.pressed.connect(func(): _launch(idx, last_mode))
 		b.focus_entered.connect(func(): desc.text = _level_desc(idx))
-		b.mouse_entered.connect(func(): desc.text = _level_desc(idx) if idx <= _unlocked() or invincible else "通关第 %d 关后解锁" % idx)
+		b.mouse_entered.connect(func(): desc.text = _level_desc(idx) if idx <= _unlocked() or invincible else tr("通关第 %d 关后解锁") % idx)
 		grid.add_child(b)
 		if not locked and (first == null or i <= _unlocked()):
 			first = b  # 默认选中最新解锁的关卡
@@ -379,6 +434,17 @@ func _show_menu() -> void:
 	bottom.add_child(quit)
 	box.add_child(bottom)
 	box.add_child(_label("步行 / 骑车：WASD 移动 · 开车：W 加速 S 刹车 A/D 变道 · 空格闯红灯 · ESC 暂停 · F11 全屏", 15, Color("#bbbbbb"), 6))
+	# 项目 GitHub 仓库：点击用浏览器打开
+	var gh := LinkButton.new()
+	gh.text = "GitHub · yanboishere/Avoiding-Electric-Vehicles"
+	gh.uri = REPO_URL
+	gh.underline = LinkButton.UNDERLINE_MODE_ON_HOVER
+	gh.add_theme_font_size_override("font_size", 15)
+	gh.add_theme_color_override("font_color", Color("#8ab4f8"))
+	gh.add_theme_color_override("font_hover_color", Color("#c6dafc"))
+	gh.size_flags_horizontal = Control.SIZE_SHRINK_CENTER
+	gh.focus_mode = Control.FOCUS_NONE
+	box.add_child(gh)
 	first.grab_focus()
 
 
@@ -412,7 +478,7 @@ func _show_support() -> void:
 		b.add_theme_font_size_override("font_size", 20)
 		b.pressed.connect(func():
 			DisplayServer.clipboard_set(addr)
-			tip.text = "已复制 %s：%s" % [chain, addr]
+			tip.text = tr("已复制 %s：%s") % [chain, addr]
 			tip.add_theme_color_override("font_color", Color("#7CFC00")))
 		box.add_child(b)
 		if first == null:
@@ -431,12 +497,12 @@ func _show_rules(next: Callable) -> void:
 	var box := _centered_box(_new_ui(), 0.85)
 	var rt := RichTextLabel.new()
 	rt.bbcode_enabled = true
-	rt.fit_content = true
-	rt.scroll_active = false
-	rt.custom_minimum_size = Vector2(1180, 0)
+	rt.fit_content = false
+	rt.scroll_active = true  # 译文较长的语言（德语等）可以滚动
+	rt.custom_minimum_size = Vector2(1180, 560)
 	rt.add_theme_font_size_override("normal_font_size", 19)
 	rt.add_theme_constant_override("line_separation", 9)
-	rt.text = RULES
+	rt.text = tr(RULES)
 	box.add_child(rt)
 	box.add_child(_spacer(4))
 	var ok := _button("明白了，开始！" if next.is_valid() else "返回菜单", func():
@@ -485,7 +551,7 @@ func _on_finished(r: Dictionary) -> void:
 	var box := _centered_box(_new_ui(), 0.7)
 	box.add_theme_constant_override("separation", 10)
 	if r.win:
-		box.add_child(_label(("准时到达！%s" if drive else "成功穿越 %s！") % (DRIVE[lv.id].road if drive else lv.name), 50, Color("#7CFC00"), 12))
+		box.add_child(_label(tr("准时到达！%s" if drive else "成功穿越 %s！") % tr(DRIVE[lv.id].road if drive else lv.name), 50, Color("#7CFC00"), 12))
 	elif r.run_over:
 		box.add_child(_label("闯红灯被车撞了，GAME OVER", 50, Color("#ff5252"), 12))
 	elif r.get("late", false):
@@ -494,27 +560,27 @@ func _on_finished(r: Dictionary) -> void:
 		box.add_child(_label("撞车太多次，今天别开了……" if drive else "你被电鸡创飞了……", 50, Color("#ff5252"), 12))
 	if not r.win:
 		box.add_child(_label("现实可能比游戏更残酷。", 24, Color("#ff8a80"), 6))
-	box.add_child(_label("评级  %s" % _rank(r), 40, Color("#ffd23f"), 10))
+	box.add_child(_label(tr("评级  %s") % _rank(r), 40, Color("#ffd23f"), 10))
 	if drive:
-		box.add_child(_label("行驶  %d / %d 米      用时  %.1f 秒      等红灯  %.1f 秒" % [r.dist, r.target, r.time, r.wait], 23))
-		box.add_child(_label("擦身而过  %d 次      撞车  %d 次      闯红灯  %d 次      公交道扣分  %d" % [r.near, r.hits, r.jaywalks, r.bus_pen], 23))
+		box.add_child(_label(tr("行驶  %d / %d 米      用时  %.1f 秒      等红灯  %.1f 秒") % [r.dist, r.target, r.time, r.wait], 23))
+		box.add_child(_label(tr("擦身而过  %d 次      撞车  %d 次      闯红灯  %d 次      公交道扣分  %d") % [r.near, r.hits, r.jaywalks, r.bus_pen], 23))
 	else:
-		box.add_child(_label("坚持时间  %.1f 秒      等红灯  %.1f 秒" % [r.time, r.wait], 23))
-		box.add_child(_label("擦身而过  %d 次      被撞  %d 次      闯红灯  %d 次" % [r.near, r.hits, r.jaywalks], 23))
+		box.add_child(_label(tr("坚持时间  %.1f 秒      等红灯  %.1f 秒") % [r.time, r.wait], 23))
+		box.add_child(_label(tr("擦身而过  %d 次      被撞  %d 次      闯红灯  %d 次") % [r.near, r.hits, r.jaywalks], 23))
 	if r.invincible:
-		box.add_child(_label("创飞电鸡  %d 只！" % r.launched, 30, Color("#ff8a80")))
-	box.add_child(_label("总得分  %d" % r.score, 30, Color("#ffd23f")))
+		box.add_child(_label(tr("创飞电鸡  %d 只！") % r.launched, 30, Color("#ff8a80")))
+	box.add_child(_label(tr("总得分  %d") % r.score, 30, Color("#ffd23f")))
 	if r.invincible:
 		box.add_child(_label("（无敌模式成绩不计入存档）", 18, Color("#bbbbbb"), 6))
 	if unlocked_new:
 		var nxt: Dictionary = LEVELS[last_level + 1]
-		box.add_child(_label("解锁新关卡：%s · %s" % [nxt.city, nxt.name], 24, Color("#00e5ff")))
+		box.add_child(_label(tr("解锁新关卡：%s · %s") % [tr(nxt.city), tr(nxt.name)], 24, Color("#00e5ff")))
 	box.add_child(_spacer(4))
 	var again := _button("再来一次  Retry", func(): _start_game(last_level, last_mode))
 	var focus := again
 	if last_level + 1 < LEVELS.size() and (last_level + 1 <= _unlocked() or r.invincible):
 		var nxt: Dictionary = LEVELS[last_level + 1]
-		focus = _button("下一关：%s · %s" % [nxt.city, nxt.name], func(): _start_game(last_level + 1, last_mode))
+		focus = _button(tr("下一关：%s · %s") % [tr(nxt.city), tr(nxt.name)], func(): _start_game(last_level + 1, last_mode))
 		box.add_child(focus)
 	box.add_child(again)
 	var row := HBoxContainer.new()
@@ -523,7 +589,7 @@ func _on_finished(r: Dictionary) -> void:
 	for m in ["walk", "bike", "drive"]:
 		if m != last_mode:
 			var mm: String = m
-			var mb := _button("换成%s" % MODE_NAMES[m], func(): _start_game(last_level, mm))
+			var mb := _button(tr("换成%s") % tr(MODE_NAMES[m]), func(): _start_game(last_level, mm))
 			mb.custom_minimum_size = Vector2(185, 48)
 			row.add_child(mb)
 	box.add_child(row)

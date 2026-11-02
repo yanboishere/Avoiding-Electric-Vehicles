@@ -1,10 +1,16 @@
-[gd_resource type="FontVariation" load_steps=3 format=3]
+[gd_resource type="FontVariation" load_steps=5 format=3]
 
 [ext_resource type="FontFile" path="res://fonts/SmileySans-Oblique.ttf" id="1"]
 
 [sub_resource type="SystemFont" id="SystemFont_cjk"]
 font_names = PackedStringArray("Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "Microsoft YaHei UI", "Noto Sans CJK SC", "Source Han Sans SC", "WenQuanYi Micro Hei", "sans-serif")
 
+[sub_resource type="SystemFont" id="SystemFont_ko"]
+font_names = PackedStringArray("Apple SD Gothic Neo", "Malgun Gothic", "Noto Sans CJK KR", "Noto Sans KR")
+
+[sub_resource type="SystemFont" id="SystemFont_ar"]
+font_names = PackedStringArray("Geeza Pro", "SF Arabic", "Segoe UI", "Tahoma", "Noto Sans Arabic")
+
 [resource]
 base_font = ExtResource("1")
-fallbacks = Array[Font]([SubResource("SystemFont_cjk")])
+fallbacks = Array[Font]([SubResource("SystemFont_cjk"), SubResource("SystemFont_ko"), SubResource("SystemFont_ar")])

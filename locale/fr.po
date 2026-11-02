@@ -1,0 +1,982 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: fr\n"
+
+msgid "步行"
+msgstr "À pied"
+
+msgid "骑车"
+msgstr "À vélo"
+
+msgid "开车"
+msgstr "En voiture"
+
+msgid "暴雨"
+msgstr "Averse"
+
+msgid "夜间"
+msgstr "Nuit"
+
+msgid "%s 限速%d"
+msgstr "%s, max %d"
+
+msgid "%d 个路口"
+msgstr "%d carrefours"
+
+msgid "%s · %s ｜ %s ｜ %s"
+msgstr "%s · %s | %s | %s"
+
+msgid "躲避电鸡"
+msgstr "Esquive les scooters"
+
+msgid "Avoiding Electric Vehicles  ·  没有非机动车道的广深街头"
+msgstr "Avoiding Electric Vehicles  ·  Guangzhou et Shenzhen, sans piste cyclable"
+
+msgid "出行方式："
+msgstr "Se déplacer :"
+
+msgid "无敌模式：创飞一切电鸡！"
+msgstr "Mode invincible : fais valser tous les scooters !"
+
+msgid "未通关"
+msgstr "Pas encore fini"
+
+msgid "最佳 %s · %d 分"
+msgstr "Record %s · %d pts"
+
+msgid "无敌畅玩"
+msgstr "Jeu libre invincible"
+
+msgid "第 %d 关 · %s\n%s\n%s"
+msgstr "Niveau %d · %s\n%s\n%s"
+
+msgid "未解锁"
+msgstr "Verrouillé"
+
+msgid "通关第 %d 关后解锁"
+msgstr "Finis le niveau %d pour le débloquer"
+
+msgid "无敌模式：不掉血、无视红灯，撞到的电鸡全部创飞；成绩不计入存档"
+msgstr "Mode invincible : aucun dégât, feux rouges ignorés, tous les scooters touchés valsent ; scores non sauvegardés"
+
+msgid "游戏规则"
+msgstr "Règles du jeu"
+
+msgid "退出游戏"
+msgstr "Quitter"
+
+msgid "支持作者"
+msgstr "Soutenir l'auteur"
+
+msgid "步行 / 骑车：WASD 移动 · 开车：W 加速 S 刹车 A/D 变道 · 空格闯红灯 · ESC 暂停 · F11 全屏"
+msgstr "À pied / à vélo : WASD pour bouger · En voiture : W accélère, S freine, A/D change de voie · Espace : griller le feu · ESC pause · F11 plein écran"
+
+msgid "[center][font_size=36][color=#ffd23f]游戏规则[/color][/font_size][/center]\n[color=#7CFC00]目标[/color]　步行 / 骑车：每关 60 秒，沿没有非机动车道的人行道往前走，被撞 3 次失败。\n[color=#7CFC00]开车[/color]　按每关真实路段的车道、限速、公交专用道设计：60 秒内开到目的地，W 加速 S 刹车 A/D 变道。\n[color=#7CFC00]操作[/color]　WASD / 方向键 / 手柄移动，空格闯红灯，ESC 暂停，F11 全屏。\n[color=#ffd23f]电鸡[/color]　迎面逆行、身后超车（[color=#ff5252]红三角 + 嘀嘀声[/color]预警）、蛇形、钻车缝、店门口 / 路边冲出、急刹后变路障。\n[color=#ffd23f]路障[/color]　地铁口、共享单车、停着的电鸡、石墩、摊位、违停车、施工围挡都是实心的，撞上要扣命。\n[color=#ffd23f]红绿灯[/color]　步行红灯时画面停下等绿灯；开车要自己刹停在停止线前。占用公交专用道会持续扣分。\n[color=#ff5252]闯红灯[/color]　步行在路缘前[color=#ffcc80]按住 ↑ 半秒或按空格[/color]硬闯，开车直接冲线：[color=#ff5252]扣当前分数 25%[/color]，在路口里[color=#ff5252]被车撞到直接 GAME OVER[/color]。\n[color=#00b8d4]得分[/color]　坚持越久 / 开得越远分越高，擦身而过 +50，通关每条剩余的命 +300。\n[color=#00b8d4]评级[/color]　S 零失误 · A 被撞 1 次 · B 通关 · C 失败。[color=#7CFC00]通关前一关才能解锁下一关[/color]，广州、深圳共 12 关。\n[color=#ff8a80]无敌模式[/color]　主页打开后不掉血、无视红灯，撞到的电鸡全部[color=#ffd23f]创飞[/color]（每只 +100），成绩不计入存档。"
+msgstr "[center][font_size=36][color=#ffd23f]Règles du jeu[/color][/font_size][/center]\n[color=#7CFC00]But[/color]　À pied / à vélo : 60 s par niveau, avance sur un trottoir sans piste cyclable ; 3 chocs et c'est perdu.\n[color=#7CFC00]Voiture[/color]　Voies, limitations et voies de bus calquées sur de vraies rues : arrive à destination en 60 s. W accélère, S freine, A/D change de voie.\n[color=#7CFC00]Commandes[/color]　WASD / flèches / manette pour bouger, Espace pour griller le feu, ESC pause, F11 plein écran.\n[color=#ffd23f]Scooters[/color]　À contresens, dépassement par-derrière (alerte [color=#ff5252]triangle rouge + bip-bip[/color]), zigzags, faufilage entre les voitures, sorties de boutique / de trottoir, pile soudaine puis obstacle.\n[color=#ffd23f]Obstacles[/color]　Bouches de métro, vélos partagés, scooters garés, bornes en pierre, étals, voitures mal garées, palissades de chantier : tout est solide, chaque choc coûte une vie.\n[color=#ffd23f]Feux[/color]　À pied, l'écran s'arrête au rouge jusqu'au vert ; en voiture, freine toi-même avant la ligne. Rouler sur la voie de bus fait perdre des points en continu.\n[color=#ff5252]Griller le feu[/color]　À pied, devant le trottoir, [color=#ffcc80]maintiens ↑ une demi-seconde ou appuie sur Espace[/color] ; en voiture, fonce : [color=#ff5252]-25% de ton score[/color], et [color=#ff5252]si une voiture te touche au carrefour, GAME OVER direct[/color].\n[color=#00b8d4]Score[/color]　Plus tu tiens / roules loin, plus tu marques. Frôlement +50, chaque vie restante en fin de niveau +300.\n[color=#00b8d4]Rang[/color]　S sans faute · A touché 1 fois · B réussi · C échec. [color=#7CFC00]Finis un niveau pour débloquer le suivant[/color] ; 12 niveaux entre Guangzhou et Shenzhen.\n[color=#ff8a80]Mode invincible[/color]　À activer sur l'accueil : aucun dégât, feux ignorés, tous les scooters touchés [color=#ffd23f]valsent[/color] (+100 chacun), scores non sauvegardés."
+
+msgid "喜欢这个游戏的话，可以请作者喝杯奶茶"
+msgstr "Le jeu te plaît ? Offre un bubble tea à l'auteur"
+
+msgid "点击地址即可复制"
+msgstr "Clique sur une adresse pour la copier"
+
+msgid "已复制 %s：%s"
+msgstr "%s copié : %s"
+
+msgid "返回菜单"
+msgstr "Retour au menu"
+
+msgid "明白了，开始！"
+msgstr "Compris, on y va !"
+
+msgid "准时到达！%s"
+msgstr "À l'heure ! %s"
+
+msgid "成功穿越 %s！"
+msgstr "Tu as traversé %s !"
+
+msgid "闯红灯被车撞了，GAME OVER"
+msgstr "Fauché en grillant le feu, GAME OVER"
+
+msgid "迟到了！60 秒没开到目的地"
+msgstr "En retard ! Pas arrivé en 60 s"
+
+msgid "撞车太多次，今天别开了……"
+msgstr "Trop d'accidents, laisse la voiture aujourd'hui…"
+
+msgid "你被电鸡创飞了……"
+msgstr "Un scooter t'a envoyé valser…"
+
+msgid "现实可能比游戏更残酷。"
+msgstr "La réalité est peut-être pire que le jeu."
+
+msgid "评级  %s"
+msgstr "Rang  %s"
+
+msgid "行驶  %d / %d 米      用时  %.1f 秒      等红灯  %.1f 秒"
+msgstr "Distance  %d / %d m      Temps  %.1f s      Au feu rouge  %.1f s"
+
+msgid "擦身而过  %d 次      撞车  %d 次      闯红灯  %d 次      公交道扣分  %d"
+msgstr "Frôlements  %d      Accidents  %d      Feux grillés  %d      Pénalité bus  %d"
+
+msgid "坚持时间  %.1f 秒      等红灯  %.1f 秒"
+msgstr "Tenu  %.1f s      Au feu rouge  %.1f s"
+
+msgid "擦身而过  %d 次      被撞  %d 次      闯红灯  %d 次"
+msgstr "Frôlements  %d      Chocs  %d      Feux grillés  %d"
+
+msgid "创飞电鸡  %d 只！"
+msgstr "%d scooters envoyés valser !"
+
+msgid "总得分  %d"
+msgstr "Score total  %d"
+
+msgid "（无敌模式成绩不计入存档）"
+msgstr "(Mode invincible : score non sauvegardé)"
+
+msgid "解锁新关卡：%s · %s"
+msgstr "Niveau débloqué : %s · %s"
+
+msgid "再来一次  Retry"
+msgstr "Rejouer"
+
+msgid "下一关：%s · %s"
+msgstr "Suivant : %s · %s"
+
+msgid "换成%s"
+msgstr "Essayer : %s"
+
+msgid "返回菜单  Menu"
+msgstr "Menu"
+
+msgid "哎哟！"
+msgstr "Aïe !"
+
+msgid "被电鸡创了！"
+msgstr "Scooté !"
+
+msgid "看路啊靓仔！"
+msgstr "Regarde devant, beau gosse !"
+
+msgid "赶着送外卖啊？"
+msgstr "T'as une livraison ?"
+
+msgid "我的腰……"
+msgstr "Mon dos…"
+
+msgid "险！"
+msgstr "Ouf !"
+
+msgid "好险！"
+msgstr "De justesse !"
+
+msgid "擦身而过！"
+msgstr "Frôlé !"
+
+msgid "丝滑！"
+msgstr "Tout en finesse !"
+
+msgid "嘀嘀！"
+msgstr "Bip bip !"
+
+msgid "让一让！"
+msgstr "Pousse-toi !"
+
+msgid "借过借过！"
+msgstr "Pardon, pardon !"
+
+msgid "嘀——"
+msgstr "Biiiip—"
+
+msgid "被绊倒了！"
+msgstr "Trébuché !"
+
+msgid "挤不过去了！"
+msgstr "Ça passe pas !"
+
+msgid "谁乱停的车！"
+msgstr "Qui s'est garé là ?!"
+
+msgid "闯红灯！"
+msgstr "Feu grillé !"
+
+msgid "红灯也冲！"
+msgstr "Rouge ? On fonce !"
+
+msgid "赶时间！"
+msgstr "Je suis pressé !"
+
+msgid "创飞！"
+msgstr "Valsé !"
+
+msgid "飞咯～"
+msgstr "Ça vole～"
+
+msgid "再见了您嘞！"
+msgstr "Bon vent !"
+
+msgid "起飞！"
+msgstr "Décollage !"
+
+msgid "一路走好！"
+msgstr "Adieu l'ami !"
+
+msgid "急刹！"
+msgstr "Pile !"
+
+msgid "到了到了！"
+msgstr "J'arrive, j'arrive !"
+
+msgid "送个外卖先"
+msgstr "Livraison d'abord"
+
+msgid "撞到人了！"
+msgstr "Piéton touché !"
+
+msgid "对不起对不起！"
+msgstr "Pardon, pardon !"
+
+msgid "看路啊！"
+msgstr "Regarde devant !"
+
+msgid "哎哟喂！"
+msgstr "Ouille ouille !"
+
+msgid "绿灯！走！"
+msgstr "Vert ! On y va !"
+
+msgid "冲！"
+msgstr "Fonce !"
+
+msgid "横街"
+msgstr "Rue transv."
+
+msgid "无敌！红灯算什么"
+msgstr "Invincible ! Les feux, bof"
+
+msgid "闯红灯！-%d 分"
+msgstr "Feu grillé ! -%d pts"
+
+msgid "被车撞到直接 GAME OVER！"
+msgstr "Touché par une voiture = GAME OVER !"
+
+msgid "（无敌）被车撞了"
+msgstr "(Invincible) Percuté"
+
+msgid "闯红灯被车撞了！"
+msgstr "Fauché en grillant le feu !"
+
+msgid "冲出来了！"
+msgstr "Il déboule !"
+
+msgid "等灯咯"
+msgstr "On attend le vert"
+
+msgid "低头看手机…"
+msgstr "Le nez sur son tél…"
+
+msgid "成功通关！"
+msgstr "Niveau réussi !"
+
+msgid "%d 连创飞！+100"
+msgstr "Combo x%d ! +100"
+
+msgid "小吃"
+msgstr "Snacks"
+
+msgid "便利店"
+msgstr "Supérette"
+
+msgid "地铁"
+msgstr "M"
+
+msgid "你"
+msgstr "Toi"
+
+msgid "店门口冲出！"
+msgstr "Sort d'une boutique !"
+
+msgid "后方来车！嘀嘀！"
+msgstr "Ça arrive derrière ! Bip !"
+
+msgid "步行模式"
+msgstr "Mode à pied"
+
+msgid "骑车模式"
+msgstr "Mode vélo"
+
+msgid "无敌（已创飞 %d）"
+msgstr "Invincible (%d valsés)"
+
+msgid "ESC 暂停"
+msgstr "ESC pause"
+
+msgid "得分 %d"
+msgstr "Score %d"
+
+msgid "停"
+msgstr "Stop"
+
+msgid "行"
+msgstr "Go"
+
+msgid "红灯"
+msgstr "Rouge"
+
+msgid "绿灯"
+msgstr "Vert"
+
+msgid "红灯 %d"
+msgstr "Rouge %d"
+
+msgid "闯红灯中！小心车！"
+msgstr "Feu grillé ! Gare aux voitures !"
+
+msgid "按住 ↑ 或 空格 闯红灯（扣 25% 分）"
+msgstr "Maintiens ↑ ou Espace pour griller le feu (-25% du score)"
+
+msgid "红灯 · 等一等  %d 秒"
+msgstr "Rouge · patiente  %d s"
+
+msgid "红灯 · 等一等…"
+msgstr "Rouge · patiente…"
+
+msgid "WASD / 方向键 移动，躲开电鸡和路障，遇红灯要停"
+msgstr "WASD / flèches pour bouger, évite scooters et obstacles, stop au feu rouge"
+
+msgid "出发！"
+msgstr "C'est parti !"
+
+msgid "暂停"
+msgstr "Pause"
+
+msgid "ESC 继续    Q 返回菜单"
+msgstr "ESC reprendre    Q menu"
+
+msgid "撞到电鸡了！"
+msgstr "Scooter percuté !"
+
+msgid "电鸡倒地了…"
+msgstr "Le scooter est à terre…"
+
+msgid "全责警告！"
+msgstr "100 % ta faute !"
+
+msgid "下车看看人没事吧"
+msgstr "Va voir s'il va bien"
+
+msgid "追尾了！"
+msgstr "Collision arrière !"
+
+msgid "刮到车了！"
+msgstr "Carrosserie rayée !"
+
+msgid "保险要涨了…"
+msgstr "Adieu le bonus assurance…"
+
+msgid "逆行！"
+msgstr "Contresens !"
+
+msgid "路口"
+msgstr "Carrefour"
+
+msgid "借道绕行，不扣分"
+msgstr "Contournement, pas de pénalité"
+
+msgid "占用公交专用道 -15"
+msgstr "Voie de bus -15"
+
+msgid "被横街的车撞到直接 GAME OVER！"
+msgstr "Percuté au carrefour = GAME OVER !"
+
+msgid "撞到行人了！全责！"
+msgstr "Piéton touché ! Ta faute !"
+
+msgid "电鸡扶起车溜了"
+msgstr "Le scooter s'est relevé et a filé"
+
+msgid "进站"
+msgstr "Arrêt !"
+
+msgid "上下客"
+msgstr "Je dépose !"
+
+msgid "急刹！送外卖"
+msgstr "Pile ! Livraison"
+
+msgid "嘀嘀！借过"
+msgstr "Bip ! Pardon"
+
+msgid "横穿马路！"
+msgstr "Il traverse !"
+
+msgid "准时到达！"
+msgstr "À l'heure !"
+
+msgid "迟到了！"
+msgstr "En retard !"
+
+msgid "辅道"
+msgstr "Contre-allée"
+
+msgid "非机动车"
+msgstr "Vélos"
+
+msgid "公交专用"
+msgstr "BUS"
+
+msgid "深南大道主路"
+msgstr "Av. Shennan"
+
+msgid "深圳"
+msgstr "Shenzhen"
+
+msgid "公交"
+msgstr "BUS"
+
+msgid "前方施工"
+msgstr "Travaux"
+
+msgid "！"
+msgstr "!"
+
+msgid "机场高速高架"
+msgstr "Viaduc aéroport"
+
+msgid "有人横穿马路！"
+msgstr "Piéton qui traverse !"
+
+msgid "路边冲出！"
+msgstr "Surgit du trottoir !"
+
+msgid "%s · %s（开车）"
+msgstr "%s · %s (voiture)"
+
+msgid "限速 %d"
+msgstr "Max %d"
+
+msgid "W 加速  S 刹车  A/D 变道  ESC 暂停"
+msgstr "W accélérer  S freiner  A/D voie  ESC pause"
+
+msgid "剩余"
+msgstr "Reste"
+
+msgid "借道公交专用道绕过路障（不扣分）"
+msgstr "Voie de bus pour contourner (sans pénalité)"
+
+msgid "正在占用公交专用道！"
+msgstr "Tu roules sur la voie de bus !"
+
+msgid "黄灯"
+msgstr "Orange"
+
+msgid "60 秒内开到 %d 米外的目的地 · 限速 %d"
+msgstr "Rejoins l'arrivée à %d m en 60 s · max %d"
+
+msgid "W 加速  S 刹车  A/D 变道 · 红灯要自己停车"
+msgstr "W accélérer  S freiner  A/D voie · arrête-toi au rouge"
+
+msgid "体育西路"
+msgstr "Rue Tiyu Ouest"
+
+msgid "双向6车道、车流极大，天河城门口出租车上下客，外卖电鸡贴边逆行。"
+msgstr "2×3 voies, trafic énorme, taxis qui déposent devant Teemall, scooters de livreurs à contresens le long du trottoir."
+
+msgid "天河南一路"
+msgstr "Rue Tianhe Sud 1"
+
+msgid "天河路"
+msgstr "Rue Tianhe"
+
+msgid "振华路（单行）"
+msgstr "Rue Zhenhua (sens unique)"
+
+msgid "华强北路是步行街开不进去，走振华路：由西向东单行，右边有电动车道，可电鸡偏要跑进机动车道。"
+msgstr "Huaqiang Nord est piétonne, on passe par la rue Zhenhua : sens unique ouest-est, avec une voie à droite pour les scooters… qui préfèrent rouler avec les voitures."
+
+msgid "燕南路"
+msgstr "Rue Yannan"
+
+msgid "华发北路"
+msgstr "Rue Huafa Nord"
+
+msgid "中山五路"
+msgstr "Rue Zhongshan 5"
+
+msgid "北京路步行街开不进去，走中山五路：双向4车道（估），晚高峰最右是公交专用道，公交车一辆接一辆进站。"
+msgstr "La rue de Pékin est piétonne, on passe par la rue Zhongshan 5 : 2×2 voies (estimé), voie de bus à droite à l'heure de pointe, et les bus s'arrêtent à la chaîne."
+
+msgid "北京路口"
+msgstr "Carref. Pékin"
+
+msgid "吉祥路口"
+msgstr "Carref. Jixiang"
+
+msgid "科苑路"
+msgstr "Rue Keyuan"
+
+msgid "午高峰科苑路排长龙，外卖电鸡在车缝里钻；路口做了绿波，保持约40km/h能一路绿灯。"
+msgstr "Bouchons sur la rue Keyuan à midi, les scooters de livreurs se faufilent ; onde verte aux carrefours : à ~40 km/h, tout est vert."
+
+msgid "高新中一道"
+msgstr "Gaoxin Centre 1"
+
+msgid "高新南一道"
+msgstr "Gaoxin Sud 1"
+
+msgid "高新南四道"
+msgstr "Gaoxin Sud 4"
+
+msgid "新港中路"
+msgstr "Rue Xingang Centre"
+
+msgid "海珠主干道限速60，最右是公交专用道，客村一带公交车密集进站。"
+msgstr "Grand axe de Haizhu limité à 60, voie de bus à droite, bus en rafale aux arrêts de Kecun."
+
+msgid "新市头路"
+msgstr "Rue Xinshitou"
+
+msgid "艺苑路"
+msgstr "Rue Yiyuan"
+
+msgid "东门中路"
+msgstr "Rue Dongmen Centre"
+
+msgid "双向7车道，可两边各2条是公交专用道，社会车只能挤在中间；商铺门口电鸡说冲就冲。"
+msgstr "7 voies, mais 2 voies de bus de chaque côté : les voitures s'entassent au milieu ; les scooters jaillissent des boutiques sans prévenir."
+
+msgid "解放路"
+msgstr "Rue Jiefang"
+
+msgid "晒布路"
+msgstr "Rue Shaibu"
+
+msgid "花城大道"
+msgstr "Av. Huacheng"
+
+msgid "双向10车道又宽又快，暴雨天视线差、路面滑，刹车距离明显变长。"
+msgstr "2×5 voies, large et rapide ; sous l'averse, visibilité réduite, chaussée glissante, freinage bien plus long."
+
+msgid "冼村路"
+msgstr "Rue Xiancun"
+
+msgid "猎德大道"
+msgstr "Av. Liede"
+
+msgid "深南大道"
+msgstr "Av. Shennan"
+
+msgid "深南大道主路双向8车道、两边辅道，深夜车速快，电鸡从辅道横穿绿化带开口冲进主路。"
+msgstr "Axe central de l'av. Shennan en 2×4 voies avec contre-allées ; la nuit ça roule vite, et les scooters coupent par les trouées du terre-plein."
+
+msgid "泰然九路"
+msgstr "Rue Tairan 9"
+
+msgid "香梅路"
+msgstr "Rue Xiangmei"
+
+msgid "石牌东路"
+msgstr "Rue Shipai Est"
+
+msgid "贴着石牌村，村巷口随时冲出电鸡，路边违停一辆接一辆。"
+msgstr "Collée au village Shipai : des scooters surgissent des ruelles, et les voitures mal garées s'enchaînent."
+
+msgid "新陶北街"
+msgstr "Rue Xintao Nord"
+
+msgid "新陶南街"
+msgstr "Rue Xintao Sud"
+
+msgid "深南大道辅道"
+msgstr "Contre-allée Shennan"
+
+msgid "深南辅道白石洲段，左边绿化带外是主路；公交站一个接一个，城中村电鸡从沙河街口一窝蜂冲出。"
+msgstr "Contre-allée Shennan à Baishizhou, l'axe central derrière le terre-plein à gauche ; arrêts de bus en série, et les scooters du village urbain déferlent de la rue Shahe."
+
+msgid "沙河街"
+msgstr "Rue Shahe"
+
+msgid "石洲中路"
+msgstr "Rue Shizhou Centre"
+
+msgid "机场路"
+msgstr "Rue de l'Aéroport"
+
+msgid "头顶是机场高速高架，桥墩挡住视线，暴雨夜路面反光，看不清贴边逆行的电鸡。"
+msgstr "Sous le viaduc de l'autoroute de l'aéroport : piles qui cachent la vue, chaussée qui brille sous l'averse, impossible de voir les scooters à contresens."
+
+msgid "齐富路"
+msgstr "Rue Qifu"
+
+msgid "汇侨南路"
+msgstr "Rue Huiqiao Sud"
+
+msgid "民治大道"
+msgstr "Av. Minzhi"
+
+msgid "双向6车道挤在24米宽的路上，限速40，晚高峰三个红灯，急刹、拉货、钻缝电鸡全都来了。"
+msgstr "6 voies serrées sur 24 m, limité à 40, trois feux rouges à l'heure de pointe : scooters qui pilent, livrent ou se faufilent, tout y est."
+
+msgid "人民路"
+msgstr "Rue Renmin"
+
+msgid "梅龙路"
+msgstr "Rue Meilong"
+
+msgid "工业路"
+msgstr "Rue Gongye"
+
+msgid "广州"
+msgstr "Guangzhou"
+
+msgid "天河·体育西路"
+msgstr "Tianhe · Rue Tiyu Ouest"
+
+msgid "新手关：体育西路地铁站外，迎面逆行的电鸡最多。"
+msgstr "Niveau débutant : devant le métro Tiyu Ouest, les scooters à contresens pullulent."
+
+msgid "肠粉"
+msgstr "Cheung fun"
+
+msgid "云吞面"
+msgstr "Soupe wonton"
+
+msgid "凉茶铺"
+msgstr "Tisanerie"
+
+msgid "糖水"
+msgstr "Desserts"
+
+msgid "烧腊饭"
+msgstr "Riz laqué"
+
+msgid "早茶"
+msgstr "Dim sum"
+
+msgid "猪脚饭"
+msgstr "Pied de porc"
+
+msgid "士多"
+msgstr "Épicerie"
+
+msgid "体育西路站"
+msgstr "Tiyu Ouest"
+
+msgid "福田·华强北"
+msgstr "Futian · Huaqiang Nord"
+
+msgid "电子市场门口，拉货的电鸡纸箱堆得比人还高。"
+msgstr "Devant le marché électronique, les scooters de livraison portent des cartons plus hauts qu'un homme."
+
+msgid "手机配件"
+msgstr "Accessoires"
+
+msgid "电子市场"
+msgstr "Électronique"
+
+msgid "数码维修"
+msgstr "Réparation"
+
+msgid "充电宝"
+msgstr "Batteries"
+
+msgid "奶茶"
+msgstr "Bubble tea"
+
+msgid "潮汕牛肉"
+msgstr "Bœuf Chaozhou"
+
+msgid "无人机"
+msgstr "Drones"
+
+msgid "华强北站"
+msgstr "Huaqiang Nord"
+
+msgid "振华路"
+msgstr "Rue Zhenhua"
+
+msgid "红荔路"
+msgstr "Rue Hongli"
+
+msgid "越秀·北京路"
+msgstr "Yuexiu · Rue de Pékin"
+
+msgid "骑楼老街人行道窄，糖水档、石墩挡路，要在缝里穿。"
+msgstr "Vieille rue à arcades (qilou), trottoir étroit, étals de desserts et bornes en pierre : faufile-toi."
+
+msgid "双皮奶"
+msgstr "Flan au lait"
+
+msgid "牛杂"
+msgstr "Tripes bœuf"
+
+msgid "姜撞奶"
+msgstr "Lait gingembre"
+
+msgid "老字号"
+msgstr "Depuis 1888"
+
+msgid "凉茶"
+msgstr "Tisane"
+
+msgid "鸡仔饼"
+msgstr "Biscuits"
+
+msgid "手信"
+msgstr "Souvenirs"
+
+msgid "鸡蛋仔"
+msgstr "Gaufrettes"
+
+msgid "烤肠"
+msgstr "Saucisses"
+
+msgid "公园前站"
+msgstr "Gongyuanqian"
+
+msgid "文明路"
+msgstr "Rue Wenming"
+
+msgid "南山·科技园"
+msgstr "Nanshan · Parc techno"
+
+msgid "午饭外卖高峰！身后嘀嘀声不断，红灯时电鸡全挤在你身边。"
+msgstr "Rush des livraisons de midi ! Ça klaxonne derrière toi, et au feu rouge les scooters se collent à toi."
+
+msgid "咖啡"
+msgstr "Café"
+
+msgid "轻食沙拉"
+msgstr "Salades"
+
+msgid "麻辣烫"
+msgstr "Malatang"
+
+msgid "快餐"
+msgstr "Fast-food"
+
+msgid "煲仔饭"
+msgstr "Riz en pot"
+
+msgid "黄焖鸡"
+msgstr "Poulet braisé"
+
+msgid "高新园站"
+msgstr "Gaoxinyuan"
+
+msgid "海珠·客村"
+msgstr "Haizhu · Kecun"
+
+msgid "换乘站口一个接一个，门口的共享单车堆成山。"
+msgstr "Sorties de métro à la chaîne, et devant, des montagnes de vélos partagés."
+
+msgid "沙县小吃"
+msgstr "Snack Shaxian"
+
+msgid "水果店"
+msgstr "Fruits"
+
+msgid "药房"
+msgstr "Pharmacie"
+
+msgid "粉面"
+msgstr "Nouilles"
+
+msgid "快递点"
+msgstr "Point colis"
+
+msgid "客村站"
+msgstr "Kecun"
+
+msgid "罗湖·东门"
+msgstr "Luohu · Dongmen"
+
+msgid "老商圈店铺密，电鸡随时从店门口冲出来。"
+msgstr "Vieux quartier commerçant bourré de boutiques : un scooter peut en jaillir à tout moment."
+
+msgid "服装城"
+msgstr "Vêtements"
+
+msgid "鞋城"
+msgstr "Chaussures"
+
+msgid "烧鹅"
+msgstr "Oie rôtie"
+
+msgid "茶餐厅"
+msgstr "Café HK"
+
+msgid "眼镜"
+msgstr "Opticien"
+
+msgid "金铺"
+msgstr "Bijouterie"
+
+msgid "炸串"
+msgstr "Fritures"
+
+msgid "糖葫芦"
+msgstr "Tanghulu"
+
+msgid "炒冰"
+msgstr "Glace roulée"
+
+msgid "老街站"
+msgstr "Laojie"
+
+msgid "新园路"
+msgstr "Rue Xinyuan"
+
+msgid "珠江新城·花城大道"
+msgstr "Zhujiang Xincheng · Av. Huacheng"
+
+msgid "暴雨天！地面湿滑刹不住脚，穿雨披的电鸡看不清路。"
+msgstr "Averse ! Le sol glisse, impossible de freiner, et les scooters en poncho n'y voient rien."
+
+msgid "写字楼"
+msgstr "Bureaux"
+
+msgid "银行"
+msgstr "Banque"
+
+msgid "轻食"
+msgstr "Snack léger"
+
+msgid "书店"
+msgstr "Librairie"
+
+msgid "花店"
+msgstr "Fleuriste"
+
+msgid "西饼"
+msgstr "Pâtisserie"
+
+msgid "珠江新城站"
+msgstr "Zhujiang Xincheng"
+
+msgid "福田·车公庙"
+msgstr "Futian · Chegongmiao"
+
+msgid "深夜加班回家，路灯昏暗，只能靠车灯判断电鸡在哪。"
+msgstr "Retour tardif après le boulot, éclairage faiblard : seuls les phares trahissent les scooters."
+
+msgid "24h便利店"
+msgstr "Supérette 24h"
+
+msgid "烧烤"
+msgstr "Barbecue"
+
+msgid "螺蛳粉"
+msgstr "Luosifen"
+
+msgid "网吧"
+msgstr "Cybercafé"
+
+msgid "牛肉火锅"
+msgstr "Fondue bœuf"
+
+msgid "夜宵"
+msgstr "Snack de nuit"
+
+msgid "车公庙站"
+msgstr "Chegongmiao"
+
+msgid "天安路"
+msgstr "Rue Tian'an"
+
+msgid "天河·石牌村"
+msgstr "Tianhe · Village Shipai"
+
+msgid "城中村握手楼，巷子窄、停满电鸡，蛇形走位的特别多。"
+msgstr "Village urbain aux immeubles collés, ruelles étroites pleines de scooters garés, et ça zigzague dans tous les sens."
+
+msgid "快递驿站"
+msgstr "Relais colis"
+
+msgid "理发"
+msgstr "Coiffeur"
+
+msgid "手机维修"
+msgstr "SAV mobile"
+
+msgid "炒粉"
+msgstr "Nouilles wok"
+
+msgid "烤串"
+msgstr "Brochettes"
+
+msgid "水果"
+msgstr "Fruits"
+
+msgid "南山·白石洲"
+msgstr "Nanshan · Baishizhou"
+
+msgid "城中村夜市开档，摊位占道，电鸡在灯影里乱窜。"
+msgstr "Le marché de nuit du village urbain ouvre, les étals mangent le trottoir, les scooters filent dans la pénombre."
+
+msgid "砂锅粥"
+msgstr "Congee"
+
+msgid "湘菜馆"
+msgstr "Resto Hunan"
+
+msgid "烤生蚝"
+msgstr "Huîtres"
+
+msgid "臭豆腐"
+msgstr "Tofu puant"
+
+msgid "白云·新市墟"
+msgstr "Baiyun · Xinshixu"
+
+msgid "暴雨夜，又滑又黑，地铁口外排满了共享单车。"
+msgstr "Nuit d'averse, glissante et noire, et des vélos partagés alignés devant le métro."
+
+msgid "烧腊"
+msgstr "Rôtisserie"
+
+msgid "粥粉面"
+msgstr "Congee & co"
+
+msgid "五金"
+msgstr "Bricolage"
+
+msgid "药店"
+msgstr "Pharmacie"
+
+msgid "鞋店"
+msgstr "Chaussures"
+
+msgid "新市墟站"
+msgstr "Xinshixu"
+
+msgid "新市西街"
+msgstr "Rue Xinshi Ouest"
+
+msgid "龙华·民治"
+msgstr "Longhua · Minzhi"
+
+msgid "终极晚高峰：三个红灯，急刹、拉货、外卖、成排电鸡全都来了。"
+msgstr "Heure de pointe ultime : trois feux rouges, coups de frein, livraisons, colis et scooters en rangs serrés."
+
+msgid "手机店"
+msgstr "Téléphonie"
+
+msgid "超市"
+msgstr "Supermarché"
+
+msgid "饺子馆"
+msgstr "Raviolis"
+
+msgid "烤鱼"
+msgstr "Poisson rôti"
+
+msgid "煎饼"
+msgstr "Crêpes"
+
+msgid "民治站"
+msgstr "Minzhi"
+
+msgid "梅龙大道"
+msgstr "Av. Meilong"

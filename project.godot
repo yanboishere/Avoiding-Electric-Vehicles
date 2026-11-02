@@ -26,3 +26,8 @@ anti_aliasing/quality/msaa_2d=2
 [gui]
 
 theme/custom_font="res://fonts/ui_font.tres"
+
+[internationalization]
+
+locale/fallback="zh_CN"
+locale/translations=PackedStringArray("res://locale/en.po", "res://locale/ja.po", "res://locale/ko.po", "res://locale/fr.po", "res://locale/es.po", "res://locale/de.po", "res://locale/ar.po", "res://locale/vi.po", "res://locale/pt.po", "res://locale/it.po")
