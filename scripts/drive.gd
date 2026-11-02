@@ -1154,8 +1154,11 @@ func _draw() -> void:
 			_draw_ent(e)
 	if not (invuln > 0.0 and fmod(invuln, 0.2) < 0.1):
 		_draw_car(me.pos, lat_v / 250.0 * 0.08, PLAYER_COLOR)
-		draw_rect(Rect2(-12, -6, 24, 14), Color("#fff3e0"))
-		_text(Vector2(0, 7), "你", 13, Color("#ff7a00"))
+		draw_set_transform(me.pos + _shake_off)
+		var you := tr("你")
+		var yw := clampf(font.get_string_size(you, HORIZONTAL_ALIGNMENT_LEFT, -1, 13).x + 6.0, 24.0, 44.0)
+		draw_rect(Rect2(-yw / 2.0, -6, yw, 14), Color("#fff3e0"))
+		_text_plain(Vector2(-yw / 2.0 + 1.0, 6), you, 13, Color("#ff7a00"), yw - 2.0, HORIZONTAL_ALIGNMENT_CENTER)
 	_draw_flyers()
 	if cfg.get("median", "") == "viaduct":
 		_draw_viaduct()
@@ -1336,6 +1339,8 @@ func _draw_ent(e: Dictionary) -> void:
 			_draw_car(e.pos, 0.0 if e.dir <= 0 else PI, e.col)
 			if e.type == "taxi":
 				draw_rect(Rect2(-11, -2, 22, 9), Color("#fdd835"))
+				draw_set_transform(e.pos + _shake_off)
+				draw_rect(Rect2(-11, -2, 22, 9), Color("#fdd835"))
 				_text(Vector2(0, 6), "TAXI", 9, Color("#333333"))
 			elif e.type == "parked" and fmod(Time.get_ticks_msec() / 1000.0, 0.7) < 0.35:
 				for c in [Vector2(-20, -42), Vector2(20, -42), Vector2(-20, 42), Vector2(20, 42)]:
@@ -1352,7 +1357,9 @@ func _draw_ent(e: Dictionary) -> void:
 			draw_rect(Rect2(-26, -66, 52, 132), bc)
 			draw_rect(Rect2(-22, -62, 44, 12), Color("#26384a"))
 			draw_rect(Rect2(-20, -40, 40, 96), bc.lightened(0.2))
-			_text(Vector2(0, 8), "公交", 14, Color.WHITE)
+			draw_set_transform(e.pos + _shake_off)
+			_text_plain(Vector2(-22, 8), "公交", 14, Color.WHITE, 44, HORIZONTAL_ALIGNMENT_CENTER)
+			draw_set_transform(e.pos + _shake_off, 0.0 if e.dir <= 0 else PI)
 			if e.get("stop_t", 0.0) > 0.0 and fmod(Time.get_ticks_msec() / 1000.0, 0.6) < 0.3:
 				draw_circle(Vector2(24, 60), 5, Color("#ffa000"))
 		"cones":
@@ -1425,7 +1432,7 @@ func _draw_hud_drive() -> void:
 		tags += " · " + tr("夜间")
 	if invincible:
 		tags += " · " + tr("无敌（已创飞 %d）") % launched
-	_text_plain(Vector2(20, 54), tags + "   " + tr("W 加速  S 刹车  A/D 变道  ESC 暂停"), 16, Color("#ffd23f") if invincible else Color("#bbbbbb"), 440)
+	_text_plain(Vector2(20, 54), _hud_line(tags, tr("W 加速  S 刹车  A/D 变道  ESC 暂停")), 16, Color("#ffd23f") if invincible else Color("#bbbbbb"), 440)
 	var tl := maxf(0.0, DRIVE_TIME - elapsed)
 	_text(Vector2(W / 2.0, 38), "00:%02d" % ceili(tl), 34, Color("#ff6b6b") if tl < 10.0 else Color.WHITE)
 	var prog := clampf(scroll / target_px, 0.0, 1.0)
@@ -1463,7 +1470,7 @@ func _draw_hud_drive() -> void:
 			var label: String = tr({"red": "红灯", "clear": "红灯", "yellow": "黄灯", "green": "绿灯"}[ix.state])
 			if ix.state != "clear":
 				label += " %d" % ceili(maxf(ix.t, 0.0))
-			_text_plain(Vector2(px + 60, 113), label, 20, cols[ix.state])
+			_text_plain(Vector2(px + 60, 113), label, 20, cols[ix.state], 66)
 			_text_plain(Vector2(px, 156), "%s %dm" % [tr(ix.name), roundi((front - bottom) / PX_PER_M)], 16, Color("#dddddd"), 130, HORIZONTAL_ALIGNMENT_CENTER)
 			break
 

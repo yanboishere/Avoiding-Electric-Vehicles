@@ -92,6 +92,7 @@ func _apply_locale(loc: String) -> void:
 	if LOCALE_FONTS.has(key):
 		var sf := SystemFont.new()
 		sf.font_names = PackedStringArray(LOCALE_FONTS[key])
+		sf.font_weight = 600  # 半粗，和得意黑的粗壮风格一致（默认会取到很细的字重）
 		UI_FONT.base_font = sf
 	else:
 		UI_FONT.base_font = SMILEY

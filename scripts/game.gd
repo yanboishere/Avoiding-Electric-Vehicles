@@ -1788,7 +1788,7 @@ func _draw_hud() -> void:
 		tags += " · " + tr("夜间")
 	if invincible:
 		tags += " · " + tr("无敌（已创飞 %d）") % launched
-	_text_plain(Vector2(20, 54), tags + "   " + tr("ESC 暂停"), 16, Color("#ffd23f") if invincible else Color("#bbbbbb"), 440)
+	_text_plain(Vector2(20, 54), _hud_line(tags, tr("ESC 暂停")), 16, Color("#ffd23f") if invincible else Color("#bbbbbb"), 440)
 
 	var tl := maxf(0.0, LEVEL_TIME - elapsed)
 	var tcol := Color("#ff6b6b") if tl < 10.0 else Color.WHITE
@@ -1806,11 +1806,11 @@ func _draw_hud() -> void:
 		var px := W - 150.0
 		draw_rect(Rect2(px, 74, 130, 64), Color(0, 0, 0, 0.7))
 		draw_circle(Vector2(px + 32, 106), 22, Color("#ff3b30") if red else Color("#3ddc84"))
-		_text(Vector2(px + 32, 113), "停" if red else "行", 20, Color.WHITE)
+		_text_plain(Vector2(px + 13, 113), "停" if red else "行", 20, Color.WHITE, 38, HORIZONTAL_ALIGNMENT_CENTER)
 		var label := tr("红灯") if red else tr("绿灯")
 		if ix.state == "red":
 			label = tr("红灯 %d") % ceili(ix.red_t)
-		_text_plain(Vector2(px + 60, 113), label, 22, Color("#ff6b6b") if red else Color("#7CFC00"))
+		_text_plain(Vector2(px + 60, 113), label, 22, Color("#ff6b6b") if red else Color("#7CFC00"), 66)
 	if not ix.is_empty() and ix.get("jaywalk", false) and ix.state != "green" and state == "play":
 		var top: float = ix.wy + scroll
 		if player_pos.y > top - 20.0 and player_pos.y < top + IX_H + 20.0 and fmod(elapsed, 0.4) < 0.25:
@@ -1842,6 +1842,14 @@ func _draw_hud() -> void:
 		draw_rect(Rect2(0, 0, W, H), Color(0, 0, 0, 0.6))
 		_text(Vector2(W / 2.0, H / 2.0 - 20), "暂停", 64, Color.WHITE)
 		_text(Vector2(W / 2.0, H / 2.0 + 40), "ESC 继续    Q 返回菜单", 24, Color("#dddddd"))
+
+
+## 左上角状态行：放不下操作说明时只显示状态（操作说明在开场介绍里有）
+func _hud_line(tags: String, controls: String) -> String:
+	var full := tags + "   " + controls
+	if font.get_string_size(full, HORIZONTAL_ALIGNMENT_LEFT, -1, 16).x <= 440.0:
+		return full
+	return tags
 
 
 func _text(pos: Vector2, txt: String, size: int, col: Color) -> void:
