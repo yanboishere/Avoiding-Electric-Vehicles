@@ -1,5 +1,7 @@
 🌐 [简体中文](README.md) · [English](README.en.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Français](README.fr.md) · **Español** · [Deutsch](README.de.md) · [العربية](README.ar.md) · [Tiếng Việt](README.vi.md) · [Português](README.pt.md) · [Italiano](README.it.md)
 
+▶ **Jugar en el navegador (móvil / PC)**: https://yanbowa.ng/Avoiding-Electric-Vehicles/
+
 # ¡Esquiva las Motos! Avoiding Electric Vehicles
 
 > En Guangzhou y Shenzhen muchas calles no tienen carril bici. Sales a pie, en bici o en coche, y las motos eléctricas (las «e-bikes» que en China llaman con sorna 电鸡, «pollos eléctricos») aparecen por todas partes: en sentido contrario, adelantando, colándose entre coches, cruzando a lo loco, frenando en seco… Sobrevive un minuto.

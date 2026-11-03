@@ -1,5 +1,7 @@
 🌐 [简体中文](README.md) · [English](README.en.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Français](README.fr.md) · [Español](README.es.md) · [Deutsch](README.de.md) · **العربية** · [Tiếng Việt](README.vi.md) · [Português](README.pt.md) · [Italiano](README.it.md)
 
+▶ **العب في المتصفح (الجوال / الحاسوب)**: https://yanbowa.ng/Avoiding-Electric-Vehicles/
+
 <div dir="rtl">
 
 # تفادَ السكوترات Avoiding Electric Vehicles

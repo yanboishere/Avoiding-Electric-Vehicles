@@ -1,5 +1,7 @@
 🌐 [简体中文](README.md) · [English](README.en.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Français](README.fr.md) · [Español](README.es.md) · [Deutsch](README.de.md) · [العربية](README.ar.md) · [Tiếng Việt](README.vi.md) · **Português** · [Italiano](README.it.md)
 
+▶ **Jogar no navegador (celular / PC)**: https://yanbowa.ng/Avoiding-Electric-Vehicles/
+
 # Desvie das Bikes Elétricas (Avoiding Electric Vehicles)
 
 > Em Guangzhou e Shenzhen, muitas ruas não têm ciclofaixa. Você sai a pé, de bicicleta ou de carro, e as bikes elétricas (电鸡, "galinhas elétricas", no apelido chinês) brotam de todos os lados: na contramão, ultrapassando, costurando, cruzando do nada, freando de repente… Sobreviva por um minuto.

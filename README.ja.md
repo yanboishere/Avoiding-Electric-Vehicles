@@ -1,5 +1,7 @@
 🌐 [简体中文](README.md) · [English](README.en.md) · **日本語** · [한국어](README.ko.md) · [Français](README.fr.md) · [Español](README.es.md) · [Deutsch](README.de.md) · [العربية](README.ar.md) · [Tiếng Việt](README.vi.md) · [Português](README.pt.md) · [Italiano](README.it.md)
 
+▶ **ブラウザで遊ぶ（スマホ / PC）**: https://yanbowa.ng/Avoiding-Electric-Vehicles/
+
 # 電チャリをよけろ！ Avoiding Electric Vehicles
 
 > 広州や深圳では、自転車レーンのない道路がたくさんあります。歩いて、自転車で、あるいはクルマで出かけると、電動バイク（電チャリ）が四方八方から現れます：逆走、追い越し、すり抜け、飛び出し、急ブレーキ……。この 1 分間を生き延びろ。

@@ -1,5 +1,7 @@
 🌐 [简体中文](README.md) · **English** · [日本語](README.ja.md) · [한국어](README.ko.md) · [Français](README.fr.md) · [Español](README.es.md) · [Deutsch](README.de.md) · [العربية](README.ar.md) · [Tiếng Việt](README.vi.md) · [Português](README.pt.md) · [Italiano](README.it.md)
 
+▶ **Play in your browser (phone or desktop)**: https://yanbowa.ng/Avoiding-Electric-Vehicles/
+
 # Avoiding Electric Vehicles
 
 > Many streets in Guangzhou and Shenzhen have no bike lane. You head out on foot, by bike or by car, and e-bikes come at you from every direction: riding the wrong way, overtaking, squeezing through gaps, cutting across, braking without warning... Survive for one minute.

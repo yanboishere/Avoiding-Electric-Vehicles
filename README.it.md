@@ -1,5 +1,7 @@
 🌐 [简体中文](README.md) · [English](README.en.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Français](README.fr.md) · [Español](README.es.md) · [Deutsch](README.de.md) · [العربية](README.ar.md) · [Tiếng Việt](README.vi.md) · [Português](README.pt.md) · **Italiano**
 
+▶ **Gioca nel browser (telefono / PC)**: https://yanbowa.ng/Avoiding-Electric-Vehicles/
+
 # Schiva le e-bike · Avoiding Electric Vehicles
 
 > In molte strade di Guangzhou e Shenzhen non ci sono piste ciclabili. Esci a piedi, in bici o in auto, e le bici elettriche (in cinese, scherzosamente, "电鸡", "galline elettriche") spuntano da ogni parte: contromano, sorpassi, infilate tra le auto, scatti improvvisi, inchiodate… Sopravvivi per un minuto.

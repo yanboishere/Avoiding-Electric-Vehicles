@@ -1,5 +1,7 @@
 🌐 [简体中文](README.md) · [English](README.en.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · **Français** · [Español](README.es.md) · [Deutsch](README.de.md) · [العربية](README.ar.md) · [Tiếng Việt](README.vi.md) · [Português](README.pt.md) · [Italiano](README.it.md)
 
+▶ **Jouer dans le navigateur (mobile / ordinateur)**: https://yanbowa.ng/Avoiding-Electric-Vehicles/
+
 # Esquive les scooters (Avoiding Electric Vehicles)
 
 > À Guangzhou et Shenzhen, beaucoup de rues n'ont pas de piste cyclable. Que tu sortes à pied, à vélo ou en voiture, les scooters électriques surgissent de partout : à contresens, en dépassement, en se faufilant, en déboulant, en pilant net… Survis une minute.

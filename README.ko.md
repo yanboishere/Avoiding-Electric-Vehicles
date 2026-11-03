@@ -1,5 +1,7 @@
 🌐 [简体中文](README.md) · [English](README.en.md) · [日本語](README.ja.md) · **한국어** · [Français](README.fr.md) · [Español](README.es.md) · [Deutsch](README.de.md) · [العربية](README.ar.md) · [Tiếng Việt](README.vi.md) · [Português](README.pt.md) · [Italiano](README.it.md)
 
+▶ **브라우저에서 플레이 (모바일 / PC)**: https://yanbowa.ng/Avoiding-Electric-Vehicles/
+
 # 전기바이크를 피해라! Avoiding Electric Vehicles
 
 > 광저우와 선전에는 자전거도로가 없는 길이 많습니다. 걸어서, 자전거로, 혹은 차를 몰고 나서면 전기바이크가 사방에서 튀어나옵니다. 역주행, 추월, 틈새 끼어들기, 무작정 돌진, 급정거…… 1분 동안 살아남으세요.

@@ -1,5 +1,7 @@
 🌐 [简体中文](README.md) · [English](README.en.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Français](README.fr.md) · [Español](README.es.md) · **Deutsch** · [العربية](README.ar.md) · [Tiếng Việt](README.vi.md) · [Português](README.pt.md) · [Italiano](README.it.md)
 
+▶ **Im Browser spielen (Handy / PC)**: https://yanbowa.ng/Avoiding-Electric-Vehicles/
+
 # E-Bikes ausweichen! – Avoiding Electric Vehicles
 
 > In Guangzhou und Shenzhen haben viele Straßen keinen Radweg. Ob du zu Fuß, mit dem Fahrrad oder mit dem Auto unterwegs bist – E-Bikes (auf Chinesisch scherzhaft „Elektro-Hühner“ genannt) tauchen von überall auf: als Geisterfahrer, Überholer, Lückenspringer, Querschießer, Vollbremser … Überlebe eine Minute!

@@ -1,5 +1,7 @@
 🌐 [简体中文](README.md) · [English](README.en.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Français](README.fr.md) · [Español](README.es.md) · [Deutsch](README.de.md) · [العربية](README.ar.md) · **Tiếng Việt** · [Português](README.pt.md) · [Italiano](README.it.md)
 
+▶ **Chơi trên trình duyệt (điện thoại / máy tính)**: https://yanbowa.ng/Avoiding-Electric-Vehicles/
+
 # Né Xe Điện (Avoiding Electric Vehicles)
 
 > Ở Quảng Châu và Thâm Quyến, rất nhiều đoạn đường không có làn xe thô sơ. Bạn ra đường đi bộ, đạp xe hay lái ô tô, và xe điện sẽ ùa ra từ khắp mọi hướng: chạy ngược chiều, vượt ẩu, luồn lách, lao ngang, phanh gấp… Hãy sống sót qua một phút nhé.

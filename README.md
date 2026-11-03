@@ -1,5 +1,7 @@
 🌐 **简体中文** · [English](README.en.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Français](README.fr.md) · [Español](README.es.md) · [Deutsch](README.de.md) · [العربية](README.ar.md) · [Tiếng Việt](README.vi.md) · [Português](README.pt.md) · [Italiano](README.it.md)
 
+▶ **在线试玩（手机 / 电脑浏览器都能玩）**: https://yanbowa.ng/Avoiding-Electric-Vehicles/
+
 # 躲避电鸡 Avoiding Electric Vehicles
 
 > 广州、深圳很多路段没有非机动车道。你走路、骑车或开车出门，电动车（电鸡）会从四面八方冒出来：逆行、超车、钻缝、横冲、急刹……在一分钟里活下来吧。

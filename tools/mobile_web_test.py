@@ -6,7 +6,7 @@ import base64, json, os, subprocess, sys, time, urllib.request
 import websocket
 
 CHROME = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
-URL = "http://localhost:8060/"
+URL = os.environ.get("GAME_URL", "http://localhost:8060/")  # 测线上版：GAME_URL=https://... python3 tools/mobile_web_test.py
 OUT = sys.argv[1] if len(sys.argv) > 1 else "/tmp/mobile_test"
 VW, VH = 844, 390  # 横屏手机
 os.makedirs(OUT, exist_ok=True)
