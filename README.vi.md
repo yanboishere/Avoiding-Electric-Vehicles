@@ -249,6 +249,15 @@ Godot --headless --path . --script tests/audit_test.gd         # 开车关卡体
 Godot --always-on-top --path . --script tools/screenshot.gd --write-movie /tmp/shot/f.png --fixed-fps 10 --quit-after 200 -- --only=0 --mode=drive
 ```
 
+## Bản web / Điện thoại
+
+Chơi được trên trình duyệt điện thoại, máy tính bảng mà không cần bàn phím hay tay cầm (nút cảm ứng tự hiện).
+- Cảm ứng: nhấn và kéo ở nửa trái = cần điều khiển (khi lái xe là chuyển làn); khi lái xe có ga / phanh ở góc dưới phải; khi đi bộ đến mép đường lúc đèn đỏ sẽ hiện nút "vượt đèn đỏ"; II phía trên để tạm dừng. Hãy chơi ở chế độ ngang.
+- Xuất bản: `Godot --headless --path . --export-release "Web" build/web/index.html` (đơn luồng, chạy trên mọi hosting tĩnh)
+- Thử trên máy / mạng nội bộ: `python3 tools/serve_web.py`, rồi mở địa chỉ hiện ra trên điện thoại cùng Wi-Fi
+- Kiểm thử đầu-cuối (Chrome giả lập điện thoại cảm ứng nằm ngang): `python3 tools/mobile_web_test.py`; kiểm thử cảm ứng: `tests/touch_test.gd`
+- Trình duyệt không có font hệ thống nên tiếng Nhật, Hàn, Ả Rập, Việt dùng các font Noto rút gọn trong `fonts/noto/` (tạo bằng `tools/build_fonts.py`)
+
 ## Khác
 - Hình ảnh và âm thanh đều được tạo bằng code, không dùng tài nguyên đồ họa bên ngoài.
 - Font: [得意黑 Smiley Sans](https://github.com/atelier-anchor/smiley-sans) (SIL OFL 1.1, giấy phép xem `fonts/SmileySans-OFL.txt`), khi thiếu chữ sẽ dùng font tiếng Trung của hệ thống.

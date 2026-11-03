@@ -1306,3 +1306,12 @@ msgstr "民治駅"
 #: scripts/levels.gd:271
 msgid "梅龙大道"
 msgstr "梅龍大道"
+
+msgid "继续"
+msgstr "再開"
+
+msgid "全屏"
+msgstr "全画面"
+
+msgid "触屏：左半屏拖动移动 · 开车按右下油门 / 刹车 · 右上 II 暂停"
+msgstr "タッチ：画面左半分をドラッグで移動・クルマは右下のアクセル / ブレーキ・上の II で一時停止"

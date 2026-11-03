@@ -980,3 +980,12 @@ msgstr "Minzhi"
 
 msgid "梅龙大道"
 msgstr "Av. Meilong"
+
+msgid "继续"
+msgstr "Reprendre"
+
+msgid "全屏"
+msgstr "Plein écran"
+
+msgid "触屏：左半屏拖动移动 · 开车按右下油门 / 刹车 · 右上 II 暂停"
+msgstr "Tactile : glisse à gauche pour bouger · En voiture : gaz / frein en bas à droite · II en haut pour la pause"

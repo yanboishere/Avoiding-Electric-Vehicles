@@ -70,6 +70,7 @@ var invuln := 0.0
 var shake := 0.0
 var flash := 0.0
 var paused := false
+var touch_ui := false  # 由 main.gd 在触屏设备上设置
 var god := false  # 测试用：不掉血（命令行 --god）
 var invincible := false  # 无敌模式：不掉血、无视红灯，撞到的电鸡全部创飞
 var launched := 0
@@ -1840,12 +1841,15 @@ func _draw_hud() -> void:
 
 	if paused:
 		draw_rect(Rect2(0, 0, W, H), Color(0, 0, 0, 0.6))
-		_text(Vector2(W / 2.0, H / 2.0 - 20), "暂停", 64, Color.WHITE)
-		_text(Vector2(W / 2.0, H / 2.0 + 40), "ESC 继续    Q 返回菜单", 24, Color("#dddddd"))
+		_text(Vector2(W / 2.0, H / 2.0 - (150.0 if touch_ui else 20.0)), "暂停", 64, Color.WHITE)
+		if not touch_ui:  # 触屏上有“继续 / 返回菜单”按钮
+			_text(Vector2(W / 2.0, H / 2.0 + 40), "ESC 继续    Q 返回菜单", 24, Color("#dddddd"))
 
 
 ## 左上角状态行：放不下操作说明时只显示状态（操作说明在开场介绍里有）
 func _hud_line(tags: String, controls: String) -> String:
+	if touch_ui:  # 触屏上没有键盘，不显示按键说明
+		return tags
 	var full := tags + "   " + controls
 	if font.get_string_size(full, HORIZONTAL_ALIGNMENT_LEFT, -1, 16).x <= 440.0:
 		return full

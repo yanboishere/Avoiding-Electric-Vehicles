@@ -250,6 +250,15 @@ As capturas de tela são geradas com `tools/screenshot.gd` (durante a gravação
 Godot --always-on-top --path . --script tools/screenshot.gd --write-movie /tmp/shot/f.png --fixed-fps 10 --quit-after 200 -- --only=0 --mode=drive
 ```
 
+## Web / Celular
+
+Dá para jogar no navegador do celular ou tablet sem teclado nem controle (os controles de toque aparecem sozinhos).
+- Toque: pressione e arraste na metade esquerda = joystick (troca de faixa no carro); acelerar / frear embaixo à direita no carro; a pé aparece um botão para furar o sinal na beira da calçada; II no topo pausa. Jogue na horizontal.
+- Exportar: `Godot --headless --path . --export-release "Web" build/web/index.html` (thread única, funciona em qualquer hospedagem estática)
+- Teste local / na rede: `python3 tools/serve_web.py` e abra o endereço mostrado num celular na mesma Wi-Fi
+- Teste ponta a ponta (Chrome emulando um celular touch na horizontal): `python3 tools/mobile_web_test.py`; teste unitário de toque: `tests/touch_test.gd`
+- Navegadores não têm fontes do sistema, então japonês, coreano, árabe e vietnamita usam os subconjuntos Noto em `fonts/noto/` (gerados por `tools/build_fonts.py`)
+
 ## Outros
 - Todos os gráficos e sons são gerados por código, sem nenhum asset de arte externo.
 - Fonte: [得意黑 Smiley Sans](https://github.com/atelier-anchor/smiley-sans) (SIL OFL 1.1, licença em `fonts/SmileySans-OFL.txt`); caracteres ausentes caem na fonte chinesa do sistema.

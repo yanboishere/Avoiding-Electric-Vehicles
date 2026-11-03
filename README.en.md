@@ -252,6 +252,15 @@ Screenshots are generated with `tools/screenshot.gd` (keep the window unobstruct
 Godot --always-on-top --path . --script tools/screenshot.gd --write-movie /tmp/shot/f.png --fixed-fps 10 --quit-after 200 -- --only=0 --mode=drive
 ```
 
+## Web / Mobile
+
+Playable in phone and tablet browsers without a keyboard or gamepad (touch controls appear automatically).
+- Touch: press and drag on the left half = joystick (steer when driving); gas / brake at bottom right when driving; a "Run the red" button appears at the curb when walking; II at the top pauses. Play in landscape.
+- Export: `Godot --headless --path . --export-release "Web" build/web/index.html` (single-threaded, works on any static host, no special headers)
+- Local / LAN test: `python3 tools/serve_web.py`, then open the printed address on a phone on the same Wi-Fi
+- End-to-end test (Chrome emulating a landscape touch phone): `python3 tools/mobile_web_test.py`; touch unit test: `tests/touch_test.gd`
+- Browsers have no system fonts, so Japanese / Korean / Arabic / Vietnamese use the Noto subsets in `fonts/noto/` (built by `tools/build_fonts.py`)
+
 ## Other
 - All graphics and sound are generated procedurally; there are no external art assets.
 - Font: [得意黑 Smiley Sans](https://github.com/atelier-anchor/smiley-sans) (SIL OFL 1.1, license in `fonts/SmileySans-OFL.txt`); missing characters fall back to the system Chinese font.

@@ -239,6 +239,15 @@ Godot --headless --path . --script tests/audit_test.gd         # 开车关卡体
 Godot --always-on-top --path . --script tools/screenshot.gd --write-movie /tmp/shot/f.png --fixed-fps 10 --quit-after 200 -- --only=0 --mode=drive
 ```
 
+## 网页版 / 手机
+
+手机、平板的浏览器里不接键盘手柄也能玩（自动出现触屏操作）。
+- 触屏操作：左半屏按下拖动 = 摇杆（开车时左右变道）；开车右下角油门 / 刹车；步行红灯时路缘右侧出现“闯红灯”按钮；顶部 II 暂停。请横屏游玩。
+- 导出：`Godot --headless --path . --export-release "Web" build/web/index.html`（单线程，普通静态托管即可，无需特殊响应头）
+- 本地 / 局域网试玩：`python3 tools/serve_web.py`，手机连同一 Wi-Fi 打开显示的地址
+- 端到端测试（Chrome 模拟横屏触屏手机）：`python3 tools/mobile_web_test.py`；触屏单元测试：`tests/touch_test.gd`
+- 网页没有系统字体，日韩阿越等文字使用 `fonts/noto/` 下的 Noto 子集字体（`tools/build_fonts.py` 生成）
+
 ## 其他
 - 画面、音效全部程序化生成，没有外部美术素材。
 - 字体：[得意黑 Smiley Sans](https://github.com/atelier-anchor/smiley-sans)（SIL OFL 1.1，协议见 `fonts/SmileySans-OFL.txt`），缺字时回退到系统中文字体。

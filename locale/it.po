@@ -1306,3 +1306,12 @@ msgstr "Minzhi"
 #: scripts/levels.gd:271
 msgid "梅龙大道"
 msgstr "Viale Meilong"
+
+msgid "继续"
+msgstr "Riprendi"
+
+msgid "全屏"
+msgstr "Schermo intero"
+
+msgid "触屏：左半屏拖动移动 · 开车按右下油门 / 刹车 · 右上 II 暂停"
+msgstr "Touch: trascina a sinistra per muoverti · Auto: gas / freno in basso a destra · II in alto per la pausa"

@@ -2,199 +2,207 @@ msgid ""
 msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 
-#: scripts/main.gd:29
+#: scripts/main.gd:31
 msgid "步行"
 msgstr ""
 
-#: scripts/main.gd:29
+#: scripts/main.gd:31
 msgid "骑车"
 msgstr ""
 
-#: scripts/main.gd:29
+#: scripts/main.gd:31
 msgid "开车"
 msgstr ""
 
-#: scripts/main.gd:314
+#: scripts/main.gd:327
 msgid "暴雨"
 msgstr ""
 
-#: scripts/main.gd:316
+#: scripts/main.gd:329
 msgid "夜间"
 msgstr ""
 
-#: scripts/main.gd:319
+#: scripts/main.gd:332
 msgid "%s 限速%d"
 msgstr ""
 
-#: scripts/main.gd:320
+#: scripts/main.gd:333
 msgid "%d 个路口"
 msgstr ""
 
-#: scripts/main.gd:321
+#: scripts/main.gd:334
 msgid "%s · %s ｜ %s ｜ %s"
 msgstr ""
 
-#: scripts/main.gd:343
+#: scripts/main.gd:356
 msgid "躲避电鸡"
 msgstr ""
 
-#: scripts/main.gd:344
+#: scripts/main.gd:357
 msgid "Avoiding Electric Vehicles  ·  没有非机动车道的广深街头"
 msgstr ""
 
-#: scripts/main.gd:350
+#: scripts/main.gd:363
 msgid "出行方式："
 msgstr ""
 
-#: scripts/main.gd:363
+#: scripts/main.gd:376
 msgid "无敌模式：创飞一切电鸡！"
 msgstr ""
 
-#: scripts/main.gd:397
+#: scripts/main.gd:410
 msgid "未通关"
 msgstr ""
 
-#: scripts/main.gd:399
+#: scripts/main.gd:412
 msgid "最佳 %s · %d 分"
 msgstr ""
 
-#: scripts/main.gd:401
+#: scripts/main.gd:414
 msgid "无敌畅玩"
 msgstr ""
 
-#: scripts/main.gd:403
+#: scripts/main.gd:416
 msgid "第 %d 关 · %s\n%s\n%s"
 msgstr ""
 
-#: scripts/main.gd:403
+#: scripts/main.gd:416
 msgid "未解锁"
 msgstr ""
 
-#: scripts/main.gd:411
+#: scripts/main.gd:424
 msgid "通关第 %d 关后解锁"
 msgstr ""
 
-#: scripts/main.gd:420
+#: scripts/main.gd:433
 msgid "无敌模式：不掉血、无视红灯，撞到的电鸡全部创飞；成绩不计入存档"
 msgstr ""
 
-#: scripts/main.gd:425
+#: scripts/main.gd:438
 msgid "游戏规则"
 msgstr ""
 
-#: scripts/main.gd:426
+#: scripts/main.gd:439
 msgid "退出游戏"
 msgstr ""
 
-#: scripts/main.gd:431
+#: scripts/main.gd:444
 msgid "支持作者"
 msgstr ""
 
-#: scripts/main.gd:436
+#: scripts/main.gd:448
+msgid "全屏"
+msgstr ""
+
+#: scripts/main.gd:457
+msgid "触屏：左半屏拖动移动 · 开车按右下油门 / 刹车 · 右上 II 暂停"
+msgstr ""
+
+#: scripts/main.gd:459
 msgid "步行 / 骑车：WASD 移动 · 开车：W 加速 S 刹车 A/D 变道 · 空格闯红灯 · ESC 暂停 · F11 全屏"
 msgstr ""
 
-#: scripts/main.gd:451
+#: scripts/main.gd:474
 msgid "[center][font_size=36][color=#ffd23f]游戏规则[/color][/font_size][/center]\n[color=#7CFC00]目标[/color]　步行 / 骑车：每关 60 秒，沿没有非机动车道的人行道往前走，被撞 3 次失败。\n[color=#7CFC00]开车[/color]　按每关真实路段的车道、限速、公交专用道设计：60 秒内开到目的地，W 加速 S 刹车 A/D 变道。\n[color=#7CFC00]操作[/color]　WASD / 方向键 / 手柄移动，空格闯红灯，ESC 暂停，F11 全屏。\n[color=#ffd23f]电鸡[/color]　迎面逆行、身后超车（[color=#ff5252]红三角 + 嘀嘀声[/color]预警）、蛇形、钻车缝、店门口 / 路边冲出、急刹后变路障。\n[color=#ffd23f]路障[/color]　地铁口、共享单车、停着的电鸡、石墩、摊位、违停车、施工围挡都是实心的，撞上要扣命。\n[color=#ffd23f]红绿灯[/color]　步行红灯时画面停下等绿灯；开车要自己刹停在停止线前。占用公交专用道会持续扣分。\n[color=#ff5252]闯红灯[/color]　步行在路缘前[color=#ffcc80]按住 ↑ 半秒或按空格[/color]硬闯，开车直接冲线：[color=#ff5252]扣当前分数 25%[/color]，在路口里[color=#ff5252]被车撞到直接 GAME OVER[/color]。\n[color=#00b8d4]得分[/color]　坚持越久 / 开得越远分越高，擦身而过 +50，通关每条剩余的命 +300。\n[color=#00b8d4]评级[/color]　S 零失误 · A 被撞 1 次 · B 通关 · C 失败。[color=#7CFC00]通关前一关才能解锁下一关[/color]，广州、深圳共 12 关。\n[color=#ff8a80]无敌模式[/color]　主页打开后不掉血、无视红灯，撞到的电鸡全部[color=#ffd23f]创飞[/color]（每只 +100），成绩不计入存档。"
 msgstr ""
 
-#: scripts/main.gd:468
+#: scripts/main.gd:491
 msgid "喜欢这个游戏的话，可以请作者喝杯奶茶"
 msgstr ""
 
-#: scripts/main.gd:470
+#: scripts/main.gd:493
 msgid "点击地址即可复制"
 msgstr ""
 
-#: scripts/main.gd:481
+#: scripts/main.gd:504
 msgid "已复制 %s：%s"
 msgstr ""
 
-#: scripts/main.gd:488
+#: scripts/main.gd:511
 msgid "返回菜单"
 msgstr ""
 
-#: scripts/main.gd:508
+#: scripts/main.gd:535
 msgid "明白了，开始！"
 msgstr ""
 
-#: scripts/main.gd:554
+#: scripts/main.gd:589
 msgid "准时到达！%s"
 msgstr ""
 
-#: scripts/main.gd:554
+#: scripts/main.gd:589
 msgid "成功穿越 %s！"
 msgstr ""
 
-#: scripts/main.gd:556
+#: scripts/main.gd:591
 msgid "闯红灯被车撞了，GAME OVER"
 msgstr ""
 
-#: scripts/main.gd:558
+#: scripts/main.gd:593
 msgid "迟到了！60 秒没开到目的地"
 msgstr ""
 
-#: scripts/main.gd:560
+#: scripts/main.gd:595
 msgid "撞车太多次，今天别开了……"
 msgstr ""
 
-#: scripts/main.gd:560
+#: scripts/main.gd:595
 msgid "你被电鸡创飞了……"
 msgstr ""
 
-#: scripts/main.gd:562
+#: scripts/main.gd:597
 msgid "现实可能比游戏更残酷。"
 msgstr ""
 
-#: scripts/main.gd:563
+#: scripts/main.gd:598
 msgid "评级  %s"
 msgstr ""
 
-#: scripts/main.gd:565
+#: scripts/main.gd:600
 msgid "行驶  %d / %d 米      用时  %.1f 秒      等红灯  %.1f 秒"
 msgstr ""
 
-#: scripts/main.gd:566
+#: scripts/main.gd:601
 msgid "擦身而过  %d 次      撞车  %d 次      闯红灯  %d 次      公交道扣分  %d"
 msgstr ""
 
-#: scripts/main.gd:568
+#: scripts/main.gd:603
 msgid "坚持时间  %.1f 秒      等红灯  %.1f 秒"
 msgstr ""
 
-#: scripts/main.gd:569
+#: scripts/main.gd:604
 msgid "擦身而过  %d 次      被撞  %d 次      闯红灯  %d 次"
 msgstr ""
 
-#: scripts/main.gd:571
+#: scripts/main.gd:606
 msgid "创飞电鸡  %d 只！"
 msgstr ""
 
-#: scripts/main.gd:572
+#: scripts/main.gd:607
 msgid "总得分  %d"
 msgstr ""
 
-#: scripts/main.gd:574
+#: scripts/main.gd:609
 msgid "（无敌模式成绩不计入存档）"
 msgstr ""
 
-#: scripts/main.gd:577
+#: scripts/main.gd:612
 msgid "解锁新关卡：%s · %s"
 msgstr ""
 
-#: scripts/main.gd:579
+#: scripts/main.gd:614
 msgid "再来一次  Retry"
 msgstr ""
 
-#: scripts/main.gd:583
+#: scripts/main.gd:618
 msgid "下一关：%s · %s"
 msgstr ""
 
-#: scripts/main.gd:592
+#: scripts/main.gd:627
 msgid "换成%s"
 msgstr ""
 
-#: scripts/main.gd:596
+#: scripts/main.gd:631
 msgid "返回菜单  Menu"
 msgstr ""
 
@@ -322,151 +330,151 @@ msgstr ""
 msgid "哎哟喂！"
 msgstr ""
 
-#: scripts/game.gd:495
+#: scripts/game.gd:496
 msgid "绿灯！走！"
 msgstr ""
 
-#: scripts/game.gd:500
+#: scripts/game.gd:501
 msgid "冲！"
 msgstr ""
 
-#: scripts/game.gd:507
+#: scripts/game.gd:508
 msgid "横街"
 msgstr ""
 
-#: scripts/game.gd:623
+#: scripts/game.gd:624
 msgid "无敌！红灯算什么"
 msgstr ""
 
-#: scripts/game.gd:628
+#: scripts/game.gd:629
 msgid "闯红灯！-%d 分"
 msgstr ""
 
-#: scripts/game.gd:629
+#: scripts/game.gd:630
 msgid "被车撞到直接 GAME OVER！"
 msgstr ""
 
-#: scripts/game.gd:642
+#: scripts/game.gd:643
 msgid "（无敌）被车撞了"
 msgstr ""
 
-#: scripts/game.gd:649
+#: scripts/game.gd:650
 msgid "闯红灯被车撞了！"
 msgstr ""
 
-#: scripts/game.gd:765
+#: scripts/game.gd:766
 msgid "冲出来了！"
 msgstr ""
 
-#: scripts/game.gd:837
+#: scripts/game.gd:838
 msgid "等灯咯"
 msgstr ""
 
-#: scripts/game.gd:918
+#: scripts/game.gd:919
 msgid "低头看手机…"
 msgstr ""
 
-#: scripts/game.gd:1073
+#: scripts/game.gd:1074
 msgid "成功通关！"
 msgstr ""
 
-#: scripts/game.gd:1102
+#: scripts/game.gd:1103
 msgid "%d 连创飞！+100"
 msgstr ""
 
-#: scripts/game.gd:1206
+#: scripts/game.gd:1207
 msgid "小吃"
 msgstr ""
 
-#: scripts/game.gd:1475
+#: scripts/game.gd:1476
 msgid "便利店"
 msgstr ""
 
-#: scripts/game.gd:1723
+#: scripts/game.gd:1724
 msgid "地铁"
 msgstr ""
 
-#: scripts/game.gd:1758
+#: scripts/game.gd:1759
 msgid "你"
 msgstr ""
 
-#: scripts/game.gd:1768
+#: scripts/game.gd:1769
 msgid "店门口冲出！"
 msgstr ""
 
-#: scripts/game.gd:1772
+#: scripts/game.gd:1773
 msgid "后方来车！嘀嘀！"
 msgstr ""
 
-#: scripts/game.gd:1784
+#: scripts/game.gd:1785
 msgid "步行模式"
 msgstr ""
 
-#: scripts/game.gd:1784
+#: scripts/game.gd:1785
 msgid "骑车模式"
 msgstr ""
 
-#: scripts/game.gd:1790
+#: scripts/game.gd:1791
 msgid "无敌（已创飞 %d）"
 msgstr ""
 
-#: scripts/game.gd:1791
+#: scripts/game.gd:1792
 msgid "ESC 暂停"
 msgstr ""
 
-#: scripts/game.gd:1801
+#: scripts/game.gd:1802
 msgid "得分 %d"
 msgstr ""
 
-#: scripts/game.gd:1809
+#: scripts/game.gd:1810
 msgid "停"
 msgstr ""
 
-#: scripts/game.gd:1809
+#: scripts/game.gd:1810
 msgid "行"
 msgstr ""
 
-#: scripts/game.gd:1810
+#: scripts/game.gd:1811
 msgid "红灯"
 msgstr ""
 
-#: scripts/game.gd:1810
+#: scripts/game.gd:1811
 msgid "绿灯"
 msgstr ""
 
-#: scripts/game.gd:1812
+#: scripts/game.gd:1813
 msgid "红灯 %d"
 msgstr ""
 
-#: scripts/game.gd:1817
+#: scripts/game.gd:1818
 msgid "闯红灯中！小心车！"
 msgstr ""
 
-#: scripts/game.gd:1820
+#: scripts/game.gd:1821
 msgid "按住 ↑ 或 空格 闯红灯（扣 25% 分）"
 msgstr ""
 
-#: scripts/game.gd:1825
+#: scripts/game.gd:1826
 msgid "红灯 · 等一等  %d 秒"
 msgstr ""
 
-#: scripts/game.gd:1825
+#: scripts/game.gd:1826
 msgid "红灯 · 等一等…"
 msgstr ""
 
-#: scripts/game.gd:1837
+#: scripts/game.gd:1838
 msgid "WASD / 方向键 移动，躲开电鸡和路障，遇红灯要停"
 msgstr ""
 
-#: scripts/game.gd:1839
+#: scripts/game.gd:1840
 msgid "出发！"
 msgstr ""
 
-#: scripts/game.gd:1843
+#: scripts/game.gd:1844
 msgid "暂停"
 msgstr ""
 
-#: scripts/game.gd:1844
+#: scripts/game.gd:1846
 msgid "ESC 继续    Q 返回菜单"
 msgstr ""
 
@@ -554,83 +562,83 @@ msgstr ""
 msgid "迟到了！"
 msgstr ""
 
-#: scripts/drive.gd:1205
+#: scripts/drive.gd:1208
 msgid "辅道"
 msgstr ""
 
-#: scripts/drive.gd:1212
+#: scripts/drive.gd:1215
 msgid "非机动车"
 msgstr ""
 
-#: scripts/drive.gd:1228
+#: scripts/drive.gd:1231
 msgid "公交专用"
 msgstr ""
 
-#: scripts/drive.gd:1258
+#: scripts/drive.gd:1261
 msgid "深南大道主路"
 msgstr ""
 
-#: scripts/drive.gd:1351
+#: scripts/drive.gd:1356
 msgid "深圳"
 msgstr ""
 
-#: scripts/drive.gd:1355
+#: scripts/drive.gd:1361
 msgid "公交"
 msgstr ""
 
-#: scripts/drive.gd:1369
+#: scripts/drive.gd:1376
 msgid "前方施工"
 msgstr ""
 
-#: scripts/drive.gd:1376
+#: scripts/drive.gd:1383
 msgid "！"
 msgstr ""
 
-#: scripts/drive.gd:1392
+#: scripts/drive.gd:1399
 msgid "机场高速高架"
 msgstr ""
 
-#: scripts/drive.gd:1415
+#: scripts/drive.gd:1422
 msgid "有人横穿马路！"
 msgstr ""
 
-#: scripts/drive.gd:1415
+#: scripts/drive.gd:1422
 msgid "路边冲出！"
 msgstr ""
 
-#: scripts/drive.gd:1420
+#: scripts/drive.gd:1427
 msgid "%s · %s（开车）"
 msgstr ""
 
-#: scripts/drive.gd:1421
+#: scripts/drive.gd:1428
 msgid "限速 %d"
 msgstr ""
 
-#: scripts/drive.gd:1428
+#: scripts/drive.gd:1435
 msgid "W 加速  S 刹车  A/D 变道  ESC 暂停"
 msgstr ""
 
-#: scripts/drive.gd:1446
+#: scripts/drive.gd:1453
 msgid "剩余"
 msgstr ""
 
-#: scripts/drive.gd:1450
+#: scripts/drive.gd:1457
 msgid "借道公交专用道绕过路障（不扣分）"
 msgstr ""
 
-#: scripts/drive.gd:1452
+#: scripts/drive.gd:1459
 msgid "正在占用公交专用道！"
 msgstr ""
 
-#: scripts/drive.gd:1463
+#: scripts/drive.gd:1470
 msgid "黄灯"
 msgstr ""
 
-#: scripts/drive.gd:1475
+#: scripts/drive.gd:1482
 msgid "60 秒内开到 %d 米外的目的地 · 限速 %d"
 msgstr ""
 
-#: scripts/drive.gd:1478
+#: scripts/drive.gd:1485
 msgid "W 加速  S 刹车  A/D 变道 · 红灯要自己停车"
 msgstr ""
 
@@ -1304,5 +1312,9 @@ msgstr ""
 
 #: scripts/levels.gd:271
 msgid "梅龙大道"
+msgstr ""
+
+#: scripts/touch.gd:59
+msgid "继续"
 msgstr ""
 

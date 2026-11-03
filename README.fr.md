@@ -251,6 +251,15 @@ Les captures d'écran sont générées avec `tools/screenshot.gd` (pendant l'enr
 Godot --always-on-top --path . --script tools/screenshot.gd --write-movie /tmp/shot/f.png --fixed-fps 10 --quit-after 200 -- --only=0 --mode=drive
 ```
 
+## Web / Mobile
+
+Jouable dans le navigateur d'un téléphone ou d'une tablette, sans clavier ni manette (les commandes tactiles apparaissent automatiquement).
+- Tactile : appuie et glisse sur la moitié gauche = joystick (changement de voie en voiture) ; gaz / frein en bas à droite en voiture ; un bouton « griller le feu » apparaît au bord du trottoir à pied ; II en haut pour la pause. Joue en mode paysage.
+- Export : `Godot --headless --path . --export-release "Web" build/web/index.html` (mono-thread, n'importe quel hébergement statique)
+- Test local / réseau : `python3 tools/serve_web.py`, puis ouvre l'adresse affichée sur un téléphone du même Wi-Fi
+- Test de bout en bout (Chrome émulant un téléphone tactile en paysage) : `python3 tools/mobile_web_test.py` ; test unitaire tactile : `tests/touch_test.gd`
+- Les navigateurs n'ont pas de polices système : japonais, coréen, arabe et vietnamien utilisent les sous-ensembles Noto de `fonts/noto/` (générés par `tools/build_fonts.py`)
+
 ## Divers
 - Graphismes et sons sont entièrement générés par le code, sans aucune ressource graphique externe.
 - Police : [得意黑 Smiley Sans](https://github.com/atelier-anchor/smiley-sans) (SIL OFL 1.1, licence dans `fonts/SmileySans-OFL.txt`) ; les caractères manquants passent par la police chinoise du système.

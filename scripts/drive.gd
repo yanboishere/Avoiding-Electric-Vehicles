@@ -1487,5 +1487,6 @@ func _draw_hud_drive() -> void:
 		_text(Vector2(W / 2.0, H / 2.0), "出发！", 72, Color("#7CFC00"))
 	if paused:
 		draw_rect(Rect2(0, 0, W, H), Color(0, 0, 0, 0.6))
-		_text(Vector2(W / 2.0, H / 2.0 - 20), "暂停", 64, Color.WHITE)
-		_text(Vector2(W / 2.0, H / 2.0 + 40), "ESC 继续    Q 返回菜单", 24, Color("#dddddd"))
+		_text(Vector2(W / 2.0, H / 2.0 - (150.0 if touch_ui else 20.0)), "暂停", 64, Color.WHITE)
+		if not touch_ui:  # 触屏上有“继续 / 返回菜单”按钮
+			_text(Vector2(W / 2.0, H / 2.0 + 40), "ESC 继续    Q 返回菜单", 24, Color("#dddddd"))

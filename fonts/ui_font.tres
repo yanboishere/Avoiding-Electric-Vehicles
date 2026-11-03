@@ -1,16 +1,11 @@
-[gd_resource type="FontVariation" load_steps=5 format=3]
+[gd_resource type="FontVariation" load_steps=6 format=3]
 
 [ext_resource type="FontFile" path="res://fonts/SmileySans-Oblique.ttf" id="1"]
-
-[sub_resource type="SystemFont" id="SystemFont_cjk"]
-font_names = PackedStringArray("Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "Microsoft YaHei UI", "Noto Sans CJK SC", "Source Han Sans SC", "WenQuanYi Micro Hei", "sans-serif")
-
-[sub_resource type="SystemFont" id="SystemFont_ko"]
-font_names = PackedStringArray("Apple SD Gothic Neo", "Malgun Gothic", "Noto Sans CJK KR", "Noto Sans KR")
-
-[sub_resource type="SystemFont" id="SystemFont_ar"]
-font_names = PackedStringArray("Geeza Pro", "SF Arabic", "Segoe UI", "Tahoma", "Noto Sans Arabic")
+[ext_resource type="FontFile" path="res://fonts/noto/NotoSansJP-Game.ttf" id="2"]
+[ext_resource type="FontFile" path="res://fonts/noto/NotoSansKR-Game.ttf" id="3"]
+[ext_resource type="FontFile" path="res://fonts/noto/NotoSansArabic-Game.ttf" id="4"]
+[ext_resource type="FontFile" path="res://fonts/noto/NotoSans-Game.ttf" id="5"]
 
 [resource]
 base_font = ExtResource("1")
-fallbacks = Array[Font]([SubResource("SystemFont_cjk"), SubResource("SystemFont_ko"), SubResource("SystemFont_ar")])
+fallbacks = Array[Font]([ExtResource("2"), ExtResource("3"), ExtResource("4"), ExtResource("5")])

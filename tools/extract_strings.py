@@ -4,7 +4,7 @@
 import re, sys, os, json
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-FILES = ["scripts/main.gd", "scripts/game.gd", "scripts/drive.gd", "scripts/levels.gd"]
+FILES = ["scripts/main.gd", "scripts/game.gd", "scripts/drive.gd", "scripts/levels.gd", "scripts/touch.gd"]
 # 不翻译的：语言下拉框里各语言的原生名称
 EXCLUDE = {"简体中文", "日本語", "한국어", "العربية"}
 CJK = re.compile(r"[\u2e80-\u9fff\uac00-\ud7af\uff00-\uffef]")

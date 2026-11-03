@@ -238,6 +238,15 @@ Godot --headless --path . --script tests/audit_test.gd         # クルマステ
 Godot --always-on-top --path . --script tools/screenshot.gd --write-movie /tmp/shot/f.png --fixed-fps 10 --quit-after 200 -- --only=0 --mode=drive
 ```
 
+## Web 版 / スマホ
+
+スマホ・タブレットのブラウザで、キーボードやコントローラーなしで遊べます（タッチ操作が自動で表示されます）。
+- タッチ操作：画面左半分を押してドラッグ＝スティック（クルマでは車線変更）、クルマは右下のアクセル / ブレーキ、徒歩で赤信号の縁石に来ると右に「信号無視」ボタン、上の II で一時停止。横向きで遊んでください。
+- エクスポート：`Godot --headless --path . --export-release "Web" build/web/index.html`（シングルスレッド、普通の静的ホスティングで動作）
+- ローカル / LAN で試す：`python3 tools/serve_web.py` を実行し、同じ Wi-Fi のスマホで表示されたアドレスを開く
+- E2E テスト（Chrome で横向きタッチ端末を再現）：`python3 tools/mobile_web_test.py`、タッチの単体テスト：`tests/touch_test.gd`
+- ブラウザにはシステムフォントがないため、日韓アラビア・ベトナム語は `fonts/noto/` の Noto サブセット（`tools/build_fonts.py` で生成）を使用
+
 ## その他
 - グラフィックと効果音はすべてプログラムで生成しており、外部のアート素材は使っていません。
 - フォント：[得意黒 Smiley Sans](https://github.com/atelier-anchor/smiley-sans)（SIL OFL 1.1、ライセンスは `fonts/SmileySans-OFL.txt` を参照）。収録されていない文字はシステムの中国語フォントにフォールバックします。

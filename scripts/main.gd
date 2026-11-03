@@ -2,6 +2,7 @@ extends Node
 ## 入口：菜单 / 选关 / 规则 / 结算界面切换，存档与关卡解锁，输入映射与程序化音效。
 
 const GameScript := preload("res://scripts/game.gd")
+const TouchScript := preload("res://scripts/touch.gd")
 const DriveScript := preload("res://scripts/drive.gd")
 const DRIVE: Dictionary = preload("res://scripts/levels.gd").DRIVE
 ## 支持作者页面。提交 Steam 审核时如需隐藏，改成 false
@@ -16,12 +17,13 @@ const LANGUAGES := [
 	["zh_CN", "简体中文"], ["en", "English"], ["ja", "日本語"], ["ko", "한국어"], ["fr", "Français"],
 	["es", "Español"], ["de", "Deutsch"], ["ar", "العربية"], ["vi", "Tiếng Việt"], ["pt", "Português"], ["it", "Italiano"],
 ]
-## 得意黑只覆盖中文和拉丁字母；日韩阿越改用系统字体（Mac / Windows / Linux 依次尝试）
+## 得意黑覆盖中文和欧洲语言；日韩阿越用内置的 Noto 子集字体（tools/build_fonts.py 生成），
+## 网页版没有系统字体，桌面版也因此不依赖系统字体
 const LOCALE_FONTS := {
-	"ja": ["Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic UI", "Yu Gothic", "Meiryo", "Noto Sans CJK JP", "Noto Sans JP"],
-	"ko": ["Apple SD Gothic Neo", "Malgun Gothic", "Noto Sans CJK KR", "Noto Sans KR"],
-	"ar": ["Geeza Pro", "SF Arabic", "Segoe UI", "Tahoma", "Arial", "Noto Sans Arabic"],
-	"vi": ["Helvetica Neue", "Segoe UI", "Arial", "Noto Sans", "DejaVu Sans"],
+	"ja": "res://fonts/noto/NotoSansJP-Game.ttf",
+	"ko": "res://fonts/noto/NotoSansKR-Game.ttf",
+	"ar": "res://fonts/noto/NotoSansArabic-Game.ttf",
+	"vi": "res://fonts/noto/NotoSans-Game.ttf",
 }
 var UI_FONT: FontVariation = preload("res://fonts/ui_font.tres")
 const SMILEY := preload("res://fonts/SmileySans-Oblique.ttf")
@@ -39,6 +41,7 @@ var last_level := 0
 var last_mode := "walk"
 var args: PackedStringArray
 var invincible := false
+var touch_ui: CanvasLayer
 
 
 func _ready() -> void:
@@ -89,13 +92,15 @@ func _apply_locale(loc: String) -> void:
 			loc = a.get_slice("=", 1)
 	TranslationServer.set_locale(loc)
 	var key := loc.substr(0, 2)
-	if LOCALE_FONTS.has(key):
-		var sf := SystemFont.new()
-		sf.font_names = PackedStringArray(LOCALE_FONTS[key])
-		sf.font_weight = 600  # 半粗，和得意黑的粗壮风格一致（默认会取到很细的字重）
-		UI_FONT.base_font = sf
-	else:
-		UI_FONT.base_font = SMILEY
+	var base: Font = load(LOCALE_FONTS[key]) if LOCALE_FONTS.has(key) else SMILEY
+	var fbs: Array[Font] = [SMILEY]
+	for k in LOCALE_FONTS:
+		var f: Font = load(LOCALE_FONTS[k])
+		if f != base and f not in fbs:
+			fbs.append(f)
+	fbs.erase(base)
+	UI_FONT.base_font = base
+	UI_FONT.fallbacks = fbs
 	ThemeDB.fallback_font = UI_FONT
 
 
@@ -234,7 +239,14 @@ func play_sfx(n: String) -> void:
 
 # ------------------------------------------------------------------ 场景切换
 
+func _touch_enabled() -> bool:
+	return DisplayServer.is_touchscreen_available() or "--touch" in args
+
+
 func _clear_game() -> void:
+	if touch_ui:
+		touch_ui.queue_free()
+		touch_ui = null
 	if game:
 		game.queue_free()
 		game = null
@@ -432,9 +444,19 @@ func _show_menu() -> void:
 		var sup := _button("支持作者", _show_support)
 		sup.custom_minimum_size = Vector2(200, 44)
 		bottom.add_child(sup)
-	bottom.add_child(quit)
+	if OS.has_feature("web"):
+		var fs := _button("全屏", func():
+			var full := DisplayServer.window_get_mode() == DisplayServer.WINDOW_MODE_FULLSCREEN
+			DisplayServer.window_set_mode(DisplayServer.WINDOW_MODE_WINDOWED if full else DisplayServer.WINDOW_MODE_FULLSCREEN))
+		fs.custom_minimum_size = Vector2(200, 44)
+		bottom.add_child(fs)
+	else:
+		bottom.add_child(quit)  # 网页版没有“退出”
 	box.add_child(bottom)
-	box.add_child(_label("步行 / 骑车：WASD 移动 · 开车：W 加速 S 刹车 A/D 变道 · 空格闯红灯 · ESC 暂停 · F11 全屏", 15, Color("#bbbbbb"), 6))
+	if _touch_enabled():
+		box.add_child(_label("触屏：左半屏拖动移动 · 开车按右下油门 / 刹车 · 右上 II 暂停", 15, Color("#bbbbbb"), 6))
+	else:
+		box.add_child(_label("步行 / 骑车：WASD 移动 · 开车：W 加速 S 刹车 A/D 变道 · 空格闯红灯 · ESC 暂停 · F11 全屏", 15, Color("#bbbbbb"), 6))
 	# 项目 GitHub 仓库：点击用浏览器打开
 	var gh := LinkButton.new()
 	gh.text = "GitHub · yanboishere/Avoiding-Electric-Vehicles"
@@ -498,13 +520,17 @@ func _show_rules(next: Callable) -> void:
 	var box := _centered_box(_new_ui(), 0.85)
 	var rt := RichTextLabel.new()
 	rt.bbcode_enabled = true
-	rt.fit_content = false
-	rt.scroll_active = true  # 译文较长的语言（德语等）可以滚动
-	rt.custom_minimum_size = Vector2(1180, 560)
+	rt.fit_content = true
+	rt.scroll_active = false
+	rt.custom_minimum_size = Vector2(1160, 0)
 	rt.add_theme_font_size_override("normal_font_size", 19)
 	rt.add_theme_constant_override("line_separation", 9)
 	rt.text = tr(RULES)
-	box.add_child(rt)
+	var sc := ScrollContainer.new()  # 译文较长时可以滚动（触屏可以用手指拖）
+	sc.custom_minimum_size = Vector2(1180, 560)
+	sc.horizontal_scroll_mode = ScrollContainer.SCROLL_MODE_DISABLED
+	sc.add_child(rt)
+	box.add_child(sc)
 	box.add_child(_spacer(4))
 	var ok := _button("明白了，开始！" if next.is_valid() else "返回菜单", func():
 		save.set_value("flags", "seen_rules", true)
@@ -539,6 +565,11 @@ func _start_game(level_idx: int, mode: String) -> void:
 	game.invincible = invincible
 	game.finished.connect(_on_finished)
 	add_child(game)
+	if _touch_enabled():  # 手机 / 平板：虚拟摇杆、踏板、暂停按钮
+		game.touch_ui = true
+		touch_ui = TouchScript.new()
+		touch_ui.setup(game, func(): game.finished.emit({"quit": true}))
+		add_child(touch_ui)
 
 
 func _on_finished(r: Dictionary) -> void:
@@ -546,6 +577,9 @@ func _on_finished(r: Dictionary) -> void:
 		_show_menu()
 		return
 	game.process_mode = Node.PROCESS_MODE_DISABLED
+	if touch_ui:
+		touch_ui.queue_free()
+		touch_ui = null
 	var unlocked_new := false if r.invincible else _record(last_level, r)
 	var lv: Dictionary = LEVELS[last_level]
 	var drive: bool = r.mode == "drive"

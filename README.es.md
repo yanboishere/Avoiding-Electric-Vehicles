@@ -250,6 +250,15 @@ Las capturas se generan con `tools/screenshot.gd` (mientras graba, no tapes la v
 Godot --always-on-top --path . --script tools/screenshot.gd --write-movie /tmp/shot/f.png --fixed-fps 10 --quit-after 200 -- --only=0 --mode=drive
 ```
 
+## Web / Móvil
+
+Se puede jugar en el navegador del móvil o la tableta sin teclado ni mando (los controles táctiles aparecen solos).
+- Táctil: pulsa y arrastra en la mitad izquierda = joystick (cambio de carril en coche); acelerar / frenar abajo a la derecha en coche; a pie aparece un botón para saltarte el semáforo en el bordillo; II arriba para pausar. Juega en horizontal.
+- Exportar: `Godot --headless --path . --export-release "Web" build/web/index.html` (un solo hilo, sirve cualquier hosting estático)
+- Prueba local / en la red: `python3 tools/serve_web.py` y abre la dirección mostrada en un móvil de la misma Wi-Fi
+- Prueba de extremo a extremo (Chrome emulando un móvil táctil en horizontal): `python3 tools/mobile_web_test.py`; prueba unitaria táctil: `tests/touch_test.gd`
+- Los navegadores no tienen fuentes del sistema: japonés, coreano, árabe y vietnamita usan los subconjuntos Noto de `fonts/noto/` (generados con `tools/build_fonts.py`)
+
 ## Otros
 - Gráficos y sonidos se generan por código; no hay recursos artísticos externos.
 - Fuente: [得意黑 Smiley Sans](https://github.com/atelier-anchor/smiley-sans) (SIL OFL 1.1, licencia en `fonts/SmileySans-OFL.txt`); si falta algún carácter, se usa la fuente china del sistema.

@@ -1306,3 +1306,12 @@ msgstr "민즈역"
 #: scripts/levels.gd:271
 msgid "梅龙大道"
 msgstr "메이룽대로"
+
+msgid "继续"
+msgstr "계속"
+
+msgid "全屏"
+msgstr "전체 화면"
+
+msgid "触屏：左半屏拖动移动 · 开车按右下油门 / 刹车 · 右上 II 暂停"
+msgstr "터치: 화면 왼쪽을 드래그해 이동 · 운전은 오른쪽 아래 가속 / 브레이크 · 위쪽 II로 일시정지"

@@ -238,6 +238,15 @@ Godot --headless --path . --script tests/audit_test.gd         # 운전 스테�
 Godot --always-on-top --path . --script tools/screenshot.gd --write-movie /tmp/shot/f.png --fixed-fps 10 --quit-after 200 -- --only=0 --mode=drive
 ```
 
+## 웹 / 모바일
+
+휴대폰·태블릿 브라우저에서 키보드나 패드 없이 플레이할 수 있습니다(터치 조작이 자동으로 나타남).
+- 터치: 화면 왼쪽을 누르고 드래그 = 조이스틱(운전 시 차선 변경), 운전 시 오른쪽 아래 가속 / 브레이크, 걷기 중 빨간불 연석에서는 오른쪽에 '신호 위반' 버튼, 위쪽 II로 일시정지. 가로 화면으로 플레이하세요.
+- 내보내기: `Godot --headless --path . --export-release "Web" build/web/index.html` (싱글 스레드, 일반 정적 호스팅에서 동작)
+- 로컬 / LAN 테스트: `python3 tools/serve_web.py` 실행 후 같은 Wi-Fi의 휴대폰에서 표시된 주소 열기
+- E2E 테스트(Chrome으로 가로 터치폰 에뮬레이션): `python3 tools/mobile_web_test.py`, 터치 단위 테스트: `tests/touch_test.gd`
+- 브라우저에는 시스템 글꼴이 없어 일본어·한국어·아랍어·베트남어는 `fonts/noto/`의 Noto 서브셋(`tools/build_fonts.py`로 생성)을 사용
+
 ## 기타
 - 그래픽과 효과음은 모두 프로시저럴로 생성하며, 외부 아트 소스는 사용하지 않습니다.
 - 글꼴: [得意黑 Smiley Sans](https://github.com/atelier-anchor/smiley-sans)(SIL OFL 1.1, 라이선스는 `fonts/SmileySans-OFL.txt` 참조). 없는 글자는 시스템 중국어 글꼴로 대체됩니다.

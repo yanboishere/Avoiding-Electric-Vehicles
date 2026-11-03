@@ -238,6 +238,15 @@ Screenshots werden mit `tools/screenshot.gd` erzeugt (bei der Aufnahme das Fenst
 Godot --always-on-top --path . --script tools/screenshot.gd --write-movie /tmp/shot/f.png --fixed-fps 10 --quit-after 200 -- --only=0 --mode=drive
 ```
 
+## Web / Mobil
+
+Im Browser auf Handy und Tablet ohne Tastatur oder Gamepad spielbar (Touch-Steuerung erscheint automatisch).
+- Touch: links drücken und ziehen = Joystick (im Auto Spurwechsel); im Auto Gas / Bremse unten rechts; zu Fuß erscheint an der Bordsteinkante ein „Bei Rot gehen“-Knopf; II oben pausiert. Bitte im Querformat spielen.
+- Export: `Godot --headless --path . --export-release "Web" build/web/index.html` (Single-Thread, läuft auf jedem statischen Hosting)
+- Lokal / im WLAN testen: `python3 tools/serve_web.py`, dann die angezeigte Adresse auf einem Handy im selben WLAN öffnen
+- End-to-End-Test (Chrome emuliert ein Touch-Handy im Querformat): `python3 tools/mobile_web_test.py`; Touch-Unittest: `tests/touch_test.gd`
+- Browser haben keine Systemschriften, daher nutzen Japanisch, Koreanisch, Arabisch und Vietnamesisch die Noto-Teilschriften in `fonts/noto/` (erzeugt mit `tools/build_fonts.py`)
+
 ## Sonstiges
 - Grafik und Sound werden komplett prozedural erzeugt, es gibt keine externen Grafik-Assets.
 - Schrift: [得意黑 Smiley Sans](https://github.com/atelier-anchor/smiley-sans) (SIL OFL 1.1, Lizenz in `fonts/SmileySans-OFL.txt`); fehlende Zeichen fallen auf die chinesische Systemschrift zurück.
