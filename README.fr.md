@@ -58,7 +58,8 @@ Chaque niveau passe sur une **vraie rue praticable en voiture** à proximité (q
 ![Mode voiture](docs/screenshots/drive_6.jpg)
 
 ### 💥 Mode invincible
-S'active d'un clic sur l'accueil : aucun dégât, feux rouges ignorés, et tous les scooters touchés sont **envoyés valser** (+100 chacun, avec combos) ; les 12 niveaux sont ouverts. Piétons et véhicules restent solides, pas de traversée de modèles. Les scores du mode invincible ne sont pas sauvegardés.
+S'active d'un clic sur l'accueil : aucun dégât, feux rouges ignorés, et tous les scooters touchés sont **envoyés valser** (+100 chacun, avec combos) ; les 12 niveaux sont ouverts. Piétons et véhicules restent solides, pas de traversée de modèles. Les scores du mode invincible ne sont pas sauvegardés.  
+En voiture, même les autos, taxis et bus s'envolent (auto +200, bus +300) ; piétons et chantiers restent solides.
 
 | Invincible à pied | Invincible en voiture |
 |---|---|

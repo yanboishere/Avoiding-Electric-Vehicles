@@ -22,7 +22,9 @@ func _initialize() -> void:
 	g.god = true
 	g.invincible = "--inv" in OS.get_cmdline_user_args()
 	if mode == "drive":
-		g.autopilot = true
+		g.autopilot = "--ram" not in OS.get_cmdline_user_args()  # --ram：一直踩油门往前冲（测无敌创飞）
+		if not g.autopilot:
+			Input.action_press("move_up")
 	root.add_child(g)
 	_g = g
 

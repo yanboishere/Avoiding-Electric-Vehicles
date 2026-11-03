@@ -58,7 +58,8 @@ In ogni livello si passa a una **strada vera e percorribile in auto** lì vicino
 ![Modalità auto](docs/screenshots/drive_6.jpg)
 
 ### 💥 Modalità Invincibile
-Si attiva con un clic dal menu: niente danni, semafori ignorati, e ogni e-bike urtata **vola via** (+100 l'una, con combo); tutti i 12 livelli sono aperti. Pedoni e veicoli restano solidi, niente compenetrazioni. I punteggi in Modalità Invincibile non vengono salvati.
+Si attiva con un clic dal menu: niente danni, semafori ignorati, e ogni e-bike urtata **vola via** (+100 l'una, con combo); tutti i 12 livelli sono aperti. Pedoni e veicoli restano solidi, niente compenetrazioni. I punteggi in Modalità Invincibile non vengono salvati.  
+In auto volano via anche auto, taxi e autobus (auto +200, bus +300); pedoni e cantieri restano solidi.
 
 | A piedi, invincibile | In auto, invincibile |
 |---|---|

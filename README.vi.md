@@ -58,7 +58,8 @@ Mỗi màn được đổi sang một **đoạn đường có thật, ô tô ch�
 ![Chế độ lái xe](docs/screenshots/drive_6.jpg)
 
 ### 💥 Chế độ Vô địch
-Bật bằng một nút ở màn hình chính: không mất máu, phớt lờ đèn đỏ, xe điện nào đụng phải đều bị **hất bay** (mỗi xe +100, có combo), mở sẵn cả 12 màn. Người đi bộ và xe cộ vẫn là vật cứng, không xuyên qua nhau. Kết quả ở chế độ Vô địch không được lưu.
+Bật bằng một nút ở màn hình chính: không mất máu, phớt lờ đèn đỏ, xe điện nào đụng phải đều bị **hất bay** (mỗi xe +100, có combo), mở sẵn cả 12 màn. Người đi bộ và xe cộ vẫn là vật cứng, không xuyên qua nhau. Kết quả ở chế độ Vô địch không được lưu.  
+Khi lái xe, ô tô, taxi và xe buýt cũng bị hất bay (ô tô +200, xe buýt +300); người đi bộ và rào công trình thì không.
 
 | Đi bộ vô địch | Lái xe vô địch |
 |---|---|

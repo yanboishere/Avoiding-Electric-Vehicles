@@ -58,7 +58,8 @@ Cada nivel pasa a un **tramo real cercano por el que se puede conducir** (si la 
 ![Modo coche](docs/screenshots/drive_6.jpg)
 
 ### 💥 Modo Invencible
-Se activa con un clic en el menú: no pierdes vidas, ignoras los semáforos y toda moto que choques sale **volando** (+100 cada una, con combos), y los 12 niveles quedan abiertos. Peatones y vehículos siguen siendo sólidos, nada se atraviesa. Las partidas en Modo Invencible no se guardan.
+Se activa con un clic en el menú: no pierdes vidas, ignoras los semáforos y toda moto que choques sale **volando** (+100 cada una, con combos), y los 12 niveles quedan abiertos. Peatones y vehículos siguen siendo sólidos, nada se atraviesa. Las partidas en Modo Invencible no se guardan.  
+Conduciendo, hasta los coches, taxis y autobuses salen volando (coche +200, autobús +300); peatones y obras siguen siendo sólidos.
 
 | A pie invencible | En coche invencible |
 |---|---|

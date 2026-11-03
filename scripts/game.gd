@@ -1087,7 +1087,7 @@ func _result() -> Dictionary:
 
 
 ## 把电鸡创飞：转着圈飞向镜头再落出画面
-func _launch_flyer(look: Dictionary, pos: Vector2, away: Vector2) -> void:
+func _launch_flyer(look: Dictionary, pos: Vector2, away: Vector2, points := 100) -> void:
 	if away.length() < 0.1:
 		away = Vector2.UP
 	away = away.normalized().rotated(randf_range(-0.5, 0.5))
@@ -1096,10 +1096,10 @@ func _launch_flyer(look: Dictionary, pos: Vector2, away: Vector2) -> void:
 	launched += 1
 	combo = combo + 1 if combo_t > 0.0 else 1
 	combo_t = 1.6
-	score += 100.0
-	shake = maxf(shake, 0.45)
-	var line: String = tr(LAUNCH_LINES.pick_random()) + " +100"
-	if combo >= 2:
+	score += float(points)
+	shake = maxf(shake, 0.45 if points <= 100 else 0.8)
+	var line: String = tr(LAUNCH_LINES.pick_random()) + " +%d" % points
+	if combo >= 2 and points == 100:
 		line = tr("%d 连创飞！+100") % combo
 	_popup(pos + Vector2(0, -40), line, Color("#ffd23f"), 28 + mini(combo, 6) * 2)
 	_sfx("boing")
@@ -1123,8 +1123,13 @@ func _draw_flyers() -> void:
 		var scl := 1.0 + sin(k * PI) * 1.4  # 先飞向镜头变大，再落下
 		var look: Dictionary = f.look
 		look.rot = f.rot
-		_draw_ebike(look, f.pos, true, scl)
+		_draw_flyer(look, f.pos, scl)
 	draw_set_transform(_shake_off)
+
+
+## 飞行中的物体（子类可扩展：开车模式还会创飞汽车）
+func _draw_flyer(look: Dictionary, pos: Vector2, scl: float) -> void:
+	_draw_ebike(look, pos, true, scl)
 
 
 func _popup(pos: Vector2, text: String, col: Color, size: int) -> void:
@@ -1607,8 +1612,8 @@ func _ellipse(c: Vector2, rx: float, ry: float, col: Color) -> void:
 	draw_colored_polygon(pts, col)
 
 
-func _draw_car(pos: Vector2, rot: float, col: Color) -> void:
-	draw_set_transform(pos + _shake_off, rot)
+func _draw_car(pos: Vector2, rot: float, col: Color, scl := 1.0) -> void:
+	draw_set_transform(pos + _shake_off, rot, Vector2(scl, scl))
 	draw_rect(Rect2(-20, -40, 46, 88), Color(0, 0, 0, 0.25))
 	draw_rect(Rect2(-23, -44, 46, 88), col)
 	draw_rect(Rect2(-19, -26, 38, 14), Color("#26384a"))

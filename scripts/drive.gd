@@ -23,6 +23,7 @@ const BK_HW := 13.0
 const BK_HH := 34.0
 const X_MARGIN := 8.0
 const BAND_LANES := [70.0, 170.0]
+const LAUNCHABLE_CARS := ["car", "taxi", "bus", "parked", "xcar"]
 const STATIC_TYPES := ["parked", "cones", "fallen", "fallen_ped"]
 const PED_V := [24.0, 32.0]   # 行人 1.2–1.6 米/秒
 const PED_CROSS_V := [40.0, 52.0]  # 过马路走得快一些
@@ -301,7 +302,13 @@ func _run_red(ix: Dictionary) -> void:
 func _player_contact(o: Dictionary) -> void:
 	if o.is_empty() or state != "play":
 		return
-	if _is_bike(o):
+	if invincible and o.type in LAUNCHABLE_CARS and not o.get("bike", false):
+		_remove_ent(o)
+		o.rot = (0.0 if o.dir <= 0 else PI) if o.hx == 0 else (PI / 2.0 if o.hx > 0 else -PI / 2.0)
+		_launch_flyer(o, o.pos, (o.pos - me.pos).normalized(), 300 if o.type == "bus" else 200)
+		_sfx("hit")
+		return
+	if _is_bike(o) or (o.type == "xcar" and o.get("bike", false) and invincible):
 		if invincible:
 			_remove_ent(o)
 			_launch_flyer(o, o.pos, (o.pos - me.pos).normalized())
@@ -1351,12 +1358,7 @@ func _draw_ent(e: Dictionary) -> void:
 			else:
 				_draw_car(e.pos, PI / 2.0 if e.hx > 0 else -PI / 2.0, e.col)
 		"bus":
-			draw_set_transform(e.pos + _shake_off, 0.0 if e.dir <= 0 else PI)
-			draw_rect(Rect2(-24, -62, 54, 132), Color(0, 0, 0, 0.25))
-			var bc := Color("#2e9d4f") if level.city == "深圳" else Color("#d84315")
-			draw_rect(Rect2(-26, -66, 52, 132), bc)
-			draw_rect(Rect2(-22, -62, 44, 12), Color("#26384a"))
-			draw_rect(Rect2(-20, -40, 40, 96), bc.lightened(0.2))
+			_draw_bus(e.pos, 0.0 if e.dir <= 0 else PI)
 			draw_set_transform(e.pos + _shake_off)
 			_text_plain(Vector2(-22, 8), "公交", 14, Color.WHITE, 44, HORIZONTAL_ALIGNMENT_CENTER)
 			draw_set_transform(e.pos + _shake_off, 0.0 if e.dir <= 0 else PI)
@@ -1386,6 +1388,29 @@ func _draw_ent(e: Dictionary) -> void:
 			draw_set_transform(_shake_off)
 			draw_circle(e.pos + Vector2(0, 16), 8, e.helmet)
 	draw_set_transform(_shake_off)
+
+
+func _draw_bus(pos: Vector2, rot: float, scl := 1.0) -> void:
+	draw_set_transform(pos + _shake_off, rot, Vector2(scl, scl))
+	draw_rect(Rect2(-24, -62, 54, 132), Color(0, 0, 0, 0.25))
+	var bc := Color("#2e9d4f") if level.city == "深圳" else Color("#d84315")
+	draw_rect(Rect2(-26, -66, 52, 132), bc)
+	draw_rect(Rect2(-22, -62, 44, 12), Color("#26384a"))
+	draw_rect(Rect2(-20, -40, 40, 96), bc.lightened(0.2))
+
+
+## 创飞中的汽车 / 公交；电鸡交给父类
+func _draw_flyer(look: Dictionary, pos: Vector2, scl: float) -> void:
+	match look.get("type", ""):
+		"bus":
+			_draw_bus(pos, look.rot, scl)
+		"car", "taxi", "parked", "xcar":
+			if look.get("bike", false):
+				_draw_ebike(look, pos, true, scl)
+			else:
+				_draw_car(pos, look.rot, look.col, scl)
+		_:
+			_draw_ebike(look, pos, true, scl)
 
 
 func _draw_viaduct() -> void:

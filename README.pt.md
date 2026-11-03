@@ -58,7 +58,8 @@ Cada fase troca para uma **rua de verdade, onde dá para dirigir**, ali perto (q
 ![Modo carro](docs/screenshots/drive_6.jpg)
 
 ### 💥 Modo Invencível
-Ativado com um clique no menu: você não perde vida, ignora o sinal vermelho e toda bike elétrica que bater é **arremessada** longe (+100 cada, com combo), e as 12 fases ficam liberadas. Pedestres e veículos continuam sólidos, nada atravessa nada. Os resultados do Modo Invencível não são salvos.
+Ativado com um clique no menu: você não perde vida, ignora o sinal vermelho e toda bike elétrica que bater é **arremessada** longe (+100 cada, com combo), e as 12 fases ficam liberadas. Pedestres e veículos continuam sólidos, nada atravessa nada. Os resultados do Modo Invencível não são salvos.  
+Dirigindo, até carros, táxis e ônibus voam (carro +200, ônibus +300); pedestres e obras continuam sólidos.
 
 | A pé invencível | De carro invencível |
 |---|---|

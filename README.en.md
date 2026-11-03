@@ -58,7 +58,8 @@ Each level switches to a nearby **real road you can actually drive on** (when th
 ![Drive mode](docs/screenshots/drive_6.jpg)
 
 ### 💥 Invincible Mode
-Switch it on with one click on the main menu: no damage, ignore red lights, and every e-bike you hit gets **sent flying** (+100 each, with combos). All 12 levels are open. Pedestrians and vehicles are still solid, so you never clip through them. Invincible Mode scores aren't saved.
+Switch it on with one click on the main menu: no damage, ignore red lights, and every e-bike you hit gets **sent flying** (+100 each, with combos). All 12 levels are open. Pedestrians and vehicles are still solid, so you never clip through them. Invincible Mode scores aren't saved.  
+When driving, even cars, taxis and buses go flying (car +200, bus +300); pedestrians and roadworks stay solid.
 
 | Invincible on foot | Invincible in a car |
 |---|---|

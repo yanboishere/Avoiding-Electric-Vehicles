@@ -58,7 +58,8 @@ Jedes Level wechselt auf einen **echten, befahrbaren Straßenabschnitt** in der 
 ![Automodus](docs/screenshots/drive_6.jpg)
 
 ### 💥 Unbesiegbar-Modus
-Mit einem Klick im Hauptmenü aktivierbar: kein Schaden, Ampeln egal, jedes E-Bike, das du triffst, wird **wegkatapultiert** (je +100, mit Combos), und alle 12 Level sind offen. Fußgänger und Autos bleiben massiv – kein Durchclippen. Ergebnisse im Unbesiegbar-Modus werden nicht gespeichert.
+Mit einem Klick im Hauptmenü aktivierbar: kein Schaden, Ampeln egal, jedes E-Bike, das du triffst, wird **wegkatapultiert** (je +100, mit Combos), und alle 12 Level sind offen. Fußgänger und Autos bleiben massiv – kein Durchclippen. Ergebnisse im Unbesiegbar-Modus werden nicht gespeichert.  
+Im Auto fliegen sogar Pkw, Taxis und Busse davon (Auto +200, Bus +300); Fußgänger und Baustellen bleiben fest.
 
 | Zu Fuß unbesiegbar | Auto unbesiegbar |
 |---|---|
